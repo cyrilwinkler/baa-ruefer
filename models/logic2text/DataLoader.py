@@ -125,35 +125,35 @@ class GPTTableDatabase(Dataloader):
         seqs = []
         descs = []
 
-
-
-        for index, row in table_data.iterrows():
+        #for index, row in table_data.iterrows():
             # Iterate over all columns in the DataFrame
-            for col_index in cols:
-                # Access the column data using df.iloc[:, col_index]
-                col_name = list(table_data.columns)[col_index]
-                seqs.append(self.tokenizer.encode(str(row[col_name])))
+        for col_index in table_data.columns:#cols:
+            # Access the column data using df.iloc[:, col_index]
+            col_name = col_index#list(table_data.columns)[col_index]
+            
 
-                tmp = ""
-                for i in range(len(table_data)):
-                    tmp += 'In row {} , '.format(i + 1)
-                    if isinstance(row[col_name], str):
-                        entity = map(lambda x: x.capitalize(), row[col_name].split(' '))
-                        entity = ' '.join(entity)
-                    else:
-                        entity = str(row[col_name])
+            tmp = ""
+            for i, row in table_data.iterrows():
+                #seqs.append(self.tokenizer.encode(str(row[col_name])))
+                tmp += 'In row {} , '.format(i + 1)
+                if isinstance(row[col_name], str):
+                    entity = map(lambda x: x.capitalize(), row[col_name].split(' '))
+                    entity = ' '.join(entity)
+                else:
+                    entity = str(row[col_name])
 
-                    tmp += 'the {} is {} , '.format(col_name, entity)
-                tmp = tmp[:-3] + ' . '
+                tmp += 'the {} is {} , '.format(col_name, entity)
+            tmp = tmp[:-3] + ' . '
+            print(tmp)
+            tmp_idx = self.tokenizer.tokenize(tmp)
+            if len(tmp_idx) > self.max_len:
+                tmp_idx = tmp_idx[:self.max_len]
 
-                tmp_idx = self.tokenizer.tokenize(tmp)
-                if len(tmp_idx) > self.max_len:
-                    tmp_idx = tmp_idx[:self.max_len]
+            tmp_prefix = self.tokenizer.tokenize('Given the table title of "{}" . '.format(row[col_name]))
+            tmp_suffix = self.tokenizer.tokenize('Start describing : ')
 
-                tmp_prefix = self.tokenizer.tokenize('Given the table title of "{}" . '.format(row[col_name]))
-                tmp_suffix = self.tokenizer.tokenize('Start describing : ')
-
-                descs.append(self.tokenizer.convert_tokens_to_ids(tmp_prefix + tmp_idx + tmp_suffix))
+            descs.append(self.tokenizer.convert_tokens_to_ids(tmp_prefix + tmp_idx + tmp_suffix))
+        
 
         length = max([len(_) for _ in descs]) + 1
         for i in range(len(descs)):

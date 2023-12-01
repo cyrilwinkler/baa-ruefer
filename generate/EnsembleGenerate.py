@@ -1,5 +1,6 @@
 import sys
-sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
+#sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
+sys.path.append('/home/jovyan/baa-ruefer/')
 import subprocess
 import numpy as np
 from nltk import ngrams
@@ -39,7 +40,7 @@ class EnsembleGenerate():
         self.fixture_information_parentT = []
 
         self.palyer_stats_templates = {
-            'the games the player palyed and how he was substituted': [0, 1, 6, 7, 36]
+            'the games the player palyed and how he was substituted': [0, 1, 36]
         }
     
     def get_players_ids(self):
@@ -142,7 +143,7 @@ class EnsembleGenerate():
         information = self.get_fixture_information()
         information.rename(columns={'time': 'time_1'}, inplace=True)
         input_string = self._create_VTM_input(information, 'game')
-        #output = self._generate_VTM(input_string)
+        output = self._generate_VTM(input_string)
         best_result = self.get_best_VTM_output(information, output, 'fixture_information')
 
         fixture['information'] = best_result
@@ -238,10 +239,10 @@ class EnsembleGenerate():
     
     def _generate_VTM(self, input):
         command = [
-            'python', '../../VariationalTemplateMachine/generate.py',
-            '-data', '../../VariationalTemplateMachine/data/Wiki',
+            'python', '../models/VariationalTemplateMachine/generate.py',
+            '-data', '../models/VariationalTemplateMachine/data/Wiki',
             '-max_vocab_cnt', '50000',
-            '-load', '../../VariationalTemplateMachine/models/model.pth',
+            '-load', '../models/VariationalTemplateMachine/models/model.pth',
             '-various_gen', '5',
             '-mask_prob', '0.0',
             '-cuda',
@@ -250,13 +251,13 @@ class EnsembleGenerate():
             '-gen_to_fi', f'{input.split(".")[0]}_generated.txt'
         ]
 
-        # Execute the command
-        #process = subprocess.run(command, capture_output=True, text=True)
+        #Execute the command
+        process = subprocess.run(command, capture_output=True, text=True)
         
         # Check for errors
-        #if process.returncode != 0:
-            #print(f"Error: {process.stderr}")
-            #return None
+        if process.returncode != 0:
+            print(f"Error: {process.stderr}")
+            return None
         
         # Parse the output from the subprocess
         a = open(f'{input.split(".")[0]}_generated.txt', 'r+')

@@ -8,15 +8,15 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 from models.logic2text.utils import sample_sequence
 from torch.autograd import Variable
 from models.logic2text.DataLoader import *
-device = torch.device("mps")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class GPT():
     def __init__(self) -> None:
         self.tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
         self.model = GPT2LMHeadModel.from_pretrained('gpt2')
         self.model = nn.DataParallel(self.model)
-        self.model.to(device)
         self.model.load_state_dict(torch.load('../models/logic2text/models/GPT_ep19.pt', map_location=device))
+        self.model.to(device)
         self.model.eval()
 
         self.dataset = GPTTableDatabase(None, None, None, self.tokenizer, 5, 800)
