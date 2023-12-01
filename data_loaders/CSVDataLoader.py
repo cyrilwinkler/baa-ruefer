@@ -1,6 +1,6 @@
 # data_loaders/json_loader.py
 import sys
-sys.path.append('/Users/tschip/workspace/baa/ruefer/')
+sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
 
 from data_loaders.DataLoader import DataLoader
 import pandas as pd

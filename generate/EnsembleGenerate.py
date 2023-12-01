@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Users/tschip/workspace/baa/ruefer/')
+sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
 import subprocess
 import numpy as np
 from nltk import ngrams
@@ -126,9 +126,8 @@ class EnsembleGenerate():
     
     def generate_player_statistics(self, team_id):
         player_stats = {}
-        player = self.get_player_statistics()[self.get_player_statistics()['team_id'] == team_id]#.drop(columns=['team_id', 'league_season'])
-        player = player.merge(self.get_player_names(), on='player_id', how='right')
-        print(player)
+        player = self.get_player_statistics()[self.get_player_statistics()['player_id'].isin(self.get_player_ids_from_fixture(team_id))].drop(columns=['team_id', 'league_season', 'games_rating'])
+        player = player.merge(self.get_player_names(), on='player_id', how='left')
         for i in self.palyer_stats_templates:
             player_stats[i] = self.gpt.generate(player, self.palyer_stats_templates[i], i)
 
@@ -188,6 +187,21 @@ class EnsembleGenerate():
 
     def get_fixture_lineup(self):
         return self.fixture_lineup
+    
+    def get_player_ids_from_fixture(self, team_id):
+        all_ids = set()
+        for player_info in self.get_fixture_lineup()[str(team_id)].get('startXI', []):
+            player_id = player_info.get('player', {}).get('id')
+            if player_id is not None:
+                all_ids.add(player_id)
+
+        # Extract player IDs from 'substitutes'
+        for substitute_info in self.get_fixture_lineup()[str(team_id)].get('substitutes', []):
+            player_id = substitute_info.get('player', {}).get('id')
+            if player_id is not None:
+                all_ids.add(player_id)
+
+        return list(all_ids)
     
     def get_fixture_statistics(self):
         pass
