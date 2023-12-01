@@ -39,7 +39,7 @@ class EnsembleGenerate():
         self.fixture_information_parentT = []
 
         self.palyer_stats_templates = {
-            'the games the player palyed and how he was substituted': [0, 1, 6, 7, 37]
+            'the games the player palyed and how he was substituted': [0, 1, 6, 7, 36]
         }
     
     def get_players_ids(self):
@@ -128,6 +128,7 @@ class EnsembleGenerate():
         player_stats = {}
         player = self.get_player_statistics()[self.get_player_statistics()['player_id'].isin(self.get_player_ids_from_fixture(team_id))].drop(columns=['team_id', 'league_season', 'games_rating'])
         player = player.merge(self.get_player_names(), on='player_id', how='left')
+        print(player.shape)
         for i in self.palyer_stats_templates:
             player_stats[i] = self.gpt.generate(player, self.palyer_stats_templates[i], i)
 

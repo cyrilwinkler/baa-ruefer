@@ -26,7 +26,7 @@ class GPT():
         results = {}
         with torch.no_grad():
             #batch = self.dataset.get_data(data, cols, table_description)
-            desc = self.dataset.get_data_for_table(data)
+            desc = self.dataset.get_data_for_table(data, cols)
             #input_string = batch[-1]
             #batch = batch[:-1]
             #print(f'input_string: {input_string}')

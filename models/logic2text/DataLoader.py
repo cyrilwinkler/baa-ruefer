@@ -120,14 +120,18 @@ class GPTTableDatabase(Dataloader):
 
         return inputs, outputs, seq_mask, descs, tmp
 
-    def get_data_for_table(self, table_data, details=False):
+    def get_data_for_table(self, table_data, cols: list, details=False):
         # Assuming table_data is a pandas DataFrame with the table content
         seqs = []
         descs = []
 
+
+
         for index, row in table_data.iterrows():
             # Iterate over all columns in the DataFrame
-            for col_name in table_data.columns:
+            for col_index in cols:
+                # Access the column data using df.iloc[:, col_index]
+                col_name = list(table_data.columns)[col_index]
                 seqs.append(self.tokenizer.encode(str(row[col_name])))
 
                 tmp = ""
