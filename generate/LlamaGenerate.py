@@ -7,14 +7,14 @@ from nltk import ngrams
 import pandas as pd
 from datetime import datetime
 from difflib import SequenceMatcher
-from openai import OpenAI
+import openai
 import json
 import time
 
 from data_loaders.JSONDataLoader import JSONDataLoader
 
 
-class GPTGenerate():
+class LlamaGenerate():
     def __init__(self, team_ids: list, gpt_api_key=None, requests_api=None):
         dataloader = JSONDataLoader(team_ids)
         self.team_ids = team_ids
