@@ -1,0 +1,4816 @@
+{
+    "851": [
+        {
+            "player": {
+                "id": 851,
+                "name": "W. Szczęsny"
+            },
+            "update": "2023-12-07T12:20:23+00:00",
+            "transfers": [
+                {
+                    "date": "2015-07-29",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 42,
+                            "name": "Arsenal",
+                            "logo": "https://media-4.api-sports.io/football/teams/42.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2010-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 42,
+                            "name": "Arsenal",
+                            "logo": "https://media-4.api-sports.io/football/teams/42.png"
+                        },
+                        "out": {
+                            "id": 55,
+                            "name": "Brentford",
+                            "logo": "https://media-4.api-sports.io/football/teams/55.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-11-20",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 55,
+                            "name": "Brentford",
+                            "logo": "https://media-4.api-sports.io/football/teams/55.png"
+                        },
+                        "out": {
+                            "id": 42,
+                            "name": "Arsenal",
+                            "logo": "https://media-4.api-sports.io/football/teams/42.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "861": [
+        {
+            "player": {
+                "id": 861,
+                "name": "D. Rugani"
+            },
+            "update": "2023-12-11T12:19:36+00:00",
+            "transfers": [
+                {
+                    "date": "2021-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-02-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-10-03",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 94,
+                            "name": "Rennes",
+                            "logo": "https://media-4.api-sports.io/football/teams/94.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-07-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "853": [
+        {
+            "player": {
+                "id": 853,
+                "name": "L. Bonucci"
+            },
+            "update": "2023-12-13T12:11:30+00:00",
+            "transfers": [
+                {
+                    "date": "2023-09-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 182,
+                            "name": "Union Berlin",
+                            "logo": "https://media-4.api-sports.io/football/teams/182.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-08-02",
+                    "type": "€ 35M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-20",
+                    "type": "€ 42M",
+                    "teams": {
+                        "in": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2010-07-01",
+                    "type": "€ 15.5M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 508,
+                            "name": "Bari",
+                            "logo": "https://media-4.api-sports.io/football/teams/508.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-08-01",
+                    "type": "€ 10.5M",
+                    "teams": {
+                        "in": {
+                            "id": 508,
+                            "name": "Bari",
+                            "logo": "https://media-4.api-sports.io/football/teams/508.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-07-01",
+                    "type": "€ 4M",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-01-18",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 801,
+                            "name": "Pisa",
+                            "logo": "https://media-4.api-sports.io/football/teams/801.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2007-08-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 22319,
+                            "name": "Treviso",
+                            "logo": "https://media-4.api-sports.io/football/teams/22319.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-09-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 182,
+                            "name": "Union Berlin",
+                            "logo": "https://media-4.api-sports.io/football/teams/182.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-08-02",
+                    "type": "€ 35M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-20",
+                    "type": "€ 42M",
+                    "teams": {
+                        "in": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2010-07-01",
+                    "type": "€ 15.5M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 508,
+                            "name": "Bari",
+                            "logo": "https://media-4.api-sports.io/football/teams/508.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-08-01",
+                    "type": "€ 10.5M",
+                    "teams": {
+                        "in": {
+                            "id": 508,
+                            "name": "Bari",
+                            "logo": "https://media-4.api-sports.io/football/teams/508.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-07-01",
+                    "type": "€ 4M",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-01-18",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 801,
+                            "name": "Pisa",
+                            "logo": "https://media-4.api-sports.io/football/teams/801.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2007-08-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 22319,
+                            "name": "Treviso",
+                            "logo": "https://media-4.api-sports.io/football/teams/22319.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "618": [
+        {
+            "player": {
+                "id": 618,
+                "name": "Danilo"
+            },
+            "update": "2023-12-11T12:19:41+00:00",
+            "transfers": [
+                {
+                    "date": "2019-08-07",
+                    "type": "€ 37M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 50,
+                            "name": "Manchester City",
+                            "logo": "https://media-4.api-sports.io/football/teams/50.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-23",
+                    "type": "€ 30M",
+                    "teams": {
+                        "in": {
+                            "id": 50,
+                            "name": "Manchester City",
+                            "logo": "https://media-4.api-sports.io/football/teams/50.png"
+                        },
+                        "out": {
+                            "id": 541,
+                            "name": "Real Madrid",
+                            "logo": "https://media-4.api-sports.io/football/teams/541.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "€ 31.5M",
+                    "teams": {
+                        "in": {
+                            "id": 541,
+                            "name": "Real Madrid",
+                            "logo": "https://media-4.api-sports.io/football/teams/541.png"
+                        },
+                        "out": {
+                            "id": 212,
+                            "name": "FC Porto",
+                            "logo": "https://media-4.api-sports.io/football/teams/212.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2012-01-01",
+                    "type": "€ 13M",
+                    "teams": {
+                        "in": {
+                            "id": 212,
+                            "name": "FC Porto",
+                            "logo": "https://media-4.api-sports.io/football/teams/212.png"
+                        },
+                        "out": {
+                            "id": 128,
+                            "name": "Santos",
+                            "logo": "https://media-4.api-sports.io/football/teams/128.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "866": [
+        {
+            "player": {
+                "id": 866,
+                "name": "J. Cuadrado"
+            },
+            "update": "2023-12-11T01:25:51+00:00",
+            "transfers": [
+                {
+                    "date": "2017-07-01",
+                    "type": "€ 20M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 49,
+                            "name": "Chelsea",
+                            "logo": "https://media-4.api-sports.io/football/teams/49.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 49,
+                            "name": "Chelsea",
+                            "logo": "https://media-4.api-sports.io/football/teams/49.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 49,
+                            "name": "Chelsea",
+                            "logo": "https://media-4.api-sports.io/football/teams/49.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-25",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 49,
+                            "name": "Chelsea",
+                            "logo": "https://media-4.api-sports.io/football/teams/49.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-02-02",
+                    "type": "€ 34M",
+                    "teams": {
+                        "in": {
+                            "id": 49,
+                            "name": "Chelsea",
+                            "logo": "https://media-4.api-sports.io/football/teams/49.png"
+                        },
+                        "out": {
+                            "id": 502,
+                            "name": "Fiorentina",
+                            "logo": "https://media-4.api-sports.io/football/teams/502.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2011-08-04",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 867,
+                            "name": "Lecce",
+                            "logo": "https://media-4.api-sports.io/football/teams/867.png"
+                        },
+                        "out": {
+                            "id": 494,
+                            "name": "Udinese",
+                            "logo": "https://media-4.api-sports.io/football/teams/494.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2009-07-03",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 494,
+                            "name": "Udinese",
+                            "logo": "https://media-4.api-sports.io/football/teams/494.png"
+                        },
+                        "out": {
+                            "id": 1128,
+                            "name": "Independiente Medellin",
+                            "logo": "https://media-4.api-sports.io/football/teams/1128.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-19",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "415": [
+        {
+            "player": {
+                "id": 415,
+                "name": "W. McKennie"
+            },
+            "update": "2023-12-11T12:19:31+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 63,
+                            "name": "Leeds",
+                            "logo": "https://media-4.api-sports.io/football/teams/63.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-01-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 63,
+                            "name": "Leeds",
+                            "logo": "https://media-4.api-sports.io/football/teams/63.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "€ 20.5M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 174,
+                            "name": "FC Schalke 04",
+                            "logo": "https://media-4.api-sports.io/football/teams/174.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 174,
+                            "name": "FC Schalke 04",
+                            "logo": "https://media-4.api-sports.io/football/teams/174.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "30533": [
+        {
+            "player": {
+                "id": 30533,
+                "name": "M. Locatelli"
+            },
+            "update": "2023-12-11T12:19:35+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 25M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-18",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "€ 10M",
+                    "teams": {
+                        "in": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        },
+                        "out": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-08-13",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        },
+                        "out": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "272": [
+        {
+            "player": {
+                "id": 272,
+                "name": "A. Rabiot"
+            },
+            "update": "2023-12-11T12:19:27+00:00",
+            "transfers": [
+                {
+                    "date": "2019-07-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 96,
+                            "name": "Toulouse",
+                            "logo": "https://media-4.api-sports.io/football/teams/96.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-01-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 96,
+                            "name": "Toulouse",
+                            "logo": "https://media-4.api-sports.io/football/teams/96.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "1821": [
+        {
+            "player": {
+                "id": 1821,
+                "name": "F. Kostić"
+            },
+            "update": "2023-12-07T12:20:00+00:00",
+            "transfers": [
+                {
+                    "date": "2022-08-11",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 169,
+                            "name": "Eintracht Frankfurt",
+                            "logo": "https://media-4.api-sports.io/football/teams/169.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "€ 6M",
+                    "teams": {
+                        "in": {
+                            "id": 169,
+                            "name": "Eintracht Frankfurt",
+                            "logo": "https://media-4.api-sports.io/football/teams/169.png"
+                        },
+                        "out": {
+                            "id": 175,
+                            "name": "Hamburger SV",
+                            "logo": "https://media-4.api-sports.io/football/teams/175.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-08-20",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 169,
+                            "name": "Eintracht Frankfurt",
+                            "logo": "https://media-4.api-sports.io/football/teams/169.png"
+                        },
+                        "out": {
+                            "id": 175,
+                            "name": "Hamburger SV",
+                            "logo": "https://media-4.api-sports.io/football/teams/175.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-25",
+                    "type": "€ 14M",
+                    "teams": {
+                        "in": {
+                            "id": 175,
+                            "name": "Hamburger SV",
+                            "logo": "https://media-4.api-sports.io/football/teams/175.png"
+                        },
+                        "out": {
+                            "id": 172,
+                            "name": "VfB Stuttgart",
+                            "logo": "https://media-4.api-sports.io/football/teams/172.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-08-09",
+                    "type": "€ 6M",
+                    "teams": {
+                        "in": {
+                            "id": 172,
+                            "name": "VfB Stuttgart",
+                            "logo": "https://media-4.api-sports.io/football/teams/172.png"
+                        },
+                        "out": {
+                            "id": 202,
+                            "name": "Groningen",
+                            "logo": "https://media-4.api-sports.io/football/teams/202.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2012-07-01",
+                    "type": "€ 1.3M",
+                    "teams": {
+                        "in": {
+                            "id": 202,
+                            "name": "Groningen",
+                            "logo": "https://media-4.api-sports.io/football/teams/202.png"
+                        },
+                        "out": {
+                            "id": 2644,
+                            "name": "Radnicki 1923",
+                            "logo": "https://media-4.api-sports.io/football/teams/2644.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "30415": [
+        {
+            "player": {
+                "id": 30415,
+                "name": "D. Vlahović"
+            },
+            "update": "2023-12-13T12:08:30+00:00",
+            "transfers": [
+                {
+                    "date": "2022-01-28",
+                    "type": "€ 81.6M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 502,
+                            "name": "Fiorentina",
+                            "logo": "https://media-4.api-sports.io/football/teams/502.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 502,
+                            "name": "Fiorentina",
+                            "logo": "https://media-4.api-sports.io/football/teams/502.png"
+                        },
+                        "out": {
+                            "id": 573,
+                            "name": "FK Partizan",
+                            "logo": "https://media-4.api-sports.io/football/teams/573.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "877": [
+        {
+            "player": {
+                "id": 877,
+                "name": "M. Kean"
+            },
+            "update": "2023-12-11T12:19:20+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 28M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 45,
+                            "name": "Everton",
+                            "logo": "https://media-4.api-sports.io/football/teams/45.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 45,
+                            "name": "Everton",
+                            "logo": "https://media-4.api-sports.io/football/teams/45.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 45,
+                            "name": "Everton",
+                            "logo": "https://media-4.api-sports.io/football/teams/45.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-10-04",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 45,
+                            "name": "Everton",
+                            "logo": "https://media-4.api-sports.io/football/teams/45.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-08-04",
+                    "type": "€ 33M",
+                    "teams": {
+                        "in": {
+                            "id": 45,
+                            "name": "Everton",
+                            "logo": "https://media-4.api-sports.io/football/teams/45.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 504,
+                            "name": "Verona",
+                            "logo": "https://media-4.api-sports.io/football/teams/504.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 504,
+                            "name": "Verona",
+                            "logo": "https://media-4.api-sports.io/football/teams/504.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "333": [
+        {
+            "player": {
+                "id": 333,
+                "name": "A. Milik"
+            },
+            "update": "2023-12-11T12:19:23+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 6.3M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 81,
+                            "name": "Marseille",
+                            "logo": "https://media-4.api-sports.io/football/teams/81.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-08-26",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 81,
+                            "name": "Marseille",
+                            "logo": "https://media-4.api-sports.io/football/teams/81.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-06-10",
+                    "type": "€ 13M",
+                    "teams": {
+                        "in": {
+                            "id": 81,
+                            "name": "Marseille",
+                            "logo": "https://media-4.api-sports.io/football/teams/81.png"
+                        },
+                        "out": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-01-22",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 81,
+                            "name": "Marseille",
+                            "logo": "https://media-4.api-sports.io/football/teams/81.png"
+                        },
+                        "out": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "type": "€ 32M",
+                    "teams": {
+                        "in": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        },
+                        "out": {
+                            "id": 194,
+                            "name": "Ajax",
+                            "logo": "https://media-4.api-sports.io/football/teams/194.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "€ 2.8M",
+                    "teams": {
+                        "in": {
+                            "id": 194,
+                            "name": "Ajax",
+                            "logo": "https://media-4.api-sports.io/football/teams/194.png"
+                        },
+                        "out": {
+                            "id": 168,
+                            "name": "Bayer Leverkusen",
+                            "logo": "https://media-4.api-sports.io/football/teams/168.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 194,
+                            "name": "Ajax",
+                            "logo": "https://media-4.api-sports.io/football/teams/194.png"
+                        },
+                        "out": {
+                            "id": 168,
+                            "name": "Bayer Leverkusen",
+                            "logo": "https://media-4.api-sports.io/football/teams/168.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-08-30",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 170,
+                            "name": "FC Augsburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/170.png"
+                        },
+                        "out": {
+                            "id": 168,
+                            "name": "Bayer Leverkusen",
+                            "logo": "https://media-4.api-sports.io/football/teams/168.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "type": "€ 2.6M",
+                    "teams": {
+                        "in": {
+                            "id": 168,
+                            "name": "Bayer Leverkusen",
+                            "logo": "https://media-4.api-sports.io/football/teams/168.png"
+                        },
+                        "out": {
+                            "id": 340,
+                            "name": "Gornik Zabrze",
+                            "logo": "https://media-4.api-sports.io/football/teams/340.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2011-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 340,
+                            "name": "Gornik Zabrze",
+                            "logo": "https://media-4.api-sports.io/football/teams/340.png"
+                        },
+                        "out": {
+                            "id": 6952,
+                            "name": "Rozwój Katowice",
+                            "logo": "https://media-4.api-sports.io/football/teams/6952.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "271": [
+        {
+            "player": {
+                "id": 271,
+                "name": "L. Paredes"
+            },
+            "update": "2023-12-11T01:27:45+00:00",
+            "transfers": [
+                {
+                    "date": "2022-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-01-29",
+                    "type": "€ 40.2M",
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "type": "€ 23M",
+                    "teams": {
+                        "in": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-01-29",
+                    "type": "€ 40.2M",
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "type": "€ 23M",
+                    "teams": {
+                        "in": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "€ 4.5M",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-19",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-01-29",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 491,
+                            "name": "Chievo",
+                            "logo": "https://media-4.api-sports.io/football/teams/491.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "€ 4.5M",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-19",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-01-29",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 491,
+                            "name": "Chievo",
+                            "logo": "https://media-4.api-sports.io/football/teams/491.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-01-29",
+                    "type": "€ 40.2M",
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "type": "€ 23M",
+                    "teams": {
+                        "in": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "€ 4.5M",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-19",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-01-29",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 491,
+                            "name": "Chievo",
+                            "logo": "https://media-4.api-sports.io/football/teams/491.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-01-29",
+                    "type": "€ 40.2M",
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "type": "€ 23M",
+                    "teams": {
+                        "in": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-01-29",
+                    "type": "€ 40.2M",
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "type": "€ 23M",
+                    "teams": {
+                        "in": {
+                            "id": 596,
+                            "name": "Zenit Saint Petersburg",
+                            "logo": "https://media-4.api-sports.io/football/teams/596.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "€ 4.5M",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "€ 4.5M",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-19",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-19",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-01-29",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 491,
+                            "name": "Chievo",
+                            "logo": "https://media-4.api-sports.io/football/teams/491.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-01-29",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 491,
+                            "name": "Chievo",
+                            "logo": "https://media-4.api-sports.io/football/teams/491.png"
+                        },
+                        "out": {
+                            "id": 451,
+                            "name": "Boca Juniors",
+                            "logo": "https://media-4.api-sports.io/football/teams/451.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-01",
+                    "type": null,
+                    "teams": {
+                        "in": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-08-16",
+                    "type": "€ 2.5M",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 85,
+                            "name": "Paris Saint Germain",
+                            "logo": "https://media-4.api-sports.io/football/teams/85.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "181808": [],
+    "860": [
+        {
+            "player": {
+                "id": 860,
+                "name": "Alex Sandro"
+            },
+            "update": "2023-12-11T12:19:38+00:00",
+            "transfers": [
+                {
+                    "date": "2015-08-20",
+                    "type": "€ 26M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 212,
+                            "name": "FC Porto",
+                            "logo": "https://media-4.api-sports.io/football/teams/212.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2011-08-15",
+                    "type": "€ 9.5M",
+                    "teams": {
+                        "in": {
+                            "id": 212,
+                            "name": "FC Porto",
+                            "logo": "https://media-4.api-sports.io/football/teams/212.png"
+                        },
+                        "out": {
+                            "id": 128,
+                            "name": "Santos",
+                            "logo": "https://media-4.api-sports.io/football/teams/128.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "162173": [],
+    "876": [
+        {
+            "player": {
+                "id": 876,
+                "name": "N. Fagioli"
+            },
+            "update": "2023-12-11T12:19:30+00:00",
+            "transfers": [
+                {
+                    "date": "2022-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 520,
+                            "name": "Cremonese",
+                            "logo": "https://media-4.api-sports.io/football/teams/520.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 520,
+                            "name": "Cremonese",
+                            "logo": "https://media-4.api-sports.io/football/teams/520.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "268341": [
+        {
+            "player": {
+                "id": 268341,
+                "name": "F. Gatti"
+            },
+            "update": "2023-12-11T12:19:41+00:00",
+            "transfers": [
+                {
+                    "date": "2022-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 512,
+                            "name": "Frosinone",
+                            "logo": "https://media-4.api-sports.io/football/teams/512.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-02-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 512,
+                            "name": "Frosinone",
+                            "logo": "https://media-4.api-sports.io/football/teams/512.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-01-31",
+                    "type": "€ 4.5M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 512,
+                            "name": "Frosinone",
+                            "logo": "https://media-4.api-sports.io/football/teams/512.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 512,
+                            "name": "Frosinone",
+                            "logo": "https://media-4.api-sports.io/football/teams/512.png"
+                        },
+                        "out": {
+                            "id": 1706,
+                            "name": "Pro Patria",
+                            "logo": "https://media-4.api-sports.io/football/teams/1706.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-08-05",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 1706,
+                            "name": "Pro Patria",
+                            "logo": "https://media-4.api-sports.io/football/teams/1706.png"
+                        },
+                        "out": {
+                            "id": 9443,
+                            "name": "Verbania",
+                            "logo": "https://media-4.api-sports.io/football/teams/9443.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "849": [
+        {
+            "player": {
+                "id": 849,
+                "name": "M. Perin"
+            },
+            "update": "2023-12-13T12:08:53+00:00",
+            "transfers": [
+                {
+                    "date": "2021-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-04",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-01-02",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-07-01",
+                    "type": "€ 12M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 525,
+                            "name": "Pescara",
+                            "logo": "https://media-4.api-sports.io/football/teams/525.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2011-07-08",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 20671,
+                            "name": "Sparta-KT",
+                            "logo": "https://media-4.api-sports.io/football/teams/20671.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "323936": [
+        {
+            "player": {
+                "id": 323936,
+                "name": "M. Soulé"
+            },
+            "update": "2023-12-05T17:10:38+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 512,
+                            "name": "Frosinone",
+                            "logo": "https://media-4.api-sports.io/football/teams/512.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-08-28",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 512,
+                            "name": "Frosinone",
+                            "logo": "https://media-4.api-sports.io/football/teams/512.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "850": [
+        {
+            "player": {
+                "id": 850,
+                "name": "C. Pinsoglio"
+            },
+            "update": "2023-12-11T12:19:48+00:00",
+            "transfers": [
+                {
+                    "date": "2016-07-20",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 804,
+                            "name": "Latina",
+                            "logo": "https://media-4.api-sports.io/football/teams/804.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-28",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 868,
+                            "name": "Livorno",
+                            "logo": "https://media-4.api-sports.io/football/teams/868.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 899,
+                            "name": "Modena",
+                            "logo": "https://media-4.api-sports.io/football/teams/899.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-05",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 899,
+                            "name": "Modena",
+                            "logo": "https://media-4.api-sports.io/football/teams/899.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 1584,
+                            "name": "Vicenza Virtus",
+                            "logo": "https://media-4.api-sports.io/football/teams/1584.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-07-24",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 899,
+                            "name": "Modena",
+                            "logo": "https://media-4.api-sports.io/football/teams/899.png"
+                        },
+                        "out": {
+                            "id": 1584,
+                            "name": "Vicenza Virtus",
+                            "logo": "https://media-4.api-sports.io/football/teams/1584.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2012-01-17",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 1584,
+                            "name": "Vicenza Virtus",
+                            "logo": "https://media-4.api-sports.io/football/teams/1584.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2011-07-26",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 525,
+                            "name": "Pescara",
+                            "logo": "https://media-4.api-sports.io/football/teams/525.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "31354": [
+        {
+            "player": {
+                "id": 31354,
+                "name": "G. Vicario"
+            },
+            "update": "2023-12-07T10:16:28+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 20M",
+                    "teams": {
+                        "in": {
+                            "id": 47,
+                            "name": "Tottenham",
+                            "logo": "https://media-4.api-sports.io/football/teams/47.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-01",
+                    "type": "€ 8.5M",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-09",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 524,
+                            "name": "Perugia",
+                            "logo": "https://media-4.api-sports.io/football/teams/524.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-25",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 524,
+                            "name": "Perugia",
+                            "logo": "https://media-4.api-sports.io/football/teams/524.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-17",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 517,
+                            "name": "Venezia",
+                            "logo": "https://media-4.api-sports.io/football/teams/517.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-05",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 517,
+                            "name": "Venezia",
+                            "logo": "https://media-4.api-sports.io/football/teams/517.png"
+                        },
+                        "out": {
+                            "id": 494,
+                            "name": "Udinese",
+                            "logo": "https://media-4.api-sports.io/football/teams/494.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 517,
+                            "name": "Venezia",
+                            "logo": "https://media-4.api-sports.io/football/teams/517.png"
+                        },
+                        "out": {
+                            "id": 494,
+                            "name": "Udinese",
+                            "logo": "https://media-4.api-sports.io/football/teams/494.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "1315": [
+        {
+            "player": {
+                "id": 1315,
+                "name": "P. Stojanović"
+            },
+            "update": "2023-12-11T01:27:54+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 498,
+                            "name": "Sampdoria",
+                            "logo": "https://media-4.api-sports.io/football/teams/498.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 620,
+                            "name": "Dinamo Zagreb",
+                            "logo": "https://media-4.api-sports.io/football/teams/620.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-20",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 620,
+                            "name": "Dinamo Zagreb",
+                            "logo": "https://media-4.api-sports.io/football/teams/620.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-02-10",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 620,
+                            "name": "Dinamo Zagreb",
+                            "logo": "https://media-4.api-sports.io/football/teams/620.png"
+                        },
+                        "out": {
+                            "id": 552,
+                            "name": "Maribor",
+                            "logo": "https://media-4.api-sports.io/football/teams/552.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-11-13",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 552,
+                            "name": "Maribor",
+                            "logo": "https://media-4.api-sports.io/football/teams/552.png"
+                        },
+                        "out": {
+                            "id": 20348,
+                            "name": "Veržej",
+                            "logo": "https://media-4.api-sports.io/football/teams/20348.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-07-22",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 20348,
+                            "name": "Veržej",
+                            "logo": "https://media-4.api-sports.io/football/teams/20348.png"
+                        },
+                        "out": {
+                            "id": 552,
+                            "name": "Maribor",
+                            "logo": "https://media-4.api-sports.io/football/teams/552.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-08-22",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 498,
+                            "name": "Sampdoria",
+                            "logo": "https://media-4.api-sports.io/football/teams/498.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "162141": [
+        {
+            "player": {
+                "id": 162141,
+                "name": "K. De Winter"
+            },
+            "update": "2023-12-11T01:25:50+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-09",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-01",
+                    "type": null,
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-08-11",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "319": [
+        {
+            "player": {
+                "id": 319,
+                "name": "S. Luperto"
+            },
+            "update": "2023-12-13T13:14:13+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 2.5M",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-10-05",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 501,
+                            "name": "Crotone",
+                            "logo": "https://media-4.api-sports.io/football/teams/501.png"
+                        },
+                        "out": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-08-03",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-08-26",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 526,
+                            "name": "PRO Vercelli",
+                            "logo": "https://media-4.api-sports.io/football/teams/526.png"
+                        },
+                        "out": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        },
+                        "out": {
+                            "id": 867,
+                            "name": "Lecce",
+                            "logo": "https://media-4.api-sports.io/football/teams/867.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-08-23",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 492,
+                            "name": "Napoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/492.png"
+                        },
+                        "out": {
+                            "id": 867,
+                            "name": "Lecce",
+                            "logo": "https://media-4.api-sports.io/football/teams/867.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "136087": [
+        {
+            "player": {
+                "id": 136087,
+                "name": "F. Parisi"
+            },
+            "update": "2023-12-11T01:24:43+00:00",
+            "transfers": [
+                {
+                    "date": "2020-09-22",
+                    "type": "€ 450K",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 528,
+                            "name": "Avellino",
+                            "logo": "https://media-4.api-sports.io/football/teams/528.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-22",
+                    "type": "€ 450K",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 528,
+                            "name": "Avellino",
+                            "logo": "https://media-4.api-sports.io/football/teams/528.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-22",
+                    "type": "€ 450K",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 528,
+                            "name": "Avellino",
+                            "logo": "https://media-4.api-sports.io/football/teams/528.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-22",
+                    "type": "€ 450K",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 528,
+                            "name": "Avellino",
+                            "logo": "https://media-4.api-sports.io/football/teams/528.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-22",
+                    "type": "€ 450K",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 528,
+                            "name": "Avellino",
+                            "logo": "https://media-4.api-sports.io/football/teams/528.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-22",
+                    "type": "€ 450K",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 528,
+                            "name": "Avellino",
+                            "logo": "https://media-4.api-sports.io/football/teams/528.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-14",
+                    "type": "€ 10M",
+                    "teams": {
+                        "in": {
+                            "id": 502,
+                            "name": "Fiorentina",
+                            "logo": "https://media-4.api-sports.io/football/teams/502.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "31555": [
+        {
+            "player": {
+                "id": 31555,
+                "name": "N. Haas"
+            },
+            "update": "2023-12-08T14:12:03+00:00",
+            "transfers": [
+                {
+                    "date": "2023-09-03",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 644,
+                            "name": "FC Luzern",
+                            "logo": "https://media-4.api-sports.io/football/teams/644.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-25",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-08-12",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 512,
+                            "name": "Frosinone",
+                            "logo": "https://media-4.api-sports.io/football/teams/512.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        },
+                        "out": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-07-25",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        },
+                        "out": {
+                            "id": 644,
+                            "name": "FC Luzern",
+                            "logo": "https://media-4.api-sports.io/football/teams/644.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "2118": [
+        {
+            "player": {
+                "id": 2118,
+                "name": "R. Marin"
+            },
+            "update": "2023-12-11T12:10:47+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-05",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "€ 10M",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 194,
+                            "name": "Ajax",
+                            "logo": "https://media-4.api-sports.io/football/teams/194.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 194,
+                            "name": "Ajax",
+                            "logo": "https://media-4.api-sports.io/football/teams/194.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "€ 12.5M",
+                    "teams": {
+                        "in": {
+                            "id": 194,
+                            "name": "Ajax",
+                            "logo": "https://media-4.api-sports.io/football/teams/194.png"
+                        },
+                        "out": {
+                            "id": 733,
+                            "name": "Standard Liege",
+                            "logo": "https://media-4.api-sports.io/football/teams/733.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-01-20",
+                    "type": "€ 2.4M",
+                    "teams": {
+                        "in": {
+                            "id": 733,
+                            "name": "Standard Liege",
+                            "logo": "https://media-4.api-sports.io/football/teams/733.png"
+                        },
+                        "out": {
+                            "id": 570,
+                            "name": "Viitorul Constanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/570.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "30624": [
+        {
+            "player": {
+                "id": 30624,
+                "name": "F. Bandinelli"
+            },
+            "update": "2023-12-14T00:11:15+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-21",
+                    "type": "€ 2.5M",
+                    "teams": {
+                        "in": {
+                            "id": 515,
+                            "name": "Spezia",
+                            "logo": "https://media-4.api-sports.io/football/teams/515.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-13",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        },
+                        "out": {
+                            "id": 506,
+                            "name": "Benevento",
+                            "logo": "https://media-4.api-sports.io/football/teams/506.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 524,
+                            "name": "Perugia",
+                            "logo": "https://media-4.api-sports.io/football/teams/524.png"
+                        },
+                        "out": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-09",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        },
+                        "out": {
+                            "id": 804,
+                            "name": "Latina",
+                            "logo": "https://media-4.api-sports.io/football/teams/804.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 804,
+                            "name": "Latina",
+                            "logo": "https://media-4.api-sports.io/football/teams/804.png"
+                        },
+                        "out": {
+                            "id": 502,
+                            "name": "Fiorentina",
+                            "logo": "https://media-4.api-sports.io/football/teams/502.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "30413": [
+        {
+            "player": {
+                "id": 30413,
+                "name": "M. Pjaca"
+            },
+            "update": "2023-12-11T01:25:49+00:00",
+            "transfers": [
+                {
+                    "date": "2022-09-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 503,
+                            "name": "Torino",
+                            "logo": "https://media-4.api-sports.io/football/teams/503.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-28",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 503,
+                            "name": "Torino",
+                            "logo": "https://media-4.api-sports.io/football/teams/503.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-19",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 554,
+                            "name": "Anderlecht",
+                            "logo": "https://media-4.api-sports.io/football/teams/554.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-01-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 554,
+                            "name": "Anderlecht",
+                            "logo": "https://media-4.api-sports.io/football/teams/554.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 502,
+                            "name": "Fiorentina",
+                            "logo": "https://media-4.api-sports.io/football/teams/502.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-08-07",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 502,
+                            "name": "Fiorentina",
+                            "logo": "https://media-4.api-sports.io/football/teams/502.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-01-04",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 174,
+                            "name": "FC Schalke 04",
+                            "logo": "https://media-4.api-sports.io/football/teams/174.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-21",
+                    "type": "€ 23M",
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 620,
+                            "name": "Dinamo Zagreb",
+                            "logo": "https://media-4.api-sports.io/football/teams/620.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 620,
+                            "name": "Dinamo Zagreb",
+                            "logo": "https://media-4.api-sports.io/football/teams/620.png"
+                        },
+                        "out": {
+                            "id": 1017,
+                            "name": "NK Lokomotiva Zagreb",
+                            "logo": "https://media-4.api-sports.io/football/teams/1017.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-01",
+                    "type": null,
+                    "teams": {
+                        "in": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-09-01",
+                    "type": null,
+                    "teams": {
+                        "in": {
+                            "id": 561,
+                            "name": "HNK Rijeka",
+                            "logo": "https://media-4.api-sports.io/football/teams/561.png"
+                        },
+                        "out": {
+                            "id": 496,
+                            "name": "Juventus",
+                            "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "30486": [
+        {
+            "player": {
+                "id": 30486,
+                "name": "M. Destro"
+            },
+            "update": "2023-12-13T13:13:50+00:00",
+            "transfers": [
+                {
+                    "date": "2022-07-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-08",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 500,
+                            "name": "Bologna",
+                            "logo": "https://media-4.api-sports.io/football/teams/500.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-01-04",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 500,
+                            "name": "Bologna",
+                            "logo": "https://media-4.api-sports.io/football/teams/500.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-20",
+                    "type": "€ 6.5M",
+                    "teams": {
+                        "in": {
+                            "id": 500,
+                            "name": "Bologna",
+                            "logo": "https://media-4.api-sports.io/football/teams/500.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        },
+                        "out": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-01-30",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 489,
+                            "name": "AC Milan",
+                            "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                        },
+                        "out": {
+                            "id": 497,
+                            "name": "AS Roma",
+                            "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "195512": [
+        {
+            "player": {
+                "id": 195512,
+                "name": "M. Satriano"
+            },
+            "update": "2023-12-11T12:06:10+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        },
+                        "out": {
+                            "id": 106,
+                            "name": "Stade Brestois 29",
+                            "logo": "https://media-4.api-sports.io/football/teams/106.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-14",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 106,
+                            "name": "Stade Brestois 29",
+                            "logo": "https://media-4.api-sports.io/football/teams/106.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-04",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-01-18",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 106,
+                            "name": "Stade Brestois 29",
+                            "logo": "https://media-4.api-sports.io/football/teams/106.png"
+                        },
+                        "out": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 505,
+                            "name": "Inter",
+                            "logo": "https://media-4.api-sports.io/football/teams/505.png"
+                        },
+                        "out": {
+                            "id": 2356,
+                            "name": "Club Nacional",
+                            "logo": "https://media-4.api-sports.io/football/teams/2356.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "288769": [],
+    "48577": [
+        {
+            "player": {
+                "id": 48577,
+                "name": "N. Bajrami"
+            },
+            "update": "2023-12-11T12:12:44+00:00",
+            "transfers": [
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 6M",
+                    "teams": {
+                        "in": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-01-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 488,
+                            "name": "Sassuolo",
+                            "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-02",
+                    "type": "€ 500K",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 1013,
+                            "name": "Grasshoppers",
+                            "logo": "https://media-4.api-sports.io/football/teams/1013.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-08-13",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 1013,
+                            "name": "Grasshoppers",
+                            "logo": "https://media-4.api-sports.io/football/teams/1013.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "36987": [
+        {
+            "player": {
+                "id": 36987,
+                "name": "S. Lammers"
+            },
+            "update": "2023-12-11T01:59:50+00:00",
+            "transfers": [
+                {
+                    "date": "2022-08-07",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        },
+                        "out": {
+                            "id": 169,
+                            "name": "Eintracht Frankfurt",
+                            "logo": "https://media-4.api-sports.io/football/teams/169.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 169,
+                            "name": "Eintracht Frankfurt",
+                            "logo": "https://media-4.api-sports.io/football/teams/169.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-22",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        },
+                        "out": {
+                            "id": 197,
+                            "name": "PSV Eindhoven",
+                            "logo": "https://media-4.api-sports.io/football/teams/197.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 197,
+                            "name": "PSV Eindhoven",
+                            "logo": "https://media-4.api-sports.io/football/teams/197.png"
+                        },
+                        "out": {
+                            "id": 210,
+                            "name": "Heerenveen",
+                            "logo": "https://media-4.api-sports.io/football/teams/210.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-06-18",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 210,
+                            "name": "Heerenveen",
+                            "logo": "https://media-4.api-sports.io/football/teams/210.png"
+                        },
+                        "out": {
+                            "id": 197,
+                            "name": "PSV Eindhoven",
+                            "logo": "https://media-4.api-sports.io/football/teams/197.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-01-02",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 498,
+                            "name": "Sampdoria",
+                            "logo": "https://media-4.api-sports.io/football/teams/498.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 3.5M",
+                    "teams": {
+                        "in": {
+                            "id": 257,
+                            "name": "Rangers",
+                            "logo": "https://media-4.api-sports.io/football/teams/257.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "30932": [
+        {
+            "player": {
+                "id": 30932,
+                "name": "L. Henderson"
+            },
+            "update": "2023-12-13T23:05:50+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-08-28",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-11",
+                    "type": "€ 1.5M",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 867,
+                            "name": "Lecce",
+                            "logo": "https://media-4.api-sports.io/football/teams/867.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-09-11",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 867,
+                            "name": "Lecce",
+                            "logo": "https://media-4.api-sports.io/football/teams/867.png"
+                        },
+                        "out": {
+                            "id": 504,
+                            "name": "Verona",
+                            "logo": "https://media-4.api-sports.io/football/teams/504.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-01-17",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 504,
+                            "name": "Verona",
+                            "logo": "https://media-4.api-sports.io/football/teams/504.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-08-03",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 504,
+                            "name": "Verona",
+                            "logo": "https://media-4.api-sports.io/football/teams/504.png"
+                        },
+                        "out": {
+                            "id": 508,
+                            "name": "Bari",
+                            "logo": "https://media-4.api-sports.io/football/teams/508.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-01-17",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 508,
+                            "name": "Bari",
+                            "logo": "https://media-4.api-sports.io/football/teams/508.png"
+                        },
+                        "out": {
+                            "id": 247,
+                            "name": "Celtic",
+                            "logo": "https://media-4.api-sports.io/football/teams/247.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-08-14",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 249,
+                            "name": "Hibernian",
+                            "logo": "https://media-4.api-sports.io/football/teams/249.png"
+                        },
+                        "out": {
+                            "id": 247,
+                            "name": "Celtic",
+                            "logo": "https://media-4.api-sports.io/football/teams/247.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-06-25",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 247,
+                            "name": "Celtic",
+                            "logo": "https://media-4.api-sports.io/football/teams/247.png"
+                        },
+                        "out": {
+                            "id": 331,
+                            "name": "Rosenborg",
+                            "logo": "https://media-4.api-sports.io/football/teams/331.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-04-02",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 331,
+                            "name": "Rosenborg",
+                            "logo": "https://media-4.api-sports.io/football/teams/331.png"
+                        },
+                        "out": {
+                            "id": 247,
+                            "name": "Celtic",
+                            "logo": "https://media-4.api-sports.io/football/teams/247.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "340699": [
+        {
+            "player": {
+                "id": 340699,
+                "name": "D. Degli Innocenti"
+            },
+            "update": "2023-12-11T23:12:21+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 6379,
+                            "name": "Lecco",
+                            "logo": "https://media-4.api-sports.io/football/teams/6379.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-08-08",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 6379,
+                            "name": "Lecco",
+                            "logo": "https://media-4.api-sports.io/football/teams/6379.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "287374": [
+        {
+            "player": {
+                "id": 287374,
+                "name": "E. Ekong"
+            },
+            "update": "2023-12-11T01:27:11+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 1016,
+                            "name": "Istra 1961",
+                            "logo": "https://media-4.api-sports.io/football/teams/1016.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-09-08",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 1016,
+                            "name": "Istra 1961",
+                            "logo": "https://media-4.api-sports.io/football/teams/1016.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-01-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 524,
+                            "name": "Perugia",
+                            "logo": "https://media-4.api-sports.io/football/teams/524.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-01",
+                    "type": null,
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 524,
+                            "name": "Perugia",
+                            "logo": "https://media-4.api-sports.io/football/teams/524.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "561": [
+        {
+            "player": {
+                "id": 561,
+                "name": "T. Ebuehi"
+            },
+            "update": "2023-12-11T12:10:50+00:00",
+            "transfers": [
+                {
+                    "date": "2022-07-05",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 211,
+                            "name": "Benfica",
+                            "logo": "https://media-4.api-sports.io/football/teams/211.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 211,
+                            "name": "Benfica",
+                            "logo": "https://media-4.api-sports.io/football/teams/211.png"
+                        },
+                        "out": {
+                            "id": 517,
+                            "name": "Venezia",
+                            "logo": "https://media-4.api-sports.io/football/teams/517.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-07-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 517,
+                            "name": "Venezia",
+                            "logo": "https://media-4.api-sports.io/football/teams/517.png"
+                        },
+                        "out": {
+                            "id": 211,
+                            "name": "Benfica",
+                            "logo": "https://media-4.api-sports.io/football/teams/211.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-07-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 211,
+                            "name": "Benfica",
+                            "logo": "https://media-4.api-sports.io/football/teams/211.png"
+                        },
+                        "out": {
+                            "id": 198,
+                            "name": "ADO Den Haag",
+                            "logo": "https://media-4.api-sports.io/football/teams/198.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "30438": [
+        {
+            "player": {
+                "id": 30438,
+                "name": "N. Cambiaghi"
+            },
+            "update": "2023-12-07T12:08:16+00:00",
+            "transfers": [
+                {
+                    "date": "2024-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-08-25",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        },
+                        "out": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-08-05",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 499,
+                            "name": "Atalanta",
+                            "logo": "https://media-4.api-sports.io/football/teams/499.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "40582": [
+        {
+            "player": {
+                "id": 40582,
+                "name": "S. Walukiewicz"
+            },
+            "update": "2023-12-11T01:24:22+00:00",
+            "transfers": [
+                {
+                    "date": "2022-09-01",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 348,
+                            "name": "Pogon Szczecin",
+                            "logo": "https://media-4.api-sports.io/football/teams/348.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-01-16",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 348,
+                            "name": "Pogon Szczecin",
+                            "logo": "https://media-4.api-sports.io/football/teams/348.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-01-15",
+                    "type": "€ 4M",
+                    "teams": {
+                        "in": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        },
+                        "out": {
+                            "id": 348,
+                            "name": "Pogon Szczecin",
+                            "logo": "https://media-4.api-sports.io/football/teams/348.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2023-07-01",
+                    "type": "€ 1M",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 490,
+                            "name": "Cagliari",
+                            "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "340700": [],
+    "340706": [],
+    "6931": [
+        {
+            "player": {
+                "id": 6931,
+                "name": "L. Cacace"
+            },
+            "update": "2023-12-07T12:08:37+00:00",
+            "transfers": [
+                {
+                    "date": "2022-07-01",
+                    "type": "€ 3M",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 735,
+                            "name": "St. Truiden",
+                            "logo": "https://media-4.api-sports.io/football/teams/735.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2022-01-31",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 735,
+                            "name": "St. Truiden",
+                            "logo": "https://media-4.api-sports.io/football/teams/735.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2020-08-28",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 735,
+                            "name": "St. Truiden",
+                            "logo": "https://media-4.api-sports.io/football/teams/735.png"
+                        },
+                        "out": {
+                            "id": 942,
+                            "name": "Wellington Phoenix",
+                            "logo": "https://media-4.api-sports.io/football/teams/942.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "393947": [],
+    "50023": [
+        {
+            "player": {
+                "id": 50023,
+                "name": "S. Ujkani"
+            },
+            "update": "2023-11-28T03:14:45+00:00",
+            "transfers": [
+                {
+                    "date": "2021-08-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 511,
+                            "name": "Empoli",
+                            "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                        },
+                        "out": {
+                            "id": 503,
+                            "name": "Torino",
+                            "logo": "https://media-4.api-sports.io/football/teams/503.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2019-09-02",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 503,
+                            "name": "Torino",
+                            "logo": "https://media-4.api-sports.io/football/teams/503.png"
+                        },
+                        "out": {
+                            "id": 1007,
+                            "name": "Rizespor",
+                            "logo": "https://media-4.api-sports.io/football/teams/1007.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2018-08-01",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 1007,
+                            "name": "Rizespor",
+                            "logo": "https://media-4.api-sports.io/football/teams/1007.png"
+                        },
+                        "out": {
+                            "id": 520,
+                            "name": "Cremonese",
+                            "logo": "https://media-4.api-sports.io/football/teams/520.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-14",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 520,
+                            "name": "Cremonese",
+                            "logo": "https://media-4.api-sports.io/football/teams/520.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 801,
+                            "name": "Pisa",
+                            "logo": "https://media-4.api-sports.io/football/teams/801.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-11",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 801,
+                            "name": "Pisa",
+                            "logo": "https://media-4.api-sports.io/football/teams/801.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 804,
+                            "name": "Latina",
+                            "logo": "https://media-4.api-sports.io/football/teams/804.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2016-01-08",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 804,
+                            "name": "Latina",
+                            "logo": "https://media-4.api-sports.io/football/teams/804.png"
+                        },
+                        "out": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2015-07-19",
+                    "type": "Free",
+                    "teams": {
+                        "in": {
+                            "id": 495,
+                            "name": "Genoa",
+                            "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                        },
+                        "out": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2013-01-29",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 491,
+                            "name": "Chievo",
+                            "logo": "https://media-4.api-sports.io/football/teams/491.png"
+                        },
+                        "out": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2012-07-01",
+                    "type": "N/A",
+                    "teams": {
+                        "in": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        },
+                        "out": {
+                            "id": 513,
+                            "name": "Novara",
+                            "logo": "https://media-4.api-sports.io/football/teams/513.png"
+                        }
+                    }
+                },
+                {
+                    "date": "2010-07-16",
+                    "type": "Loan",
+                    "teams": {
+                        "in": {
+                            "id": 513,
+                            "name": "Novara",
+                            "logo": "https://media-4.api-sports.io/football/teams/513.png"
+                        },
+                        "out": {
+                            "id": 522,
+                            "name": "Palermo",
+                            "logo": "https://media-4.api-sports.io/football/teams/522.png"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

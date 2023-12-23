@@ -1,7 +1,7 @@
 # data_loaders/json_loader.py
 import sys
-#sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
-sys.path.append('/home/jovyan/baa-ruefer/')
+sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
+#sys.path.append('/home/jovyan/baa-ruefer/')
 
 from data_loaders.DataLoader import DataLoader
 import pandas as pd
@@ -45,7 +45,7 @@ class CSVDataLoader(DataLoader):
         for team_id in self.team_ids:
             for player in self.players[str(team_id)]:
                     players_names[player['player']['id']] = player['player']['lastname'] if player['player']['lastname'] != None else player['player']['name']
-            return pd.DataFrame.from_dict(players_names, orient='index').reset_index().rename(columns={'index': 'player_id', 0: 'player_name'})
+        return pd.DataFrame.from_dict(players_names, orient='index').reset_index().rename(columns={'index': 'player_id', 0: 'player_name'})
     
     def get_player_information(self):
         players_information = []
@@ -83,11 +83,18 @@ class CSVDataLoader(DataLoader):
         return pd.concat(transfers_list).reset_index(drop=True)
 
     def get_team_statistics(self):
-        return self.team_stats
+        team_statistics = []
 
-    def get_team_players(self):
-        # Implementation for getting team players from JSON data
-        pass
+        for i in self.team_stats:
+            return self.team_stats[str(i)]
+            flattened_data = self.flatten_dict(self.team_stats[i]['team'])
+            for x in self.team_stats[i]['statistics']:
+                flattened_data.update({x['type']: x['value']})
+
+            # Create a DataFrame
+            team_statistics.append(pd.DataFrame.from_dict(flattened_data, orient='index').T.drop(columns=['team_logo']))
+
+        return pd.concat(team_statistics)
 
     def get_player_injuries(self):########################################################################### 
         # Implementation for getting player injuries from JSON data

@@ -1,0 +1,1086 @@
+{
+    "496": [
+        {
+            "id": "154_1069840",
+            "playerID": "610405",
+            "fromClubID": "409",
+            "toClubID": "6195",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/m-kjaergaard-zu-ssc-neapel-/thread/forum/154/thread_id/1069840/post_id/2829925",
+            "lang": "de",
+            "lastPostDate": 1702561664,
+            "closedType": "",
+            "marketValue": {
+                "value": 13000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "343_12944",
+            "playerID": "944570",
+            "fromClubID": "4391",
+            "toClubID": "1025",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/vasilije-adzic-to-bologna-fc-1909-/thread/forum/343/thread_id/12944/post_id/19128",
+            "lang": "de",
+            "lastPostDate": 1702554390,
+            "closedType": "",
+            "marketValue": {
+                "value": 0,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1063765",
+            "playerID": "401923",
+            "fromClubID": "6195",
+            "toClubID": "631",
+            "isClosed": false,
+            "probability": "66",
+            "progression": "1",
+            "threadUrl": "https://www.transfermarkt.de/chelsea-fc-czy-przyjdzie-victor-osimhen-/thread/forum/154/thread_id/1063765/post_id/2829844",
+            "lang": "de",
+            "lastPostDate": 1702512671,
+            "closedType": "",
+            "marketValue": {
+                "value": 120000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1059524",
+            "playerID": "659813",
+            "fromClubID": "15",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/piero-hincapie-zu-ac-mailand-/thread/forum/154/thread_id/1059524/post_id/2829832",
+            "lang": "de",
+            "lastPostDate": 1702501844,
+            "closedType": "",
+            "marketValue": {
+                "value": 35000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1059668",
+            "playerID": "659813",
+            "fromClubID": "15",
+            "toClubID": "12",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/piero-hincapie-zu-as-rom-/thread/forum/154/thread_id/1059668/post_id/2829831",
+            "lang": "de",
+            "lastPostDate": 1702501734,
+            "closedType": "",
+            "marketValue": {
+                "value": 35000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069802",
+            "playerID": "343537",
+            "fromClubID": "12321",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/artem-dovbyk-zu-juventus-turin-/thread/forum/154/thread_id/1069802/post_id/2829543",
+            "lang": "de",
+            "lastPostDate": 1702397981,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069801",
+            "playerID": "343537",
+            "fromClubID": "12321",
+            "toClubID": "46",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/artem-dovbyk-zu-inter-mailand-/thread/forum/154/thread_id/1069801/post_id/2829542",
+            "lang": "de",
+            "lastPostDate": 1702397937,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069800",
+            "playerID": "343537",
+            "fromClubID": "12321",
+            "toClubID": "12",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/artem-dovbyk-zu-as-rom-/thread/forum/154/thread_id/1069800/post_id/2829541",
+            "lang": "de",
+            "lastPostDate": 1702397889,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069789",
+            "playerID": "849582",
+            "fromClubID": "1775",
+            "toClubID": "46",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/agustin-giay-zu-inter-mailand-/thread/forum/154/thread_id/1069789/post_id/2829455",
+            "lang": "de",
+            "lastPostDate": 1702324715,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069788",
+            "playerID": "182932",
+            "fromClubID": "46",
+            "toClubID": "449",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/davy-klaassen-zu-trabzonspor-/thread/forum/154/thread_id/1069788/post_id/2829453",
+            "lang": "de",
+            "lastPostDate": 1702324585,
+            "closedType": "",
+            "marketValue": {
+                "value": 10000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069782",
+            "playerID": "890272",
+            "fromClubID": "759",
+            "toClubID": "430",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/karol-borys-zu-ac-florenz-/thread/forum/154/thread_id/1069782/post_id/2829403",
+            "lang": "de",
+            "lastPostDate": 1702299882,
+            "closedType": "",
+            "marketValue": {
+                "value": 1000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069506",
+            "playerID": "789898",
+            "fromClubID": "533",
+            "toClubID": "46",
+            "isClosed": false,
+            "probability": "28",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/muhammed-damar-zu-inter-mailand-/thread/forum/154/thread_id/1069506/post_id/2829325",
+            "lang": "de",
+            "lastPostDate": 1702227004,
+            "closedType": "",
+            "marketValue": {
+                "value": 1000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069757",
+            "playerID": "462977",
+            "fromClubID": "2696",
+            "toClubID": "410",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/b-garre-v-udineze-/thread/forum/154/thread_id/1069757/post_id/2829310",
+            "lang": "de",
+            "lastPostDate": 1702200180,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069748",
+            "playerID": "259953",
+            "fromClubID": "5",
+            "toClubID": "1041",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/rade-krunic-zu-olympique-lyon-/thread/forum/154/thread_id/1069748/post_id/2829279",
+            "lang": "de",
+            "lastPostDate": 1702135764,
+            "closedType": "",
+            "marketValue": {
+                "value": 10000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069743",
+            "playerID": "851699",
+            "fromClubID": "1059",
+            "toClubID": "252",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/jusef-erabi-zu-genua-cfc-/thread/forum/154/thread_id/1069743/post_id/2829268",
+            "lang": "de",
+            "lastPostDate": 1702129431,
+            "closedType": "",
+            "marketValue": {
+                "value": 2000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069328",
+            "playerID": "623325",
+            "fromClubID": "660",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/juventus-turin-beobachtet-georgiy-sudakov/thread/forum/154/thread_id/1069328/post_id/2829236",
+            "lang": "de",
+            "lastPostDate": 1702110392,
+            "closedType": "",
+            "marketValue": {
+                "value": 18000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069736",
+            "playerID": "40433",
+            "fromClubID": "46",
+            "toClubID": "7732",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/alexis-sanchez-zu-al-ettifaq-fc-/thread/forum/154/thread_id/1069736/post_id/2829232",
+            "lang": "de",
+            "lastPostDate": 1702106342,
+            "closedType": "",
+            "marketValue": {
+                "value": 4000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069735",
+            "playerID": "40433",
+            "fromClubID": "46",
+            "toClubID": "9840",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/alexis-sanchez-zu-al-shabab-fc-/thread/forum/154/thread_id/1069735/post_id/2829231",
+            "lang": "de",
+            "lastPostDate": 1702106262,
+            "closedType": "",
+            "marketValue": {
+                "value": 4000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069634",
+            "playerID": "845654",
+            "fromClubID": "506",
+            "toClubID": "11",
+            "isClosed": false,
+            "probability": "20",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/kenan-yildiz-zu-fc-arsenal-/thread/forum/154/thread_id/1069634/post_id/2829230",
+            "lang": "de",
+            "lastPostDate": 1702102885,
+            "closedType": "",
+            "marketValue": {
+                "value": 1000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069734",
+            "playerID": "301238",
+            "fromClubID": "2919",
+            "toClubID": "6195",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/m-di-gregorio-zu-ssc-neapel-/thread/forum/154/thread_id/1069734/post_id/2829222",
+            "lang": "de",
+            "lastPostDate": 1702078915,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069733",
+            "playerID": "301238",
+            "fromClubID": "2919",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/m-di-gregorio-zu-ac-mailand-/thread/forum/154/thread_id/1069733/post_id/2829221",
+            "lang": "de",
+            "lastPostDate": 1702078688,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069730",
+            "playerID": "225873",
+            "fromClubID": "416",
+            "toClubID": "1025",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/karol-linetty-zu-fc-bologna-/thread/forum/154/thread_id/1069730/post_id/2829209",
+            "lang": "de",
+            "lastPostDate": 1702064645,
+            "closedType": "",
+            "marketValue": {
+                "value": 3500000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069723",
+            "playerID": "225873",
+            "fromClubID": "416",
+            "toClubID": "1025",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/karol-linetty-zu-fc-bologna-/thread/forum/154/thread_id/1069723/post_id/0",
+            "lang": "de",
+            "lastPostDate": 1702064603,
+            "closedType": "",
+            "marketValue": {
+                "value": 3500000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069124",
+            "playerID": "270541",
+            "fromClubID": "79",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "31",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/serhou-guirassy-zu-ac-mailand-/thread/forum/154/thread_id/1069124/post_id/2829193",
+            "lang": "de",
+            "lastPostDate": 1702059166,
+            "closedType": "",
+            "marketValue": {
+                "value": 40000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069359",
+            "playerID": "425918",
+            "fromClubID": "11",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/ac-mailand-interessiert-an-jakub-kiwior/thread/forum/154/thread_id/1069359/post_id/2829177",
+            "lang": "de",
+            "lastPostDate": 1702040919,
+            "closedType": "",
+            "marketValue": {
+                "value": 25000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069713",
+            "playerID": "744960",
+            "fromClubID": "2068",
+            "toClubID": "749",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/mohamed-souboul-zu-fc-empoli-/thread/forum/154/thread_id/1069713/post_id/2829159",
+            "lang": "de",
+            "lastPostDate": 1702024501,
+            "closedType": "",
+            "marketValue": {
+                "value": 350000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069686",
+            "playerID": "265625",
+            "fromClubID": "276",
+            "toClubID": "2",
+            "isClosed": false,
+            "probability": "48",
+            "progression": "1",
+            "threadUrl": "https://www.transfermarkt.de/ajdin-hrustic-zu-1-fc-kaiserslautern-/thread/forum/154/thread_id/1069686/post_id/2829154",
+            "lang": "de",
+            "lastPostDate": 1702022900,
+            "closedType": "",
+            "marketValue": {
+                "value": 900000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069175",
+            "playerID": "401173",
+            "fromClubID": "985",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "53",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/jadon-sancho-zu-juventus-turin-/thread/forum/154/thread_id/1069175/post_id/2829127",
+            "lang": "de",
+            "lastPostDate": 1701984810,
+            "closedType": "",
+            "marketValue": {
+                "value": 32000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069699",
+            "playerID": "159372",
+            "fromClubID": "398",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/felipe-anderson-zu-juventus-turin-/thread/forum/154/thread_id/1069699/post_id/2829124",
+            "lang": "de",
+            "lastPostDate": 1701983351,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069697",
+            "playerID": "581672",
+            "fromClubID": "506",
+            "toClubID": "762",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/s-iling-junior-zu-newcastle-united-/thread/forum/154/thread_id/1069697/post_id/2829121",
+            "lang": "de",
+            "lastPostDate": 1701981827,
+            "closedType": "",
+            "marketValue": {
+                "value": 9000000,
+                "currency": "€",
+                "progression": null
+            }
+        }
+    ],
+    "511": [
+        {
+            "id": "154_1069840",
+            "playerID": "610405",
+            "fromClubID": "409",
+            "toClubID": "6195",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/m-kjaergaard-zu-ssc-neapel-/thread/forum/154/thread_id/1069840/post_id/2829925",
+            "lang": "de",
+            "lastPostDate": 1702561664,
+            "closedType": "",
+            "marketValue": {
+                "value": 13000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "343_12944",
+            "playerID": "944570",
+            "fromClubID": "4391",
+            "toClubID": "1025",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/vasilije-adzic-to-bologna-fc-1909-/thread/forum/343/thread_id/12944/post_id/19128",
+            "lang": "de",
+            "lastPostDate": 1702554390,
+            "closedType": "",
+            "marketValue": {
+                "value": 0,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1063765",
+            "playerID": "401923",
+            "fromClubID": "6195",
+            "toClubID": "631",
+            "isClosed": false,
+            "probability": "66",
+            "progression": "1",
+            "threadUrl": "https://www.transfermarkt.de/chelsea-fc-czy-przyjdzie-victor-osimhen-/thread/forum/154/thread_id/1063765/post_id/2829844",
+            "lang": "de",
+            "lastPostDate": 1702512671,
+            "closedType": "",
+            "marketValue": {
+                "value": 120000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1059524",
+            "playerID": "659813",
+            "fromClubID": "15",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/piero-hincapie-zu-ac-mailand-/thread/forum/154/thread_id/1059524/post_id/2829832",
+            "lang": "de",
+            "lastPostDate": 1702501844,
+            "closedType": "",
+            "marketValue": {
+                "value": 35000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1059668",
+            "playerID": "659813",
+            "fromClubID": "15",
+            "toClubID": "12",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/piero-hincapie-zu-as-rom-/thread/forum/154/thread_id/1059668/post_id/2829831",
+            "lang": "de",
+            "lastPostDate": 1702501734,
+            "closedType": "",
+            "marketValue": {
+                "value": 35000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069802",
+            "playerID": "343537",
+            "fromClubID": "12321",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/artem-dovbyk-zu-juventus-turin-/thread/forum/154/thread_id/1069802/post_id/2829543",
+            "lang": "de",
+            "lastPostDate": 1702397981,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069801",
+            "playerID": "343537",
+            "fromClubID": "12321",
+            "toClubID": "46",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/artem-dovbyk-zu-inter-mailand-/thread/forum/154/thread_id/1069801/post_id/2829542",
+            "lang": "de",
+            "lastPostDate": 1702397937,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069800",
+            "playerID": "343537",
+            "fromClubID": "12321",
+            "toClubID": "12",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/artem-dovbyk-zu-as-rom-/thread/forum/154/thread_id/1069800/post_id/2829541",
+            "lang": "de",
+            "lastPostDate": 1702397889,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069789",
+            "playerID": "849582",
+            "fromClubID": "1775",
+            "toClubID": "46",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/agustin-giay-zu-inter-mailand-/thread/forum/154/thread_id/1069789/post_id/2829455",
+            "lang": "de",
+            "lastPostDate": 1702324715,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069788",
+            "playerID": "182932",
+            "fromClubID": "46",
+            "toClubID": "449",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/davy-klaassen-zu-trabzonspor-/thread/forum/154/thread_id/1069788/post_id/2829453",
+            "lang": "de",
+            "lastPostDate": 1702324585,
+            "closedType": "",
+            "marketValue": {
+                "value": 10000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069782",
+            "playerID": "890272",
+            "fromClubID": "759",
+            "toClubID": "430",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/karol-borys-zu-ac-florenz-/thread/forum/154/thread_id/1069782/post_id/2829403",
+            "lang": "de",
+            "lastPostDate": 1702299882,
+            "closedType": "",
+            "marketValue": {
+                "value": 1000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069506",
+            "playerID": "789898",
+            "fromClubID": "533",
+            "toClubID": "46",
+            "isClosed": false,
+            "probability": "28",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/muhammed-damar-zu-inter-mailand-/thread/forum/154/thread_id/1069506/post_id/2829325",
+            "lang": "de",
+            "lastPostDate": 1702227004,
+            "closedType": "",
+            "marketValue": {
+                "value": 1000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069757",
+            "playerID": "462977",
+            "fromClubID": "2696",
+            "toClubID": "410",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/b-garre-v-udineze-/thread/forum/154/thread_id/1069757/post_id/2829310",
+            "lang": "de",
+            "lastPostDate": 1702200180,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069748",
+            "playerID": "259953",
+            "fromClubID": "5",
+            "toClubID": "1041",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/rade-krunic-zu-olympique-lyon-/thread/forum/154/thread_id/1069748/post_id/2829279",
+            "lang": "de",
+            "lastPostDate": 1702135764,
+            "closedType": "",
+            "marketValue": {
+                "value": 10000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069743",
+            "playerID": "851699",
+            "fromClubID": "1059",
+            "toClubID": "252",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/jusef-erabi-zu-genua-cfc-/thread/forum/154/thread_id/1069743/post_id/2829268",
+            "lang": "de",
+            "lastPostDate": 1702129431,
+            "closedType": "",
+            "marketValue": {
+                "value": 2000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069328",
+            "playerID": "623325",
+            "fromClubID": "660",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/juventus-turin-beobachtet-georgiy-sudakov/thread/forum/154/thread_id/1069328/post_id/2829236",
+            "lang": "de",
+            "lastPostDate": 1702110392,
+            "closedType": "",
+            "marketValue": {
+                "value": 18000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069736",
+            "playerID": "40433",
+            "fromClubID": "46",
+            "toClubID": "7732",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/alexis-sanchez-zu-al-ettifaq-fc-/thread/forum/154/thread_id/1069736/post_id/2829232",
+            "lang": "de",
+            "lastPostDate": 1702106342,
+            "closedType": "",
+            "marketValue": {
+                "value": 4000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069735",
+            "playerID": "40433",
+            "fromClubID": "46",
+            "toClubID": "9840",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/alexis-sanchez-zu-al-shabab-fc-/thread/forum/154/thread_id/1069735/post_id/2829231",
+            "lang": "de",
+            "lastPostDate": 1702106262,
+            "closedType": "",
+            "marketValue": {
+                "value": 4000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069634",
+            "playerID": "845654",
+            "fromClubID": "506",
+            "toClubID": "11",
+            "isClosed": false,
+            "probability": "20",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/kenan-yildiz-zu-fc-arsenal-/thread/forum/154/thread_id/1069634/post_id/2829230",
+            "lang": "de",
+            "lastPostDate": 1702102885,
+            "closedType": "",
+            "marketValue": {
+                "value": 1000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069734",
+            "playerID": "301238",
+            "fromClubID": "2919",
+            "toClubID": "6195",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/m-di-gregorio-zu-ssc-neapel-/thread/forum/154/thread_id/1069734/post_id/2829222",
+            "lang": "de",
+            "lastPostDate": 1702078915,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069733",
+            "playerID": "301238",
+            "fromClubID": "2919",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/m-di-gregorio-zu-ac-mailand-/thread/forum/154/thread_id/1069733/post_id/2829221",
+            "lang": "de",
+            "lastPostDate": 1702078688,
+            "closedType": "",
+            "marketValue": {
+                "value": 8000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069730",
+            "playerID": "225873",
+            "fromClubID": "416",
+            "toClubID": "1025",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/karol-linetty-zu-fc-bologna-/thread/forum/154/thread_id/1069730/post_id/2829209",
+            "lang": "de",
+            "lastPostDate": 1702064645,
+            "closedType": "",
+            "marketValue": {
+                "value": 3500000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069723",
+            "playerID": "225873",
+            "fromClubID": "416",
+            "toClubID": "1025",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/karol-linetty-zu-fc-bologna-/thread/forum/154/thread_id/1069723/post_id/0",
+            "lang": "de",
+            "lastPostDate": 1702064603,
+            "closedType": "",
+            "marketValue": {
+                "value": 3500000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069124",
+            "playerID": "270541",
+            "fromClubID": "79",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "31",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/serhou-guirassy-zu-ac-mailand-/thread/forum/154/thread_id/1069124/post_id/2829193",
+            "lang": "de",
+            "lastPostDate": 1702059166,
+            "closedType": "",
+            "marketValue": {
+                "value": 40000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069359",
+            "playerID": "425918",
+            "fromClubID": "11",
+            "toClubID": "5",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/ac-mailand-interessiert-an-jakub-kiwior/thread/forum/154/thread_id/1069359/post_id/2829177",
+            "lang": "de",
+            "lastPostDate": 1702040919,
+            "closedType": "",
+            "marketValue": {
+                "value": 25000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069713",
+            "playerID": "744960",
+            "fromClubID": "2068",
+            "toClubID": "749",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/mohamed-souboul-zu-fc-empoli-/thread/forum/154/thread_id/1069713/post_id/2829159",
+            "lang": "de",
+            "lastPostDate": 1702024501,
+            "closedType": "",
+            "marketValue": {
+                "value": 350000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069686",
+            "playerID": "265625",
+            "fromClubID": "276",
+            "toClubID": "2",
+            "isClosed": false,
+            "probability": "48",
+            "progression": "1",
+            "threadUrl": "https://www.transfermarkt.de/ajdin-hrustic-zu-1-fc-kaiserslautern-/thread/forum/154/thread_id/1069686/post_id/2829154",
+            "lang": "de",
+            "lastPostDate": 1702022900,
+            "closedType": "",
+            "marketValue": {
+                "value": 900000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069175",
+            "playerID": "401173",
+            "fromClubID": "985",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "53",
+            "progression": "-1",
+            "threadUrl": "https://www.transfermarkt.de/jadon-sancho-zu-juventus-turin-/thread/forum/154/thread_id/1069175/post_id/2829127",
+            "lang": "de",
+            "lastPostDate": 1701984810,
+            "closedType": "",
+            "marketValue": {
+                "value": 32000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069699",
+            "playerID": "159372",
+            "fromClubID": "398",
+            "toClubID": "506",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/felipe-anderson-zu-juventus-turin-/thread/forum/154/thread_id/1069699/post_id/2829124",
+            "lang": "de",
+            "lastPostDate": 1701983351,
+            "closedType": "",
+            "marketValue": {
+                "value": 15000000,
+                "currency": "€",
+                "progression": null
+            }
+        },
+        {
+            "id": "154_1069697",
+            "playerID": "581672",
+            "fromClubID": "506",
+            "toClubID": "762",
+            "isClosed": false,
+            "probability": "?",
+            "progression": 0,
+            "threadUrl": "https://www.transfermarkt.de/s-iling-junior-zu-newcastle-united-/thread/forum/154/thread_id/1069697/post_id/2829121",
+            "lang": "de",
+            "lastPostDate": 1701981827,
+            "closedType": "",
+            "marketValue": {
+                "value": 9000000,
+                "currency": "€",
+                "progression": null
+            }
+        }
+    ]
+}

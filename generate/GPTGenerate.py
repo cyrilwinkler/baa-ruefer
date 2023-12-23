@@ -10,13 +10,14 @@ from difflib import SequenceMatcher
 from openai import OpenAI
 import json
 import time
+from rouge import Rouge
 
 from data_loaders.JSONDataLoader import JSONDataLoader
 
 
 class GPTGenerate():
     def __init__(self, team_ids: list, gpt_api_key=None, requests_api=None):
-        dataloader = JSONDataLoader(team_ids)
+        dataloader = JSONDataLoader(team_ids, requests_api)
         self.team_ids = team_ids
         self.player_names = dataloader.get_player_names()
         self.player_information = dataloader.get_player_information()
@@ -115,7 +116,7 @@ class GPTGenerate():
         statistics = self.get_player_statistics()[str(team_id)]
         transfers = self.get_player_transfers()
         transfer_dict = {}
-        news = self.get_player_news()
+        news = [] #self.get_player_news()
         counter = 1
         for player_id in self.get_player_ids_from_fixture(team_id):
             players[player_id] = {}
@@ -328,6 +329,11 @@ class GPTGenerate():
         parent_t = (2 * entailed_precision_score * recall_score) / (entailed_precision_score + recall_score) if (entailed_precision_score + recall_score) > 0 else 0
         return parent_t
     
+    def calculate_rouge_scores(hypothesis, reference):
+        rouge = Rouge()
+        scores = rouge.get_scores(hypothesis, reference)
+        return scores
+    
     def main(self):
         output_json = {}
 
@@ -340,7 +346,9 @@ class GPTGenerate():
         output_json[self.team_ids[0]]['players'] = self.generate_team_players(self.team_ids[0])
         output_json[self.team_ids[0]]['coach'] = self.generate_team_coach(self.team_ids[0])
 
-        # team 489
+        with open('output_team_1.json', 'w') as outfile:
+            json.dump(output_json, outfile, indent=4)
+
         output_json[self.team_ids[1]] = {}
         output_json[self.team_ids[1]]['name'] = self.get_team_name(self.team_ids[1])
         output_json[self.team_ids[1]]['information'] = self.generate_team_information(self.team_ids[1])
@@ -354,7 +362,7 @@ class GPTGenerate():
         output_json['fixture'] = self.generate_fixture()
         output_json['venue'] = self.generate_venue()
 
-        with open('output.json', 'w') as outfile:
+        with open('output_team_2.json', 'w') as outfile:
             json.dump(output_json, outfile, indent=4)
 
         return output_json

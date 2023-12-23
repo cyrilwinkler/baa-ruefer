@@ -1,0 +1,278 @@
+{
+    "496": [
+        {
+            "id": 3386,
+            "name": "M. Allegri",
+            "firstname": "Massimiliano",
+            "lastname": "Allegri",
+            "age": 56,
+            "birth": {
+                "date": "1967-08-11",
+                "place": "Livorno",
+                "country": "Italy"
+            },
+            "nationality": "Italy",
+            "height": "183 cm",
+            "weight": null,
+            "photo": "https://media-4.api-sports.io/football/coachs/3386.png",
+            "team": {
+                "id": 496,
+                "name": "Juventus",
+                "logo": "https://media-4.api-sports.io/football/teams/496.png"
+            },
+            "career": [
+                {
+                    "team": {
+                        "id": 496,
+                        "name": "Juventus",
+                        "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                    },
+                    "start": "2021-05-01",
+                    "end": null
+                },
+                {
+                    "team": {
+                        "id": 496,
+                        "name": "Juventus",
+                        "logo": "https://media-4.api-sports.io/football/teams/496.png"
+                    },
+                    "start": "2014-07-01",
+                    "end": "2019-06-01"
+                },
+                {
+                    "team": {
+                        "id": 489,
+                        "name": "AC Milan",
+                        "logo": "https://media-4.api-sports.io/football/teams/489.png"
+                    },
+                    "start": "2010-07-01",
+                    "end": "2014-01-01"
+                },
+                {
+                    "team": {
+                        "id": 490,
+                        "name": "Cagliari",
+                        "logo": "https://media-4.api-sports.io/football/teams/490.png"
+                    },
+                    "start": "2008-07-01",
+                    "end": "2010-04-01"
+                },
+                {
+                    "team": {
+                        "id": 488,
+                        "name": "Sassuolo",
+                        "logo": "https://media-4.api-sports.io/football/teams/488.png"
+                    },
+                    "start": "2007-07-01",
+                    "end": "2008-05-01"
+                },
+                {
+                    "team": {
+                        "id": 9499,
+                        "name": "Grosseto",
+                        "logo": "https://media-4.api-sports.io/football/teams/9499.png"
+                    },
+                    "start": "2006-04-01",
+                    "end": "2006-10-01"
+                },
+                {
+                    "team": {
+                        "id": 9499,
+                        "name": "Grosseto",
+                        "logo": "https://media-4.api-sports.io/football/teams/9499.png"
+                    },
+                    "start": "2005-07-01",
+                    "end": "2005-10-01"
+                },
+                {
+                    "team": {
+                        "id": 493,
+                        "name": "SPAL",
+                        "logo": "https://media-4.api-sports.io/football/teams/493.png"
+                    },
+                    "start": "2004-07-01",
+                    "end": "2005-05-01"
+                }
+            ]
+        }
+    ],
+    "511": [
+        {
+            "id": 1608,
+            "name": "P. Zanetti",
+            "firstname": "Paolo",
+            "lastname": "Zanetti",
+            "age": 41,
+            "birth": {
+                "date": "1982-12-16",
+                "place": "Valdagno",
+                "country": "Italy"
+            },
+            "nationality": "Italy",
+            "height": "190 cm",
+            "weight": "77 kg",
+            "photo": "https://media-4.api-sports.io/football/coachs/1608.png",
+            "team": {
+                "id": 511,
+                "name": "Empoli",
+                "logo": "https://media-4.api-sports.io/football/teams/511.png"
+            },
+            "career": [
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                    },
+                    "start": "2022-06-01",
+                    "end": "2023-09-01"
+                },
+                {
+                    "team": {
+                        "id": 517,
+                        "name": "Venezia",
+                        "logo": "https://media-4.api-sports.io/football/teams/517.png"
+                    },
+                    "start": "2020-08-01",
+                    "end": "2022-04-01"
+                },
+                {
+                    "team": {
+                        "id": 507,
+                        "name": "Ascoli",
+                        "logo": "https://media-4.api-sports.io/football/teams/507.png"
+                    },
+                    "start": "2019-06-01",
+                    "end": "2020-02-01"
+                },
+                {
+                    "team": {
+                        "id": 1578,
+                        "name": "Südtirol",
+                        "logo": "https://media-4.api-sports.io/football/teams/1578.png"
+                    },
+                    "start": "2017-07-01",
+                    "end": "2019-06-01"
+                }
+            ]
+        },
+        {
+            "id": 2439,
+            "name": "A. Andreazzoli",
+            "firstname": "Aurelio",
+            "lastname": "Andreazzoli",
+            "age": 70,
+            "birth": {
+                "date": "1953-11-05",
+                "place": "Massa",
+                "country": "Italy"
+            },
+            "nationality": "Italy",
+            "height": null,
+            "weight": null,
+            "photo": "https://media-4.api-sports.io/football/coachs/2439.png",
+            "team": {
+                "id": 511,
+                "name": "Empoli",
+                "logo": "https://media-4.api-sports.io/football/teams/511.png"
+            },
+            "career": [
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                    },
+                    "start": "2023-09-01",
+                    "end": null
+                },
+                {
+                    "team": {
+                        "id": 516,
+                        "name": "Ternana",
+                        "logo": "https://media-4.api-sports.io/football/teams/516.png"
+                    },
+                    "start": "2022-12-01",
+                    "end": "2023-02-01"
+                },
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                    },
+                    "start": "2021-06-01",
+                    "end": "2022-06-01"
+                },
+                {
+                    "team": {
+                        "id": 495,
+                        "name": "Genoa",
+                        "logo": "https://media-4.api-sports.io/football/teams/495.png"
+                    },
+                    "start": "2019-07-01",
+                    "end": "2019-10-01"
+                },
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                    },
+                    "start": "2019-03-01",
+                    "end": "2019-06-01"
+                },
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                    },
+                    "start": "2017-12-01",
+                    "end": "2018-11-01"
+                },
+                {
+                    "team": {
+                        "id": 497,
+                        "name": "Roma",
+                        "logo": "https://media-4.api-sports.io/football/teams/497.png"
+                    },
+                    "start": "2013-02-01",
+                    "end": "2013-06-01"
+                }
+            ]
+        },
+        {
+            "id": 10404,
+            "name": "G. Martusciello",
+            "firstname": "Giovanni",
+            "lastname": "Martusciello",
+            "age": 46,
+            "birth": {
+                "date": "1971-08-19",
+                "place": "Ischia",
+                "country": "Italy"
+            },
+            "nationality": "Italy",
+            "height": null,
+            "weight": null,
+            "photo": "https://media-4.api-sports.io/football/coachs/10404.png",
+            "team": {
+                "id": 511,
+                "name": "Empoli",
+                "logo": "https://media-4.api-sports.io/football/teams/511.png"
+            },
+            "career": [
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media-4.api-sports.io/football/teams/511.png"
+                    },
+                    "start": "2016-07-01",
+                    "end": "2017-06-19"
+                }
+            ]
+        }
+    ]
+}

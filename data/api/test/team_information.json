@@ -1,0 +1,46 @@
+{
+    "496": [
+        {
+            "team": {
+                "id": 496,
+                "name": "Juventus",
+                "code": "JUV",
+                "country": "Italy",
+                "founded": 1897,
+                "national": false,
+                "logo": "https://media-4.api-sports.io/football/teams/496.png"
+            },
+            "venue": {
+                "id": 909,
+                "name": "Allianz Stadium",
+                "address": "Strada Comunale di Altessano 131",
+                "city": "Torino",
+                "capacity": 45666,
+                "surface": "grass",
+                "image": "https://media-4.api-sports.io/football/venues/909.png"
+            }
+        }
+    ],
+    "511": [
+        {
+            "team": {
+                "id": 511,
+                "name": "Empoli",
+                "code": "EMP",
+                "country": "Italy",
+                "founded": 1920,
+                "national": false,
+                "logo": "https://media-4.api-sports.io/football/teams/511.png"
+            },
+            "venue": {
+                "id": 20109,
+                "name": "Stadio Carlo Castellani – Computer Gross Arena",
+                "address": "Viale delle Olimpiadi",
+                "city": "Empoli",
+                "capacity": 16284,
+                "surface": "grass",
+                "image": "https://media-4.api-sports.io/football/venues/20109.png"
+            }
+        }
+    ]
+}

@@ -3,6 +3,12 @@ import json
 from abc import ABC, abstractmethod
 
 class DataLoader(ABC):
+    """
+    Abstract class to load data from api or json files
+    
+    :param team_ids: list of team ids
+    :param api: api object to get data from api
+    """
     def __init__(self, team_ids: list, api=None):
         self.team_ids = team_ids
         
@@ -58,28 +64,96 @@ class DataLoader(ABC):
             with open('../data/api/news_details.json') as f:
                 self.news_details = json.load(f)
 
-            self.home_team_id = 487
+            self.home_team_id = 489
 
-            self.todays_fixture_id = 731586
+            self.todays_fixture_id =  731608
             
         else:
             self.team_information = api.get_team_information()
-            self.teams_stats = api.get_team_statistics()
+            with open('../data/api/test/team_information.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.team_information, f, ensure_ascii=False, indent=4)
+            print('team_information saved')
+            
+            self.team_stats = api.get_team_statistics()
+            with open('../data/api/test/team_stats.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.team_stats, f, ensure_ascii=False, indent=4)
+            print('team_stats saved')
+
             self.team_fixtures = api.get_fixtures()
+            with open('../data/api/test/team_fixtures.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.team_fixtures, f, ensure_ascii=False, indent=4)
+            print('team_fixtures saved')
+
             self.fixture_lineups = api.get_fixture_lineup()
+            with open('../data/api/test/fixture_lineups.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.fixture_lineups, f, ensure_ascii=False, indent=4)
+            print('fixture_lineups saved')
+
             self.players = api.get_players()
+            with open('../data/api/test/players.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.players, f, ensure_ascii=False, indent=4)
+            print('players saved')
+
             self.players_ids = api.get_player_ids()
+            with open('../data/api/test/players_ids.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.players_ids, f, ensure_ascii=False, indent=4)
+            print('players_ids saved')
+
             self.player_injuries = api.get_injuries()
+            with open('../data/api/test/player_injuries.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.player_injuries, f, ensure_ascii=False, indent=4)
+            print('player_injuries saved')
+
             self.transfers = api.get_transfers()
+            with open('../data/api/test/transfers.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.transfers, f, ensure_ascii=False, indent=4)
+            print('transfers saved')
+
             self.coaches = api.get_coaches()
+            with open('../data/api/test/coaches.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.coaches, f, ensure_ascii=False, indent=4)
+            print('coaches saved')
+
             self.team_mapping = api.get_team_mapping()
+            with open('../data/api/test/team_mapping.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.team_mapping, f, ensure_ascii=False, indent=4)
+            print('team_mapping saved')
+
             self.transfer_rumours = api.get_transfer_rumours()
-            self.team_news = api.get_team_news()
-            self.player_news = api.get_player_news()
-            self.news_ids = api.get_news_ids()
+            with open('../data/api/test/transfer_rumours.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.transfer_rumours, f, ensure_ascii=False, indent=4)
+            print('transfer_rumours saved')
+
+            #self.team_news = api.get_team_news()
+            #with open('../data/api/test/team_news.json', 'w', encoding='UTF-8') as f:
+                #json.dump(self.team_news, f, ensure_ascii=False, indent=4)
+            print('team_news saved')
+
+            #self.player_news = api.get_player_news()
+            #with open('../data/api/test/player_news.json', 'w', encoding='UTF-8') as f:
+                #json.dump(self.player_news, f, ensure_ascii=False, indent=4)
+            print('player_news saved')
+
+            #self.news_ids = api.get_news_ids()
+            #with open('../data/api/test/news_ids.json', 'w', encoding='UTF-8') as f:
+                #json.dump(self.news_ids, f, ensure_ascii=False, indent=4)
+            print('news_ids saved')
+
             self.player_mapping = api.get_player_mapping()
+            with open('../data/api/test/player_mapping.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.player_mapping, f, ensure_ascii=False, indent=4)
+            print('player_mapping saved')
+
             self.todays_fixture_id = api.get_todays_fixture_id()
-            #self.home_team_id = api.get_home_team_id()
+            with open('../data/api/test/todays_fixture_id.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.todays_fixture_id, f, ensure_ascii=False, indent=4)
+            print('todays_fixture_id saved')
+
+            self.home_team_id = api.get_home_team_id()
+            with open('../data/api/test/home_team_id.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.home_team_id, f, ensure_ascii=False, indent=4)
+            print('home_team_id saved')
+
             #self.fixture_stats = api.get_fixture_statistics() 60 Requests (only Serie A)
             #self.news_details = api.get_news_details() 310 Requests
         
@@ -93,10 +167,6 @@ class DataLoader(ABC):
 
     @abstractmethod
     def get_team_statistics(self):
-        pass
-
-    @abstractmethod
-    def get_team_players(self):
         pass
 
     @abstractmethod
