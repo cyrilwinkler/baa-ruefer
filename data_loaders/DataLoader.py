@@ -124,19 +124,19 @@ class DataLoader(ABC):
                 json.dump(self.transfer_rumours, f, ensure_ascii=False, indent=4)
             print('transfer_rumours saved')
 
-            #self.team_news = api.get_team_news()
-            #with open('../data/api/test/team_news.json', 'w', encoding='UTF-8') as f:
-                #json.dump(self.team_news, f, ensure_ascii=False, indent=4)
+            self.team_news = api.get_team_news()
+            with open('../data/api/test/team_news.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.team_news, f, ensure_ascii=False, indent=4)
             print('team_news saved')
 
-            #self.player_news = api.get_player_news()
-            #with open('../data/api/test/player_news.json', 'w', encoding='UTF-8') as f:
-                #json.dump(self.player_news, f, ensure_ascii=False, indent=4)
+            self.player_news = api.get_player_news()
+            with open('../data/api/test/player_news.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.player_news, f, ensure_ascii=False, indent=4)
             print('player_news saved')
 
-            #self.news_ids = api.get_news_ids()
-            #with open('../data/api/test/news_ids.json', 'w', encoding='UTF-8') as f:
-                #json.dump(self.news_ids, f, ensure_ascii=False, indent=4)
+            self.news_ids = api.get_news_ids()
+            with open('../data/api/test/news_ids.json', 'w', encoding='UTF-8') as f:
+                json.dump(self.news_ids, f, ensure_ascii=False, indent=4)
             print('news_ids saved')
 
             self.player_mapping = api.get_player_mapping()
@@ -154,15 +154,11 @@ class DataLoader(ABC):
                 json.dump(self.home_team_id, f, ensure_ascii=False, indent=4)
             print('home_team_id saved')
 
-            #self.fixture_stats = api.get_fixture_statistics() 60 Requests (only Serie A)
-            #self.news_details = api.get_news_details() 310 Requests
+            self.fixture_stats = api.get_fixture_statistics() #60 Requests (only Serie A)
+            self.news_details = api.get_news_details() #310 Requests
         
     @abstractmethod
     def get_team_information(self):
-        pass
-
-    @abstractmethod
-    def get_venue_information(self):
         pass
 
     @abstractmethod
@@ -171,6 +167,10 @@ class DataLoader(ABC):
 
     @abstractmethod
     def get_player_injuries(self):
+        pass
+
+    @abstractmethod
+    def get_player_news(self):
         pass
 
     @abstractmethod
@@ -186,5 +186,5 @@ class DataLoader(ABC):
         pass
 
     @abstractmethod
-    def get_player_news(self):
+    def get_venue_information(self):
         pass

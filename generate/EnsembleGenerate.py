@@ -1,12 +1,13 @@
 import sys
-#sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
-sys.path.append('/home/jovyan/baa-ruefer/')
+sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
+#sys.path.append('/home/jovyan/baa-ruefer/')
 import subprocess
 import numpy as np
 from nltk import ngrams
 import pandas as pd
 from datetime import datetime
 from difflib import SequenceMatcher
+from rouge import Rouge
 
 from models.logic2text.GPT import GPT
 from data_loaders.CSVDataLoader import CSVDataLoader
@@ -334,3 +335,8 @@ class EnsembleGenerate():
         recall_score = self.entailment_recall(table_records, generated_text)
         parent_t = (2 * entailed_precision_score * recall_score) / (entailed_precision_score + recall_score) if (entailed_precision_score + recall_score) > 0 else 0
         return parent_t
+    
+    def calculate_rouge_scores(hypothesis, reference):
+        rouge = Rouge()
+        scores = rouge.get_scores(hypothesis, reference)
+        return scores
