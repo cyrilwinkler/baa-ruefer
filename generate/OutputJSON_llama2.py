@@ -5,23 +5,48 @@ sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
 import json
 import time
 import openai
+import tqdm
+from rouge import Rouge
 
-#from GPTGenerate import GPTGenerate
+from LlamaGenerate import LlamaGenerate
 
 
 class OutputJSON():
-    def __init__(self, team_ids: list, gpt_api_key=None, requests_api=None):
+    def __init__(self, team_ids: list, requests_api=None):
         self.team_ids = team_ids
-        self.gpt_api_key = gpt_api_key
         self.requests_api = requests_api
-        with open('output_2.json', 'r') as fp:
+        #self.input_json = LlamaGenerate(team_ids=team_ids).main()
+        with open('gpt_output.json', 'r') as fp:
             self.input_json = json.load(fp)
+        
+        self.input_json = self.clean_strings(self.input_json)
+
+    def clean_strings(self, data):
+        if isinstance(data, str):
+            try:
+                # If the value is a string, perform the cleaning
+                return json.loads(data.replace('\n', '').replace('  ', ''))
+            except:
+                return data
+        elif isinstance(data, list):
+            # If the value is a list, apply the cleaning to each element in the list
+            return [self.clean_strings(item) for item in data]
+        elif isinstance(data, dict):
+            # If the value is a dictionary, apply the cleaning to each value in the dictionary
+            cleaned_dict = {}
+            for key, value in data.items():
+                cleaned_key = self.clean_strings(key)
+                cleaned_value = self.clean_strings(value)
+                cleaned_dict[cleaned_key] = cleaned_value
+            return cleaned_dict
+        else:
+            # If the value is not a string, list, or dictionary, return it as is
+            return data
 
     def create_output_json(self, commentary_flavor: str):
         output_json = {}
         for team_id in list(self.input_json.keys())[:2]:
             print(f'Generating output for team {team_id}')
-
             output_json[team_id] = {}
             output_json[team_id]['team_name'] = self.input_json[team_id]['name']
             
@@ -32,48 +57,48 @@ class OutputJSON():
                 output_json[team_id]['information'] = json.loads(team_information_output)
             except:
                 print(team_information_output)
-                output_json[team_id]['information'] = self.format_to_json(team_information_output)
+                output_json[team_id]['information'] = self.clean_strings(self.format_to_json(team_information_output))
             print(f'Generated output for team {output_json[team_id]["information"]}')
             
             print(f'Generating output for team {team_id} statistics')
             output_json[team_id]['statistics'] = {}
-            for statistic in self.input_json[team_id]['statistics']:
+            for statistic in tqdm.tqdm(self.input_json[team_id]['statistics']):
                 print(f'Generating output for team {team_id} statistics {statistic}')
                 team_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['statistics'][statistic]}"
                 team_statistics_output = self.generate_gpt_flavor(team_statistics_input)
                 try:
                     output_json[team_id]['statistics'][statistic] = json.loads(team_statistics_output)
                 except:
-                    output_json[team_id]['statistics'][statistic] = self.format_to_json(team_statistics_output)
+                    output_json[team_id]['statistics'][statistic] = self.clean_strings(self.format_to_json(team_statistics_output))
 
             if self.input_json[team_id]['news'] != None:
                 print(f'Generating output for team {team_id} news')
                 output_json[team_id]['news'] = {}
-                for news in self.input_json[team_id]['news']:
+                for news in tqdm.tqdm(self.input_json[team_id]['news']):
                     team_news_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['news'][news]}"
                     team_news_output = self.generate_gpt_flavor(team_news_input)
                     try:
                         output_json[team_id]['news'][news] = json.loads(team_news_output)
                     except:
-                        output_json[team_id]['news'][news] = self.format_to_json(team_news_output)
+                        output_json[team_id]['news'][news] = self.clean_strings(self.format_to_json(team_news_output))
 
             if self.input_json[team_id]['injuries'] != {}:
                 output_json[team_id]['injuries'] = {}
                 print(f'Generating output for team {team_id} injuries')
-                for player_id in self.input_json[team_id]['injuries']:
+                for player_id in tqdm.tqdm(self.input_json[team_id]['injuries']):
                     print(f'Generating output for player {player_id}')
                     team_injuries_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['injuries'][player_id]}"
                     team_injuries_output = self.generate_gpt_flavor(team_injuries_input)
                     try:
                         output_json[team_id]['injuries'][player_id] = json.loads(team_injuries_output)
                     except:
-                        output_json[team_id]['injuries'][player_id] = self.format_to_json(team_injuries_output)
+                        output_json[team_id]['injuries'][player_id] = self.clean_strings(self.format_to_json(team_injuries_output))
 
             print(f'Generating output for team {team_id} players')
             output_json[team_id]['players'] = {}
             counter = 1
             n_players = len(self.input_json[team_id]['players'])
-            for player_id in self.input_json[team_id]['players']:
+            for player_id in tqdm.tqdm(self.input_json[team_id]['players']):
                 print(f'Generating output for player {player_id}')
                 print(f'Player {counter} of {n_players}')
                 output_json[team_id]['players'][player_id] = {}
@@ -84,19 +109,19 @@ class OutputJSON():
                 try:
                     output_json[team_id]['players'][player_id]['information'] = json.loads(player_information_output)
                 except:
-                    output_json[team_id]['players'][player_id]['information'] = self.format_to_json(player_information_output)
+                    output_json[team_id]['players'][player_id]['information'] = self.clean_strings(self.format_to_json(player_information_output))
 
                 print(f'Generating output for player {player_id} statistics')
                 output_json[team_id]['players'][player_id]['statistics'] = {}
                 if type(self.input_json[team_id]['players'][player_id]['statistics']) != str:
-                    for statistic in self.input_json[team_id]['players'][player_id]['statistics']:
+                    for statistic in tqdm.tqdm(self.input_json[team_id]['players'][player_id]['statistics']):
                         print(f'Generating output for player {player_id} statistics {statistic}')
                         player_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['statistics'][statistic]}"
                         player_statistics_output = self.generate_gpt_flavor(player_statistics_input)
                         try:
                             output_json[team_id]['players'][player_id]['statistics'][statistic] = json.loads(player_statistics_output)
                         except:
-                            output_json[team_id]['players'][player_id]['statistics'][statistic] = self.format_to_json(player_statistics_output)
+                            output_json[team_id]['players'][player_id]['statistics'][statistic] = self.clean_strings(self.format_to_json(player_statistics_output))
                 else:
                     player_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['statistics']}"
                     output_json[team_id]['players'][player_id]['statistics'] = self.generate_gpt_flavor(player_statistics_input)
@@ -104,14 +129,14 @@ class OutputJSON():
                 print(f'Generating output for player {player_id} transfers')
                 output_json[team_id]['players'][player_id]['transfers'] = {}
                 if type(self.input_json[team_id]['players'][player_id]['transfers']) != str:
-                    for transfer in self.input_json[team_id]['players'][player_id]['transfers']:
+                    for transfer in tqdm.tqdm(self.input_json[team_id]['players'][player_id]['transfers']):
                         print(f'Generating output for player {player_id} transfers {transfer}')
                         player_transfers_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['transfers'][transfer]}"
                         player_transfers_output = self.generate_gpt_flavor(player_transfers_input)
                         try:
                             output_json[team_id]['players'][player_id]['transfers'][transfer] = json.loads(player_transfers_output)
                         except:
-                            output_json[team_id]['players'][player_id]['transfers'][transfer] = self.format_to_json(player_transfers_output)
+                            output_json[team_id]['players'][player_id]['transfers'][transfer] = self.clean_strings(self.format_to_json(player_transfers_output))
                 else:
                     player_transfers_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['transfers']}"
                     output_json[team_id]['players'][player_id]['transfers'] = self.generate_gpt_flavor(player_transfers_input)
@@ -120,7 +145,7 @@ class OutputJSON():
                     print(f'Generating output for player {player_id} news')
                     output_json[team_id]['players'][player_id]['news'] = {}
                     if type(self.input_json[team_id]['players'][player_id]['news']) != str:
-                        for news in self.input_json[team_id]['players'][player_id]['news']:
+                        for news in tqdm.tqdm(self.input_json[team_id]['players'][player_id]['news']):
                             print(f'Generating output for player {player_id} news {news}')
                             player_news_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['news'][news]}"
                             output_json[team_id]['players'][player_id]['news'][news] = self.generate_gpt_flavor(player_news_input)
@@ -130,7 +155,7 @@ class OutputJSON():
                         try:
                             output_json[team_id]['players'][player_id]['news'] = json.loads(player_news_output)
                         except:
-                            output_json[team_id]['players'][player_id]['news'] = self.format_to_json(player_news_output)
+                            output_json[team_id]['players'][player_id]['news'] = self.clean_strings(self.format_to_json(player_news_output))
             
                 counter += 1
                 with open('json_output_dump.json', 'w', encoding='UTF-8') as fp:
@@ -139,14 +164,14 @@ class OutputJSON():
             print(f'Generating output for team {team_id} coach')
             output_json[team_id]['coach'] = {}
             if type(self.input_json[team_id]['coach']) != str:
-                for coach_information in self.input_json[team_id]['coach']:
+                for coach_information in tqdm.tqdm(self.input_json[team_id]['coach']):
                     print(f'Generating output for team {team_id} coach {coach_information}')
                     player_coaches_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['coach'][coach_information]}"
                     player_coaches_output = self.generate_gpt_flavor(player_coaches_input)
                     try:
                         output_json[team_id]['coach'][coach_information] = json.loads(player_coaches_output)
                     except:
-                        output_json[team_id]['coach'][coach_information] = self.format_to_json(player_coaches_output)
+                        output_json[team_id]['coach'][coach_information] = self.clean_strings(self.format_to_json(player_coaches_output))
             else:
                 player_coaches_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json[team_id]['coach']}"
                 output_json[team_id]['coach'] = self.generate_gpt_flavor(player_coaches_input)        
@@ -162,18 +187,18 @@ class OutputJSON():
                 try:
                     output_json['fixture'][id] = json.loads(fixture_information_output)
                 except:
-                    output_json['fixture'][id] = self.format_to_json(fixture_information_output)
+                    output_json['fixture'][id] = self.clean_strings(self.format_to_json(fixture_information_output))
             else:
                 output_json['fixture'][id]['statistics'] = {}
                 if type(self.input_json['fixture'][id]['statistics']) != str:
-                    for statistic in self.input_json['fixture'][id]['statistics']:
+                    for statistic in tqdm.tqdm(self.input_json['fixture'][id]['statistics']):
                         print(f'Generating output for {id} {statistic}')
                         fixture_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['fixture'][id]['statistics'][statistic]}"
                         fixture_statistics_output = self.generate_gpt_flavor(fixture_statistics_input)
                         try:
                             output_json['fixture'][id]['statistics'][statistic] = json.loads(fixture_statistics_output)
                         except:
-                            output_json['fixture'][id]['statistics'][statistic] = self.format_to_json(fixture_statistics_output)
+                            output_json['fixture'][id]['statistics'][statistic] = self.clean_strings(self.format_to_json(fixture_statistics_output))
                 else:
                     fixture_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['fixture'][id]['statistics']}"
                     output_json['fixture'][id]['statistics'] = self.generate_gpt_flavor(fixture_statistics_input)
@@ -225,10 +250,10 @@ class OutputJSON():
         openai.api_base = "http://10.180.132.23:8180/v1"
 
         ## specify the used model
-        messages = [
-            {   
+        messages = [{   
                 "role": "system", 
-                "content": "You string with an JSON and a sentence before the actual JSON. Remove the sentence and provide the formatted JSON as a string."
+            "content": """You get a string with a JSON and a sentence before the actual JSON. 
+            Remove the sentence and format the string such that the string can be convert to a JSON."""
             },
             {
                 "role": "user",
@@ -246,15 +271,27 @@ class OutputJSON():
         print(f'Response: {response["choices"][0]["message"]["content"]}')
         return response["choices"][0]["message"]["content"]
     
+    def calculate_rouge_scores(hypothesis, reference):
+        rouge = Rouge()
+        scores = rouge.get_scores(hypothesis, reference)
+        return scores
+    
+    def get_overall_rouge_scores(self):
+        return (sum(self.rouge_scores_1) / len(self.rouge_scores_1)) if len(self.rouge_scores_1) > 0 else None, (sum(self.rouge_scores_2) / len(self.rouge_scores_2)) if len(self.rouge_scores_2) > 0 else None, (sum(self.rouge_scores_l) / len(self.rouge_scores_l)) if len(self.rouge_scores_l) > 0 else None
+    
 
 if __name__ == "__main__":
     team_ids = [487, 489]
-    output_json = OutputJSON(team_ids)#, "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")
+    output_json = OutputJSON(team_ids)
     
-    for flavor in ['sarcastic', 'serious', 'neutral', 'for the team and player', 'against the team and player', 'analytical', 'emotional', 'educational', 'upbeat and energetic']:
-        output_file = output_json.create_output_json(flavor)
+    flavor = 'wordplay'
+    in_favor = 487
+    output_file = output_json.create_output_json(flavor, in_favor=in_favor)
 
-        with open('final_output_{flavor}.json', 'w') as fp:
-            json.dump(output_file, fp, indent=4)
+    with open(f'llama_final_output_{flavor}.json', 'w', encoding='UTF-8') as fp:
+        json.dump(output_file, fp, indent=4, ensure_ascii=False)
+
+    with open(f'llama_rouge_score.json', 'w', encoding='UTF-8') as f:
+        json.dump({'rouge-1': output_json.get_overall_rouge_scores()[0], 'rouge-2': output_json.get_overall_rouge_scores()[1], 'rouge-l': output_json.get_overall_rouge_scores()[2]}, f, indent=4, ensure_ascii=False)
 
             

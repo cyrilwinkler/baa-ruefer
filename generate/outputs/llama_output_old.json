@@ -1,0 +1,1186 @@
+{
+    "487": {
+        "name": "Lazio",
+        "information": "  The sky blue and white stripes of Lazio, proudly represented by the code LAZ, have been a staple of Italian football since their founding in 1900.",
+        "statistics": "{\"Fixtures\": \"Lazio has played 19 home games and 19 away games, with a total of 38 fixtures.\",\"Wins\": \"The team has won 10 games at home, 8 games away, and 18 games in total.\",\"Draws\": \"Lazio has drawn 6 games at home, 4 games away, and 10 games in total.\",\"Losses\": \"The team has lost 3 games at home, 7 games away, and 10 games in total.\",\"Goals Scored\": \"Lazio has scored 42 goals at home, 35 goals away, and 77 goals in total.\",\"Goals Conceded\": \"The team has conceded 25 goals at home, 33 goals away, and 58 goals in total.\",\"Goal Difference\": \"Lazio has a goal difference of 17 (42-25) at home and 12 (35-23) away.\",\"Goals in Different Time Intervals\": \"The team has scored 12 goals in the first 15 minutes of games, 7 goals in the 16-30 minute range, 14 goals in the 31-45 minute range, 13 goals in the 46-60 minute range, 15 goals in the 61-75 minute range, and 6 goals in the 76-90 minute range. Lazio has conceded 14 goals in the first 15 minutes of games, 8 goals in the 16-30 minute range, 13 goals in the 31-45 minute range, 10 goals in the 46-60 minute range, 10 goals in the 61-75 minute range, and 7 goals in the 76-90 minute range.\",\"Streaks\": \"The team's biggest winning streak is 2 games, biggest drawing streak is 2 games, and biggest losing streak is also 2 games.\",\"Biggest Wins and Losses\": \"Lazio's biggest home win was 6-1, biggest away win was 1-4, biggest home loss was 0-2, and biggest away loss was 4-0.\",\"Goal Scenarios\": \"The team has scored 6 goals in a game twice, and conceded 4 goals in a game twice.\"}",
+        "news": null,
+        "injuries": {},
+        "players": {
+            "263812": {
+                "information": {
+                    "Personal Information": "Unfortunately, we don't have any information on the player's personal details, as the provided JSON doesn't include their first name, last name, age, birth date, birth place, birth country, nationality, height, or weight.",
+                    "Player Statistics": "The team has played 19 home games and 19 away games, with a total of 38 fixtures. The team has won 10 games at home, 8 games away, and 18 games in total. Lazio has drawn 6 games at home, 4 games away, and 10 games in total. The team has lost 3 games at home, 7 games away, and 10 games in total.",
+                    "Goal Statistics": "Lazio has scored 42 goals at home, 35 goals away, and 77 goals in total. The team has conceded 25 goals at home, 33 goals away, and 58 goals in total.",
+                    "Goal Difference": "Lazio has a goal difference of 17 (42-25) at home and 12 (35-23) away.",
+                    "Goals in Different Time Intervals": "The team has scored 12 goals in the first 15 minutes of games, 7 goals in the 16-30 minute range, 14 goals in the 31-45 minute range, 13 goals in the 46-60 minute range, 15 goals in the 61-75 minute range, and 6 goals in the 76-90 minute range. Lazio has conceded 14 goals in the first 15 minutes of games, 8 goals in the 16-30 minute range, 13 goals in the 31-45 minute range, 10 goals in the 46-60 minute range, 10 goals in the 61-75 minute range, and 7 goals in the 76-90 minute range.",
+                    "Streaks": "The team's biggest winning streak is 2 games, the biggest drawing streak is 2 games, and the biggest losing streak is also 2 games.",
+                    "Biggest Wins and Losses": "Lazio's biggest home win was 6-1, the biggest away win was 1-4, the biggest home loss was 0-2, and the biggest away loss was 4-0.",
+                    "Goal Scenarios": "The team has scored 6 goals in a game twice, and conceded 4 goals in a game twice."
+                },
+                "statistics": "This is a valid Python dictionary with player statistics as keys and sentences as values. Here's a breakdown of the dictionary:* 'games_appearences': 'L. Romero has appeared in 8 games this season.'* 'games_lineups': 'L. Romero has not started any games this season.'* 'games_minutes': 'L. Romero has played a total of 76 minutes this season.'* 'games_number': 'L. Romero does not have a games number.'* 'games_position': 'L. Romero plays as a Midfielder.'* 'games_rating': 'L. Romero has a games rating of 6.528571.'* 'games_captain': 'L. Romero is not a captain.'* 'substitutes_in': 'L. Romero has been subbed in 8 times.'* 'substitutes_out': 'L. Romero has not been subbed out.'* 'substitutes_bench': 'L. Romero has spent 29 minutes on the bench.'* 'shots_total': 'L. Romero has taken 1 shot.'* 'shots_on': 'L. Romero has put 1 shot on target.'* 'goals_total': 'L. Romero has not scored any goals.'* 'goals_conceded': 'L. Romero has not conceded any goals.'* 'goals_assists': 'L. Romero does not have any assists.'* 'goals_saves': 'L. Romero does not have any saves.'* 'passes_total': 'L. Romero has made 35 passes.'* 'passes_key': 'L. Romero has made 1 key pass.'* 'passes_accuracy': 'L. Romero has an accuracy of 4.'* 'tackles_total': 'L. Romero has made 2 tackles.'* 'tackles_blocks': 'L. Romero has not made any blocks.'* 'tackles_interceptions': 'L. Romero has made 1 interception.'* 'duels_total': 'L. Romero has been involved in 13 duels.'* 'duels_won': 'L. Romero has won 7 duels.'* 'dribbles_attempts': 'L. Romero has attempted 3 dribbles.'* 'dribbles_success': 'L. Romero has been successful with 2 dribbles.'* 'dribbles_past': 'L. Romero has not dribbled past any opponents.'* 'fouls_drawn': 'L. Romero has drawn 3 fouls.'* 'fouls_committed': 'L. Romero has committed 2 fouls.'* 'cards_yellow': 'L. Romero has not received any yellow cards.'* 'cards_yellowred': 'L. Romero has not received any yellow-red cards.'* 'cards_red': 'L. Romero has not received any red cards.'* 'penalty_won': 'L. Romero has not won any penalties.'* 'penalty_commited': 'L. Romero has not committed any penalties.'* 'penalty_scored': 'L. Romero has not scored any penalties.'* 'penalty_missed': 'L. Romero has not missed any penalties.'* 'penalty_saved': 'L. Romero has not saved any penalties.'* 'player_name': 'L. Romero'This dictionary contains all the player statistics for L. Romero in a neat and organized format.",
+                "transfers": {
+                    "player_transfers": "L. Romero has had 2 transfers in his career so far. He was transferred from Mallorca to Lazio on July 20, 2021, for a fee of \u20ac200,000, and then joined AC Milan on July 6, 2023, on a free transfer.",
+                    "transfer_history": "L. Romero's transfer history includes a move from Lazio to AC Milan in 2023, and a previous transfer from Mallorca to Lazio in 2021.",
+                    "transfer_fee": "The transfer fee for L. Romero's move from Mallorca to Lazio was \u20ac200,000, while his transfer from Lazio to AC Milan was on a free transfer."
+                },
+                "news": null
+            },
+            "30866": {
+                "information": {
+                    "Player Profile": "Manuel Lazzari, a 30-year-old Italian midfielder, takes the field, with his birthplace, Valdagno, and birth date, November 29, 1993, etched in his identity. Standing at 174 cm and weighing 67 kg, he is a formidable force in the center of the park."
+                },
+                "statistics": {
+                    "Games appearances": "Lazzari has appeared in 31 games this season.",
+                    "Games lineups": "Lazzari has started in 16 games and come on as a substitute in 15 games.",
+                    "Games minutes": "Lazzari has played a total of 1657 minutes this season.",
+                    "Games number": "Lazzari's squad number is none.",
+                    "Games position": "Lazzari plays as a midfielder.",
+                    "Games rating": "Lazzari's average rating this season is 6.661290.",
+                    "Games captain": "Lazzari has not been captain in any games.",
+                    "Substitutes in": "Lazzari has come on as a substitute in 15 games.",
+                    "Substitutes out": "Lazzari has been subbed out in 7 games.",
+                    "Substitutes bench": "Lazzari has been on the bench for 18 games.",
+                    "Shots total": "Lazzari has taken 8 shots this season.",
+                    "Shots on": "Lazzari has put 6 shots on target.",
+                    "Goals total": "Lazzari has scored 3 goals.",
+                    "Goals conceded": "Lazzari has not conceded any goals.",
+                    "Goals assists": "Lazzari has provided 3 assists.",
+                    "Goals saves": "Lazzari has not made any saves.",
+                    "Passes total": "Lazzari has made 798 passes.",
+                    "Passes key": "Lazzari has made 13 key passes.",
+                    "Passes accuracy": "Lazzari has an accuracy of 22% in passing.",
+                    "Tackles total": "Lazzari has made 28 tackles.",
+                    "Tackles blocks": "Lazzari has blocked 2 tackles.",
+                    "Tackles interceptions": "Lazzari has made 12 interceptions.",
+                    "Duels total": "Lazzari has been involved in 187 duels.",
+                    "Duels won": "Lazzari has won 105 duels.",
+                    "Dribbles attempts": "Lazzari has attempted 58 dribbles.",
+                    "Dribbles success": "Lazzari has been successful in 29 dribbles.",
+                    "Dribbles past": "Lazzari has not been able to dribble past any opponents.",
+                    "Fouls drawn": "Lazzari has drawn 44 fouls.",
+                    "Fouls committed": "Lazzari has committed 18 fouls.",
+                    "Cards yellow": "Lazzari has received 3 yellow cards.",
+                    "Cards yellowred": "Lazzari has not received any yellow-red cards.",
+                    "Cards red": "Lazzari has not received any red cards.",
+                    "Penalty won": "Lazzari has not won any penalties.",
+                    "Penalty committed": "Lazzari has not committed any penalties.",
+                    "Penalty scored": "Lazzari has not scored any penalties.",
+                    "Penalty missed": "Lazzari has not missed any penalties.",
+                    "Penalty saved": "Lazzari has not saved any penalties.",
+                    "Player name": "Lazzari's name is Lazzari."
+                },
+                "transfers": {
+                    "player_transfers": "Lazzari has had 2 transfers in his career, both of them involving Lazio.",
+                    "transfer_history": "Lazzari's first transfer was a free transfer from Spal to Lazio in 2013, while his second transfer was a \u20ac17M move from Lazio back to Spal in 2019.",
+                    "transfer_value": "Lazzari's transfer value has increased significantly over the years, going from a free transfer in 2013 to a \u20ac17M transfer in 2019."
+                },
+                "news": null
+            },
+            "264470": {
+                "information": {
+                    "Player Information": "Ra\u00fal Moro Prescoli, a young and promising talent from Spain, has taken the field by storm with his impressive skills and athleticism, despite being only 21 years old, born on December 5, 2002."
+                },
+                "statistics": "{'games_appearances': 11,'games_lineups': 1,'games_minutes': 191,'games_number': None,'games_position': 'Attacker','games_rating': 6.57,'games_captain': False,'substitutes_in': 10,'substitutes_out': 1,'substitutes_bench': 34,'shots_total': 1,'shots_on': 1,'goals_total': 0,'goals_conceded': 0,'goals_assists': 1,'goals_saves': None,'passes_total': 82,'passes_key': 6,'passes_accuracy': 6,'tackles_total': 3,'tackles_blocks': None,'tackles_interceptions': None,'duels_total': 19,'duels_won': 6,'dribbles_attempts': 10,'dribbles_success': 3,'dribbles_past': None,'fouls_drawn': None,'fouls_committed': None,'cards_yellow': 0,'cards_yellowred': 0,'cards_red': 0,'penalty_won': None,'penalty_committed': None,'penalty_scored': 0,'penalty_missed': 0,'penalty_saved': None,'player_name': 'Moro Prescoli'}",
+                "transfers": "{'player_name': 'Moro Prescoli','transfers': [{'date': '2024-07-01','teams_in_name': 'Lazio','teams_out_name': 'Valladolid','transfer_type': 'Permanent'}",
+                "news": null
+            },
+            "31775": {
+                "information": {
+                    "Player Information": "Marius Adamonis, a 26-year-old Lithuanian player, takes the field, his birthdate, May 13th, 1997, and birthplace, Panev\u0117\u017eys, Lithuania, etched in his identity."
+                },
+                "statistics": "This is a valid Python dictionary with topics as keys and sentences as values. Well done!Here's a list of the topics and their corresponding values in the dictionary:1. Games Appearances - \"Games Appearences: Adamonis has appeared in 0 games for his team this season.\"2. Games Lineups - \"Games Lineups: Adamonis has started in 0 games for his team this season.\"3. Games Minutes - \"Games Minutes: Adamonis has played a total of 0 minutes for his team this season.\"4. Games Number - \"Games Number: Adamonis wears the number None jersey for his team.\"5. Games Position - \"Games Position: Adamonis plays as a Goalkeeper for his team.\"6. Games Rating - \"Games Rating: Adamonis has not received a rating for his performances this season.\"7. Games Captain - \"Games Captain: Adamonis has not been named captain for any of his team's games this season.\"8. Substitutes In - \"Substitutes In: Adamonis has not come on as a substitute in any games for his team this season.\"9. Substitutes Out - \"Substitutes Out: Adamonis has not been subbed out of any games for his team this season.\"10. Substitutes Bench - \"Substitutes Bench: Adamonis has been on the bench for 37 games for his team this season.\"11. Shots Total - \"Shots Total: Adamonis has not taken any shots for his team this season.\"12. Shots On - \"Shots On: Adamonis has not had any shots on target for his team this season.\"13. Goals Total - \"Goals Total: Adamonis has not scored any goals for his team this season.\"14. Goals Conceded - \"Goals Conceded: Adamonis has not conceded any goals for his team this season.\"15. Goals Assists - \"Goals Assists: Adamonis has not provided any assists for his team's goals this season.\"16. Goals Saves - \"Goals Saves: Adamonis has not made any saves for his team this season.\"17. Passes Total - \"Passes Total: Adamonis has not made any passes for his team this season.\"18. Passes Key - \"Passes Key: Adamonis has not had any key passes for his team this season.\"19. Passes Accuracy - \"Passes Accuracy: Adamonis has not had any passes that have been accurate for his team this season.\"20. Tackles Total - \"Tackles Total: Adamonis has not made any tackles for his team this season.\"21. Tackles Blocks - \"Tackles Blocks: Adamonis has not had any tackle blocks for his team this season.\"22. Tackles Interceptions - \"Tackles Interceptions: Adamonis has not had any tackle interceptions for his team this season.\"23. Duels Total - \"Duels Total: Adamonis has not been involved in any duels for his team this season.\"24. Duels Won - \"Duels Won: Adamonis has not won any duels for his team this season.\"25. Dribbles Attempts - \"Dribbles Attempts: Adamonis has not attempted any dribbles for his team this",
+                "transfers": "{'transfer_history': ['Adamonis has been transferred to Lazio from Perugia in 2024.', 'Adamonis has been transferred to Lazio from Salernitana in 2021.'],'loan_history': ['Adamonis has been loaned to Salernitana from Lazio in 2020.', 'Adamonis has been loaned to Sicula Leonzio from Lazio in 2019.', 'Adamonis has been loaned to Catanzaro from Lazio in 2019.', 'Adamonis has been loaned to Casertana from Lazio in 2018.', 'Adamonis has been loaned to Salernitana from Lazio in 2017.', 'Adamonis has been loaned to Perugia from Lazio in 2023.'],'transfer_history': ['Adamonis has been transferred to Lazio from Sicula Leonzio in 2020.', 'Adamonis has been transferred to Lazio from Salernitana in 2018.', 'Adamonis has been transferred to Lazio from Atlantas in 2016.']}",
+                "news": null
+            },
+            "1835": {
+                "information": {
+                    "Player Information": "Thomas Strakosha, a towering figure at 186 cm tall and weighing in at 78 kg, is a 28-year-old Albanian international goalkeeper who was born in Athina, Greece on March 19, 1995."
+                },
+                "statistics": "{'games_appearances': 23,'games_minutes': 2070,'games_position': 'Goalkeeper','games_rating': 6.743478,'games_captain': False,'substitutes_in': 0,'substitutes_out': 0,'substitutes_bench': 15,'shots_total': 0,'shots_on': 0,'goals_total': 0,'goals_conceded': 29,'goals_assists': 0,'goals_saves': 58,'passes_total': 645,'passes_key': 1,'passes_accuracy': 22,'tackles_total': 0,'tackles_blocks': 0,'tackles_interceptions': 0,'duels_total': 7,'duels_won': 6,'dribbles_attempts': 0,'dribbles_success': 0,'dribbles_past': 0,'fouls_drawn': 0,'fouls_committed': 2,'cards_yellow': 2,'cards_yellowred': 0,'cards_red': 0,'penalty_won': 0,'penalty_commited': 0,'penalty_scored': 0,'penalty_missed': 0,'penalty_saved': 0,'player_name': 'Strakosha'}",
+                "transfers": "{'player_transfers': 'Strakosha has had 3 transfers in his career.','transfer_history': 'Strakosha was signed by Brentford on a free transfer on July 14, 2022. Before that, he played for Lazio, where he was loaned from Salernitana on July 17, 2015, and then signed permanently on July 1, 2016.','transfer_type': 'Strakosha has had 2 permanent transfers and 1 loan transfer.','teams_involved': 'Strakosha has played for 3 teams: Lazio, Salernitana, and Brentford.','transfer_dates': 'Strakosha has had transfers on the following dates: July 14, 2022, July 1, 2016, and July 17, 2015.'}",
+                "news": null
+            },
+            "1836": {
+                "information": {
+                    "Player Profile": "Francesco Acerbi, a seasoned defender, takes the pitch by storm, with his imposing physique and unyielding spirit, born on February 10, 1988, in Vizzolo Predabissi, Italy."
+                },
+                "statistics": "{'games_appearances': 'Acerbi has appeared in 30 games, starting 29 of them, and has played a total of 2537 minutes.','games_position': 'Acerbi has a games rating of 7.043333 and has played primarily as a Defender.','shots_total': 'Acerbi has taken 12 shots, with 7 of them being on target, and has scored 4 goals.','passes_total': 'Acerbi has made 2038 passes with a 61% accuracy rate.','tackles_total': 'Acerbi has made 25 tackles, 28 blocks, and 34 interceptions, and has won 114 duels out of 188.','fouls_drawn': 'Acerbi has committed 18 fouls and drawn 16, and has received 2 yellow cards and 1 red card.','dribbles_attempts': 'Acerbi has attempted 6 dribbles and has successfully completed 4 of them, and has not been dispossessed.','penalty_scored': 'Acerbi has not won or committed any penalties, and has not scored or missed any penalty kicks.','player_name': 'Acerbi'}",
+                "transfers": {
+                    "Transfers": [
+                        "Acerbi was transferred from Inter to Lazio for \u20ac 4M on July 7, 2023.",
+                        "Acerbi was loaned from Inter to Lazio on September 1, 2022.",
+                        "Acerbi was transferred from Lazio to Sassuolo for \u20ac 10M on July 11, 2018.",
+                        "Acerbi was transferred from Sassuolo to Genoa for \u20ac 1.7M on July 8, 2013.",
+                        "Acerbi was loaned from Genoa to Chievo on July 1, 2013.",
+                        "Acerbi was transferred from Chievo to Genoa for N/A on January 31, 2013.",
+                        "Acerbi was loaned from Genoa to AC Milan for \u20ac 4M on January 26, 2013.",
+                        "Acerbi was transferred from AC Milan to Chievo for \u20ac 4M on July 1, 2012.",
+                        "Acerbi was transferred from Chievo to Genoa for \u20ac 2M on July 4, 2011.",
+                        "Acerbi was transferred from Genoa to Reggina for N/A on July 1, 2011.",
+                        "Acerbi was transferred from Reggina to None for N/A on July 1, 2010."
+                    ]
+                },
+                "news": null
+            },
+            "1841": {
+                "information": {
+                    "Player Profile": "Patricio Gabarr\u00f3n Gil, a 30-year-old Spanish player from Mula, Spain, brings a wealth of experience to the pitch with his 184 cm height and 72 kg build."
+                },
+                "statistics": "{'games_appearences': 'Gabarr\u00f3n Gil has appeared in 24 games this season.','games_lineups': 'Gabarr\u00f3n Gil has started in 19 games this season.','games_minutes': 'Gabarr\u00f3n Gil has played a total of 1653 minutes this season.','games_number': 'Gabarr\u00f3n Gil wears the number None jersey.','games_position': 'Gabarr\u00f3n Gil plays as a Defender.','games_rating': 'Gabarr\u00f3n Gil has a season rating of 6.795833.','games_captain': 'Gabarr\u00f3n Gil is not a captain.','substitutes_in': 'Gabarr\u00f3n Gil has been subbed in 5 times.','substitutes_out': 'Gabarr\u00f3n Gil has been subbed out 7 times.','substitutes_bench': 'Gabarr\u00f3n Gil has spent 17 games on the bench.','shots_total': 'Gabarr\u00f3n Gil has taken 3 shots this season.','shots_on': 'Gabarr\u00f3n Gil has put 2 shots on target this season.','goals_total': 'Gabarr\u00f3n Gil has scored 1 goal this season.','goals_conceded': 'Gabarr\u00f3n Gil has not conceded any goals this season.','goals_assists': 'Gabarr\u00f3n Gil has 1 assist this season.','goals_saves': 'Gabarr\u00f3n Gil has not made any saves this season.','passes_total': 'Gabarr\u00f3n Gil has made 1440 passes this season.','passes_key': 'Gabarr\u00f3n Gil has made 6 key passes this season.','passes_accuracy': 'Gabarr\u00f3n Gil has an accuracy of 56% in passing.','tackles_total': 'Gabarr\u00f3n Gil has made 21 tackles this season.','tackles_blocks': 'Gabarr\u00f3n Gil has blocked 11 tackles this season.','tackles_interceptions': 'Gabarr\u00f3n Gil has made 12 interceptions this season.','duels_total': 'Gabarr\u00f3n Gil has been involved in 113 duels this season.','duels_won': 'Gabarr\u00f3n Gil has won 47 duels this season.','dribbles_attempts': 'Gabarr\u00f3n Gil has attempted 2 dribbles this season.','dribbles_success': 'Gabarr\u00f3n Gil has been successful in 2 dribbles this season.','dribbles_past': 'Gabarr\u00f3n Gil has not been able to dribble past any opponents this season.','fouls_drawn': 'Gabarr\u00f3n Gil has drawn 7 fouls this season.','fouls_committed': 'Gabarr\u00f3n Gil has committed 24 fouls this season.','cards_yellow': 'Gabarr\u00f3n Gil has received 6 yellow cards this season.','cards_yellowred': 'Gabarr\u00f3n Gil has received 1 yellow-red card this season.','cards_red': 'Gabarr\u00f3n Gil has not received any red cards this season.','penalty_won': 'Gabarr\u00f3n Gil has not won any penalties this season.','penalty_commited': 'Gabarr\u00f3n Gil has not committed any penalties this season.','penalty_scored': 'Gabarr\u00f3n Gil has not scored any penalties this season.','penalty_missed': 'Gabarr\u00f3n Gil has not missed any penalties this season.','penalty_saved': 'Gabarr\u00f3n Gil has not had any penalties saved against him this season.','player_name': 'Gabarr\u00f3n Gil'}",
+                "transfers": {
+                    "player_transfer_history": "Gabarr\u00f3n Gil has had 1 transfer in his career, joining Lazio from Barcelona on a free transfer in 2015.",
+                    "player_transfer_date": "Gabarr\u00f3n Gil's transfer to Lazio took place on July 1st, 2015.",
+                    "player_transfer_teams": "Gabarr\u00f3n Gil has played for two teams in his career, starting with Barcelona and then moving to Lazio.",
+                    "player_transfer_type": "Gabarr\u00f3n Gil's transfer to Lazio was a free transfer, meaning that no fee was exchanged between the clubs."
+                },
+                "news": null
+            },
+            "1844": {
+                "information": {
+                    "Player Profile": "Adam Maru\u0161i\u0107, a 31-year-old Montenegrin player, takes the field, born in Beograd, Serbia on October 17, 1992. Standing at 185 cm tall and weighing 76 kg, he's a formidable presence on the pitch."
+                },
+                "statistics": "{'games_appearences': 'Maru\u0161i\u0107 has appeared in 33 games this season.','games_lineups': 'Maru\u0161i\u0107 has started in 30 games this season.','games_minutes': 'Maru\u0161i\u0107 has played a total of 2720 minutes this season.','games_number': 'Maru\u0161i\u0107 wears the number 27 jersey.','games_position': 'Maru\u0161i\u0107 plays as a defender.','games_rating': 'Maru\u0161i\u0107 has a season rating of 6.687878.','games_captain': 'Maru\u0161i\u0107 is not a captain.','substitutes_in': 'Maru\u0161i\u0107 has been subbed in 3 times.','substitutes_out': 'Maru\u0161i\u0107 has been subbed out 3 times.','substitutes_bench': 'Maru\u0161i\u0107 has spent 5 games on the bench.','shots_total': 'Maru\u0161i\u0107 has taken 7 shots this season.','shots_on': 'Maru\u0161i\u0107 has put 3 shots on target.','goals_total': 'Maru\u0161i\u0107 has scored 1 goal this season.','goals_conceded': 'Maru\u0161i\u0107 has not conceded any goals.','goals_assists': 'Maru\u0161i\u0107 has 1 assist.','goals_saves': 'Maru\u0161i\u0107 has not made any saves.','passes_total': 'Maru\u0161i\u0107 has made 1649 passes this season.','passes_key': 'Maru\u0161i\u0107 has made 8 key passes.','passes_accuracy': 'Maru\u0161i\u0107 has an accuracy of 44%.','tackles_total': 'Maru\u0161i\u0107 has made 30 tackles.','tackles_blocks': 'Maru\u0161i\u0107 has blocked 8 tackles.','tackles_interceptions': 'Maru\u0161i\u0107 has made 41 interceptions.','duels_total': 'Maru\u0161i\u0107 has been involved in 180 duels.','duels_won': 'Maru\u0161i\u0107 has won 90 duels.','dribbles_attempts': 'Maru\u0161i\u0107 has attempted 25 dribbles.','dribbles_success': 'Maru\u0161i\u0107 has been successful in 14 dribbles.','dribbles_past': 'Maru\u0161i\u0107 has not been past anyone.','fouls_drawn': 'Maru\u0161i\u0107 has drawn 13 fouls.','fouls_committed': 'Maru\u0161i\u0107 has committed 26 fouls.','cards_yellow': 'Maru\u0161i\u0107 has received 5 yellow cards.','cards_yellowred': 'Maru\u0161i\u0107 has received 1 yellow-red card.','cards_red': 'Maru\u0161i\u0107 has not received a red card.','penalty_won': 'Maru\u0161i\u0107 has not won a penalty.','penalty_commited': 'Maru\u0161i\u0107 has not committed a penalty.','penalty_scored': 'Maru\u0161i\u0107 has not scored a penalty.','penalty_missed': 'Maru\u0161i\u0107 has not missed a penalty.','penalty_saved': 'Maru\u0161i\u0107 has not saved a penalty.','player_name': 'Maru\u0161i\u0107'}",
+                "transfers": "{'player_transfers': 'Maru\u0161i\u0107 has been transferred three times in his career.','transfer_history': 'His first transfer was from FK Vozdovac to Kortrijk in 2014, followed by a move from Kortrijk to Oostende in 2016. His most recent transfer was from Oostende to Lazio in 2017 for a fee of \u20ac 6.5M.'}",
+                "news": null
+            },
+            "1846": {
+                "information": {
+                    "Player Information": "And now, taking the field for Lazio, we have \u015etefan Daniel Radu, a seasoned player from Romania, born on October 22nd, 1986, in the city of Bucure\u0219ti. At 37 years old, Radu brings a wealth of experience to the pitch, standing tall at 183 cm and weighing in at 79 kg."
+                },
+                "statistics": {
+                    "Games appearances": "Radu has appeared in 10 games this season.",
+                    "Games lineups": "Radu has started in 6 games and come on as a substitute in 4 games.",
+                    "Games minutes": "Radu has played a total of 554 minutes this season.",
+                    "Games number": "Radu's squad number is not available.",
+                    "Games position": "Radu plays as a defender.",
+                    "Games rating": "Radu's average rating this season is 6.41 out of 10.",
+                    "Games captain": "Radu has not been captain in any games this season.",
+                    "Substitutes in": "Radu has come on as a substitute in 4 games.",
+                    "Substitutes out": "Radu has been subbed out in 3 games.",
+                    "Substitutes bench": "Radu has spent 27 minutes on the bench this season.",
+                    "Shots total": "Radu has taken 1 shot this season.",
+                    "Shots on": "Radu has put 1 shot on target this season.",
+                    "Goals total": "Radu has not scored any goals this season.",
+                    "Goals conceded": "Radu has not conceded any goals this season.",
+                    "Goals assists": "Radu has not provided any assists this season.",
+                    "Goals saves": "Radu has not made any saves this season.",
+                    "Passes total": "Radu has made 288 passes this season.",
+                    "Passes key": "Radu's passing accuracy is 24%.",
+                    "Tackles total": "Radu has made 9 tackles this season.",
+                    "Tackles blocks": "Radu has blocked 2 tackles this season.",
+                    "Tackles interceptions": "Radu has made 5 interceptions this season.",
+                    "Duels total": "Radu has been involved in 42 duels this season.",
+                    "Duels won": "Radu has won 22 duels this season.",
+                    "Dribbles attempts": "Radu has attempted 1 dribble this season.",
+                    "Dribbles success": "Radu has been successful with 1 dribble this season.",
+                    "Dribbles past": "Radu has not dribbled past any opponents this season.",
+                    "Fouls drawn": "Radu has drawn 5 fouls this season.",
+                    "Fouls committed": "Radu has committed 4 fouls this season.",
+                    "Cards yellow": "Radu has received 2 yellow cards this season.",
+                    "Cards yellowred": "Radu has not received any yellow-red cards this season.",
+                    "Cards red": "Radu has not received any red cards this season.",
+                    "Penalty won": "Radu has not won any penalties this season.",
+                    "Penalty committed": "Radu has not committed any penalties this season.",
+                    "Penalty scored": "Radu has not scored any penalties this season.",
+                    "Penalty missed": "Radu has not missed any penalties this season.",
+                    "Penalty saved": "Radu has not saved any penalties this season.",
+                    "Player name": "Radu's name is Radu."
+                },
+                "transfers": {
+                    "player_transfer_history": "Radu has had 1 transfer in his career, moving from Dinamo Bucuresti to Lazio in 2008 for a fee of \u20ac 1M.",
+                    "transfer_date": "The transfer took place on January 1st, 2008.",
+                    "teams_involved": "The teams involved in the transfer were Lazio and Dinamo Bucuresti."
+                },
+                "news": null
+            },
+            "1847": {
+                "information": {
+                    "Player Profile": "Luiz Felipe Ramos Marchi, a towering figure at 187 cm tall and weighing in at 80 kg, is a 26-year-old Brazilian-born Italian national who embodies the essence of Lazio's unyielding spirit."
+                },
+                "statistics": "{'Games Appearances': 'Ramos Marchi has appeared in 31 games this season, starting 28 times and playing a total of 2494 minutes.','Games Position': 'Ramos Marchi has played as a Defender in all 31 games he has appeared in.','Games Rating': 'Ramos Marchi has an average rating of 6.929032 in the games he has played.','Captaincy': 'Ramos Marchi has not been captain in any of the 31 games he has appeared in.','Substitutes': 'Ramos Marchi has been substituted in 3 times and substituted out 5 times, and has spent 6 games on the bench.','Shots': 'Ramos Marchi has taken 2 shots in total, both of which have been on target.','Goals': 'Ramos Marchi has not scored any goals this season.','Assists': 'Ramos Marchi has not provided any assists this season.','Passes': 'Ramos Marchi has made 1809 passes in total, with a key pass accuracy of 53%.','Tackles': 'Ramos Marchi has made 41 tackles, 33 of which have been blocks, and 33 have been interceptions.','Duels': 'Ramos Marchi has contested 196 duels and has won 106 of them.','Dribbles': 'Ramos Marchi has attempted 6 dribbles and has succeeded in all 6.','Fouls': 'Ramos Marchi has drawn 16 fouls and committed 28 fouls.','Cards': 'Ramos Marchi has received 10 yellow cards and 0 yellow-red cards, and has been sent off once.','Penalties': 'Ramos Marchi has not won any penalties, committed any penalties, or scored any penalties this season.'}",
+                "transfers": "{'transfer_history': \"Ramos Marchi was transferred from Real Betis to Al-Ittihad FC on September 7, 2023, for a fee of \u20ac 25M.\",'free_transfer': \"Ramos Marchi was transferred from Lazio to Real Betis on July 4, 2022, on a free transfer.\",'undisclosed_fee': \"Ramos Marchi was transferred from Salernitana to Lazio on August 12, 2017, for an undisclosed fee.\",'youth_transfer': \"Ramos Marchi was transferred from Ituano to Salernitana on August 31, 2016, for an undisclosed fee.\"}",
+                "news": null
+            },
+            "1852": {
+                "information": {
+                    "Player Profile": "Danilo Cataldi, a seasoned player from Italy, takes the field with confidence, boasting an impressive stature at 180 cm tall and a lean 70 kg build."
+                },
+                "statistics": {
+                    "Games appearances": "Cataldi has appeared in 32 games this season.",
+                    "Games lineups": "Cataldi has started in 19 games and has been subbed in 13 times.",
+                    "Games minutes": "Cataldi has played a total of 1711 minutes this season.",
+                    "Games number": "Cataldi's squad number is none.",
+                    "Games position": "Cataldi plays as a midfielder.",
+                    "Games rating": "Cataldi's average rating is 6.925000.",
+                    "Games captain": "Cataldi has not been captain in any games.",
+                    "Substitutes in": "Cataldi has been subbed in 13 times.",
+                    "Substitutes out": "Cataldi has been subbed out 18 times.",
+                    "Substitutes bench": "Cataldi has been on the bench 14 times.",
+                    "Shots total": "Cataldi has taken 10 shots.",
+                    "Shots on": "Cataldi has put 4 shots on target.",
+                    "Goals total": "Cataldi has scored 1 goal.",
+                    "Goals conceded": "Cataldi has not conceded any goals.",
+                    "Goals assists": "Cataldi has assisted 2 goals.",
+                    "Goals saves": "Cataldi has not made any saves.",
+                    "Passes total": "Cataldi has made 1330 passes.",
+                    "Passes key": "Cataldi has made 26 key passes.",
+                    "Passes accuracy": "Cataldi has an accuracy of 36% in passing.",
+                    "Tackles total": "Cataldi has made 36 tackles.",
+                    "Tackles blocks": "Cataldi has blocked 12 tackles.",
+                    "Tackles interceptions": "Cataldi has made 17 interceptions.",
+                    "Duels total": "Cataldi has been involved in 131 duels.",
+                    "Duels won": "Cataldi has won 71 duels.",
+                    "Dribbles attempts": "Cataldi has attempted 15 dribbles.",
+                    "Dribbles success": "Cataldi has been successful in 10 dribbles.",
+                    "Dribbles past": "Cataldi has not been able to dribble past any opponents.",
+                    "Fouls drawn": "Cataldi has drawn 19 fouls.",
+                    "Fouls committed": "Cataldi has committed 18 fouls.",
+                    "Cards yellow": "Cataldi has received 7 yellow cards.",
+                    "Cards yellowred": "Cataldi has not received any yellow-red cards.",
+                    "Cards red": "Cataldi has not received any red cards.",
+                    "Penalty won": "Cataldi has not won any penalties.",
+                    "Penalty committed": "Cataldi has not committed any penalties.",
+                    "Penalty scored": "Cataldi has not scored any penalties.",
+                    "Penalty missed": "Cataldi has not missed any penalties.",
+                    "Penalty saved": "Cataldi has not saved any penalties.",
+                    "Player name": "Cataldi's name is Luca Cataldi."
+                },
+                "transfers": "{'player_transfers': Cataldi has been transferred between Lazio and Benevento twice, first on a loan in 2017 and then permanently in 2018.,'loan_transfers': Cataldi has also been loaned from Lazio to Genoa in 2017 and from Genoa to Lazio in 2017.,'teams_played': Cataldi has played for Lazio, Benevento, and Genoa throughout his career.,'first_transfer': Cataldi's first transfer was from Crotone to Lazio in 2014.,'transfer_history': Cataldi has been transferred between Crotone and Lazio twice, first on a loan in 2013 and then permanently in 2014.}",
+                "news": null
+            },
+            "317": {
+                "information": {
+                    "Player Profile": "Elseid Hysaj, a seasoned player from Albania, brings a wealth of experience to the pitch at the age of 29, with a height of 182 cm and a weight of 75 kg."
+                },
+                "statistics": {
+                    "Games appearances": "Hysaj has appeared in 29 games this season.",
+                    "Games lineups": "Hysaj has started in 24 games and has been subbed in 5 times.",
+                    "Games minutes": "Hysaj has played a total of 2031 minutes this season.",
+                    "Games number": "Hysaj's squad number is none.",
+                    "Games position": "Hysaj plays as a defender.",
+                    "Games rating": "Hysaj's average rating this season is 6.651724.",
+                    "Games captain": "Hysaj has not been captain in any games.",
+                    "Substitutes in": "Hysaj has been subbed in 5 times.",
+                    "Substitutes out": "Hysaj has been subbed out 9 times.",
+                    "Substitutes bench": "Hysaj has been on the bench 12 times.",
+                    "Shots total": "Hysaj has taken 4 shots this season.",
+                    "Shots on": "Hysaj has put 2 shots on target.",
+                    "Goals total": "Hysaj has scored 1 goal.",
+                    "Goals conceded": "Hysaj has not conceded any goals.",
+                    "Goals assists": "Hysaj has not provided any assists.",
+                    "Goals saves": "Hysaj has not made any saves.",
+                    "Passes total": "Hysaj has made 1242 passes.",
+                    "Passes key": "Hysaj has made 12 passes that have led to a shot.",
+                    "Passes accuracy": "Hysaj has an accuracy of 37% in passing.",
+                    "Tackles total": "Hysaj has made 46 tackles.",
+                    "Tackles blocks": "Hysaj has blocked 6 tackles.",
+                    "Tackles interceptions": "Hysaj has made 24 interceptions.",
+                    "Duels total": "Hysaj has been involved in 179 duels.",
+                    "Duels won": "Hysaj has won 97 duels.",
+                    "Dribbles attempts": "Hysaj has attempted 33 dribbles.",
+                    "Dribbles success": "Hysaj has been successful in 16 dribbles.",
+                    "Dribbles past": "Hysaj has not provided any dribbles past an opponent.",
+                    "Fouls drawn": "Hysaj has drawn 18 fouls.",
+                    "Fouls committed": "Hysaj has committed 16 fouls.",
+                    "Cards yellow": "Hysaj has received 3 yellow cards.",
+                    "Cards yellowred": "Hysaj has not received any yellow-red cards.",
+                    "Cards red": "Hysaj has not received any red cards.",
+                    "Penalty won": "Hysaj has not won any penalties.",
+                    "Penalty committed": "Hysaj has not committed any penalties.",
+                    "Penalty scored": "Hysaj has not scored any penalties.",
+                    "Penalty missed": "Hysaj has not missed any penalties.",
+                    "Penalty saved": "Hysaj has not saved any penalties.",
+                    "Player name": "Hysaj's name is Elseid Hysaj."
+                },
+                "transfers": {
+                    "player_transfers": "Hysaj has had 2 transfers in his career, the first was a \u20ac6M move from Empoli to Napoli in 2015, and the second was a free transfer from Napoli to Lazio in 2021.",
+                    "transfer_history": "Hysaj's transfer history includes a move from Empoli to Napoli in 2015, and then a free transfer to Lazio in 2021.",
+                    "most_recent_transfer": "Hysaj's most recent transfer was a free transfer from Napoli to Lazio in 2021.",
+                    "previous_transfer": "Before joining Lazio, Hysaj's previous transfer was a \u20ac6M move from Empoli to Napoli in 2015.",
+                    "transfer_type": "Hysaj's transfers have been a mix of a free transfer and a paid transfer, with the most recent transfer being a free transfer."
+                },
+                "news": null
+            },
+            "31678": {
+                "information": {
+                    "Player Profile": "Jean-Daniel Dave Lewis Akpa Akpro, a 31-year-old player from Toulouse, France, boasts an impressive stature, standing at 180 cm tall and weighing in at 70 kg, as he takes the field for his national team, C\u00f4te d'Ivoire."
+                },
+                "statistics": "{'games_appearences': 'Lewis Akpa Akpro has appeared in 10 games this season.','games_lineups': 'Lewis Akpa Akpro has started in 4 games this season.','games_minutes': 'Lewis Akpa Akpro has played a total of 312 minutes this season.','games_number': 'Lewis Akpa Akpro wears the number None jersey.','games_position': 'Lewis Akpa Akpro plays as a Midfielder.','games_rating': 'Lewis Akpa Akpro has a season rating of 6.587500.','games_captain': 'Lewis Akpa Akpro is not a captain.','substitutes_in': 'Lewis Akpa Akpro has been subbed in 6 times.','substitutes_out': 'Lewis Akpa Akpro has been subbed out 4 times.','substitutes_bench': 'Lewis Akpa Akpro has spent 27 minutes on the bench.','shots_total': 'Lewis Akpa Akpro has taken 2 shots this season.','shots_on': 'Lewis Akpa Akpro has not had any shots on target.','goals_total': 'Lewis Akpa Akpro has not scored any goals this season.','goals_conceded': 'Lewis Akpa Akpro has not conceded any goals.','goals_assists': 'Lewis Akpa Akpro has not provided any assists.','goals_saves': 'Lewis Akpa Akpro has not made any saves.','passes_total': 'Lewis Akpa Akpro has made 106 passes this season.','passes_key': 'Lewis Akpa Akpro has made 2 key passes.','passes_accuracy': 'Lewis Akpa Akpro has an 80% pass accuracy.','tackles_total': 'Lewis Akpa Akpro has made 17 tackles this season.','tackles_blocks': 'Lewis Akpa Akpro has blocked 2 tackles.','tackles_interceptions': 'Lewis Akpa Akpro has made 2 interceptions.','duels_total': 'Lewis Akpa Akpro has contested 65 duels.','duels_won': 'Lewis Akpa Akpro has won 35 duels.','dribbles_attempts': 'Lewis Akpa Akpro has attempted 10 dribbles.','dribbles_success': 'Lewis Akpa Akpro has successfully dribbled 6 times.','dribbles_past': 'Lewis Akpa Akpro has not dribbled past any opponents.','fouls_drawn': 'Lewis Akpa Akpro has drawn 8 fouls.','fouls_committed': 'Lewis Akpa Akpro has committed 13 fouls.','cards_yellow': 'Lewis Akpa Akpro has received 1 yellow card.','cards_yellowred': 'Lewis Akpa Akpro has not received any yellow-red cards.','cards_red': 'Lewis Akpa Akpro has not received any red cards.','penalty_won': 'Lewis Akpa Akpro has not won any penalties.','penalty_commited': 'Lewis Akpa Akpro has not committed any penalties.','penalty_scored': 'Lewis Akpa Akpro has not scored any penalties.','penalty_missed': 'Lewis Akpa Akpro has not missed any penalties.','penalty_saved': 'Lewis Akpa Akpro has not had any penalties saved.','player_name': 'Lewis Akpa Akpro'}",
+                "transfers": "{'transfer history': 'Lewis Akpa Akpro has had several transfers throughout his career, including a loan move from Monza to Lazio in 2023 and a permanent transfer from Empoli to Lazio in 2022.','transfer details': 'Akpro\\'s first transfer was from Salernitana to Lazio in 2020, and he has also played for Monza and Empoli on loan.','number of transfers': 'The player\\'s most recent transfer was from Lazio to Monza in 2024, and he has had a total of six transfers in his career so far.','teams played for': 'Akpro has played for four different teams in Italy\\'s top two divisions, including Lazio, Monza, Empoli, and Salernitana.','longest stint': 'His longest stint with a single team was with Lazio, where he played for three seasons from 2020 to 2023.','transfer types': 'Akpro\\'s transfers have been a mix of permanent and loan deals, with three permanent transfers and three loan moves.','connection to italian football': 'The player\\'s transfer history suggests that he has a strong connection to the Italian football league, having played for multiple teams in the country.','transfer value': 'Akpro\\'s transfer value has likely fluctuated over time, but it is not publicly disclosed.'}",
+                "news": null
+            },
+            "1856": {
+                "information": {
+                    "Player Physical Stats": "Sergej Milinkovi\u0107-Savi\u0107, a towering figure on the pitch, stands at 192 cm tall and weighs in at 83 kg, a commanding presence for any opponent."
+                },
+                "statistics": "{'games_appearances': 37,'games_lineups': 36,'games_minutes': 3110,'games_number': None,'games_position': 'Midfielder','games_rating': 7.278378,'games_captain': False,'substitutes_in': 1,'substitutes_out': 9,'substitutes_bench': 1,'shots_total': 63,'shots_on': 31,'goals_total': 11,'goals_conceded': 0,'goals_assists': 11,'goals_saves': None,'passes_total': 2301,'passes_key': 52,'passes_accuracy': 50,'tackles_total': 67,'tackles_blocks': 9,'tackles_interceptions': 34,'duels_total': 497,'duels_won': 257,'dribbles_attempts': 77,'dribbles_success': 45,'dribbles_past': None,'fouls_drawn': 45,'fouls_committed': 56,'cards_yellow': 5,'cards_yellowred': 1,'cards_red': 0,'penalty_won': None,'penalty_commited': None,'penalty_scored': 0,'penalty_missed': 0,'penalty_saved': None,'player_name': 'Milinkovi\u0107-Savi\u0107'}",
+                "transfers": "{'transfer_history': \"Milinkovi\u0107-Savi\u0107 was transferred from Lazio to Al-Hilal Saudi FC on July 11, 2023, for a fee of \u20ac 40M.\",'transfer_fee': \"Milinkovi\u0107-Savi\u0107 was transferred from Genk to Lazio on August 6, 2015, for a fee of \u20ac 9M.\",'previous_teams': \"Milinkovi\u0107-Savi\u0107 was transferred from Vojvodina to Genk on July 1, 2014, for an undisclosed fee.\"}",
+                "news": null
+            },
+            "1858": {
+                "information": {
+                    "Player Information": "Lucas Pezzini Leiva, a seasoned player from Brazil, takes the field with a wealth of experience, having been born on January 9th, 1987, in Dourados, Brazil. Now 36 years old, he stands at 179 cm tall and weighs 74 kg, proudly representing his nationality."
+                },
+                "statistics": "Here is a valid Python dictionary with the player statistics as keys and the values as sentences:{'games_appearances': 'Pezzini Leiva has appeared in 35 games this season.','games_lineups': 'Pezzini Leiva has started in 19 games this season.','games_minutes': 'Pezzini Leiva has played a total of 1696 minutes this season.','games_number': 'Pezzini Leiva wears the number None jersey.','games_position': 'Pezzini Leiva plays as a Midfielder.','games_rating': 'Pezzini Leiva has a rating of 6.750000.','games_captain': 'Pezzini Leiva is not a captain.','substitutes_in': 'Pezzini Leiva has been subbed in 16 times.','substitutes_out': 'Pezzini Leiva has been subbed out 14 times.','substitutes_bench': 'Pezzini Leiva has been on the bench 18 times.','shots_total': 'Pezzini Leiva has taken 2 shots.','shots_on': 'Pezzini Leiva has not scored any goals.','goals_total': 'Pezzini Leiva has not scored any goals.','goals_conceded': 'Pezzini Leiva has not conceded any goals.','goals_assists': 'Pezzini Leiva has 1 assist.','goals_saves': 'Pezzini Leiva has not made any saves.','passes_total': 'Pezzini Leiva has made 1227 passes.','passes_key': 'Pezzini Leiva has 6 key passes.','passes_accuracy': 'Pezzini Leiva has an accuracy of 33.','tackles_total': 'Pezzini Leiva has made 55 tackles.','tackles_blocks': 'Pezzini Leiva has blocked 10 tackles.','tackles_interceptions': 'Pezzini Leiva has made 28 interceptions.','duels_total': 'Pezzini Leiva has been involved in 199 duels.','duels_won': 'Pezzini Leiva has won 99 duels.','dribbles_attempts': 'Pezzini Leiva has attempted 4 dribbles.','dribbles_success': 'Pezzini Leiva has been successful in 3 dribbles.','dribbles_past': 'Pezzini Leiva has not dribbled past any opponents.','fouls_drawn': 'Pezzini Leiva has drawn 17 fouls.','fouls_committed': 'Pezzini Leiva has committed 37 fouls.','cards_yellow': 'Pezzini Leiva has received 9 yellow cards.','cards_yellowred': 'Pezzini Leiva has not received any yellow-red cards.','cards_red': 'Pezzini Leiva has not received any red cards.','penalty_won': 'Pezzini Leiva has not won any penalties.','penalty_commited': 'Pezzini Leiva has not committed any penalties.','penalty_scored': 'Pezzini Leiva has not scored any penalties.','penalty_missed': 'Pezzini Leiva has not missed any penalties.','penalty_saved': 'Pezzini Leiva has not saved any penalties.','player_name': 'Pezzini Leiva'",
+                "transfers": "{'player_transfers': 'Pezzini Leiva has had three major transfers in his career, with the most recent one being a free transfer from Gremio to Lazio in 2022.','transfer_history': 'In 2017, Lazio sold Pezzini Leiva to Liverpool for \u20ac 5.7M.','first_transfer': 'Pezzini Leiva\\'s first major transfer was from Gremio to Liverpool in 2007, for a fee of \u20ac 10M.'}",
+                "news": null
+            },
+            "1859": {
+                "information": {
+                    "Player Profile": "Luis Alberto Romero Alconchel, a seasoned player from Spain, takes the field with a wealth of experience, having been born on September 28, 1992, in San Jos\u00e9 del Valle, Spain."
+                },
+                "statistics": {
+                    "Games appearances": "Romero Alconchel has appeared in 34 games this season.",
+                    "Games lineups": "Romero Alconchel has started in 27 games and has been subbed in 7 times.",
+                    "Games minutes": "Romero Alconchel has played a total of 2362 minutes this season.",
+                    "Games number": "Romero Alconchel's squad number is none.",
+                    "Games position": "Romero Alconchel plays as a midfielder.",
+                    "Games rating": "Romero Alconchel has an average rating of 7.258823.",
+                    "Games captain": "Romero Alconchel has not been captain in any games.",
+                    "Substitutes in": "Romero Alconchel has been subbed in 7 times.",
+                    "Substitutes out": "Romero Alconchel has been subbed out 16 times.",
+                    "Substitutes bench": "Romero Alconchel has been on the bench 8 times.",
+                    "Shots total": "Romero Alconchel has taken 34 shots this season.",
+                    "Shots on": "Romero Alconchel has put 16 shots on target.",
+                    "Goals total": "Romero Alconchel has scored 5 goals.",
+                    "Goals conceded": "Romero Alconchel has not conceded any goals.",
+                    "Goals assists": "Romero Alconchel has provided 10 assists.",
+                    "Goals saves": "Romero Alconchel has not made any saves.",
+                    "Passes total": "Romero Alconchel has made 1807 passes.",
+                    "Passes key": "Romero Alconchel has made 67 key passes.",
+                    "Passes accuracy": "Romero Alconchel has an accuracy of 46% in passing.",
+                    "Tackles total": "Romero Alconchel has made 29 tackles.",
+                    "Tackles blocks": "Romero Alconchel has blocked 4 tackles.",
+                    "Tackles interceptions": "Romero Alconchel has made 13 interceptions.",
+                    "Duels total": "Romero Alconchel has been involved in 197 duels.",
+                    "Duels won": "Romero Alconchel has won 88 duels.",
+                    "Dribbles attempts": "Romero Alconchel has attempted 44 dribbles.",
+                    "Dribbles success": "Romero Alconchel has been successful in 27 dribbles.",
+                    "Dribbles past": "Romero Alconchel has not been able to dribble past any opponents.",
+                    "Fouls drawn": "Romero Alconchel has drawn 26 fouls.",
+                    "Fouls committed": "Romero Alconchel has committed 13 fouls.",
+                    "Cards yellow": "Romero Alconchel has received 5 yellow cards.",
+                    "Cards yellowred": "Romero Alconchel has not received any yellow-red cards.",
+                    "Cards red": "Romero Alconchel has not received any red cards.",
+                    "Penalty won": "Romero Alconchel has not won any penalties.",
+                    "Penalty committed": "Romero Alconchel has not committed any penalties.",
+                    "Penalty scored": "Romero Alconchel has not scored any penalties.",
+                    "Penalty missed": "Romero Alconchel has not missed any penalties.",
+                    "Penalty saved": "Romero Alconchel has not had any penalties saved.",
+                    "Player name": "Romero Alconchel's name is Romero Alconchel."
+                },
+                "transfers": "{'transfer_history': Romero Alconchel has had a number of loan spells throughout his career, including a loan from Liverpool to Deportivo La Coruna in 2015.'permanent_transfer': In 2016, Romero Alconchel made a permanent transfer from Liverpool to Lazio.'loan_spells': Prior to joining Lazio, Romero Alconchel played for Malaga on loan from Liverpool in 2014.'sevilla_loan': Romero Alconchel's transfer history also includes a loan spell at Sevilla in 2013, where he played for a season before returning to Liverpool.'barcelona_loan': In 2012, Romero Alconchel was loaned out by Barcelona to Sevilla, where he played for a year before moving to Liverpool.}",
+                "news": null
+            },
+            "1863": {
+                "information": {
+                    "Player Description": "Ciro Immobile, a seasoned striker from Italy, has stepped onto the pitch, ready to utilize his 185 cm height and 78 kg frame to menace the opposing goalkeeper."
+                },
+                "statistics": {
+                    "Games Appearances": "Immobile has appeared in 31 games this season.",
+                    "Games Lineups": "Immobile has started in 31 games this season.",
+                    "Games Minutes": "Immobile has played a total of 2718 minutes this season.",
+                    "Games Number": "Immobile's squad number is none.",
+                    "Games Position": "Immobile plays as an attacker.",
+                    "Games Rating": "Immobile's average rating this season is 7.287096.",
+                    "Games Captain": "Immobile has not been captain in any games this season.",
+                    "Substitutes In": "Immobile has not come on as a substitute in any games this season.",
+                    "Substitutes Out": "Immobile has been substituted out in 6 games this season.",
+                    "Substitutes Bench": "Immobile has not been on the bench in any games this season.",
+                    "Shots Total": "Immobile has taken a total of 100 shots this season.",
+                    "Shots On": "Immobile has put 59 shots on target this season.",
+                    "Goals Total": "Immobile has scored 27 goals this season.",
+                    "Goals Conceded": "Immobile has not conceded any goals this season.",
+                    "Goals Assists": "Immobile has assisted 2 goals this season.",
+                    "Goals Saves": "Immobile has not made any saves this season.",
+                    "Passes Total": "Immobile has made a total of 864 passes this season.",
+                    "Passes Key": "Immobile has made 27 key passes this season.",
+                    "Passes Accuracy": "Immobile has an accuracy of 21% in his passes this season.",
+                    "Tackles Total": "Immobile has made a total of 10 tackles this season.",
+                    "Tackles Blocks": "Immobile has blocked 1 tackle this season.",
+                    "Tackles Interceptions": "Immobile has made 3 interceptions this season.",
+                    "Duels Total": "Immobile has been involved in 245 duels this season.",
+                    "Duels Won": "Immobile has won 90 duels this season.",
+                    "Dribbles Attempts": "Immobile has attempted 40 dribbles this season.",
+                    "Dribbles Success": "Immobile has been successful in 19 dribbles this season.",
+                    "Dribbles Past": "Immobile has not been able to dribble past any opponents this season.",
+                    "Fouls Drawn": "Immobile has drawn 39 fouls this season.",
+                    "Fouls Committed": "Immobile has committed 36 fouls this season.",
+                    "Cards Yellow": "Immobile has received 4 yellow cards this season.",
+                    "Cards Yellowred": "Immobile has not received any yellow-red cards this season.",
+                    "Cards Red": "Immobile has not received any red cards this season.",
+                    "Penalty Won": "Immobile has won 7 penalties this season.",
+                    "Penalty Commited": "Immobile has not committed any penalties this season.",
+                    "Penalty Scored": "Immobile has scored 7 penalties this season.",
+                    "Penalty Missed": "Immobile has missed 2 penalties this season.",
+                    "Penalty Saved": "Immobile has not had any penalties saved against him this season.",
+                    "Player Name": "Immobile's name is Ciro Immobile."
+                },
+                "transfers": {
+                    "player_transfers": "Immobile has had a total of 9 transfers in his career, with the most recent one being a \u20ac 8.5M transfer from Sevilla to Lazio in 2016.",
+                    "transfer_history": "Immobile's transfer history includes a loan from Torino to Sevilla in 2016, a loan from Sevilla to Borussia Dortmund in 2015, a transfer from Borussia Dortmund to Torino for \u20ac 19.5M in 2014, a transfer from Torino to Juventus for \u20ac 2.8M in 2013, a loan from Juventus to Genoa in 2012, a transfer from Genoa to Juventus for \u20ac 4M in 2011, a loan from Pescara to Juventus in 2011, a loan from Grosseto to Juventus in 2011, and a loan from Robur Siena to Juventus in 2010."
+                },
+                "news": null
+            },
+            "1494": {
+                "information": {
+                    "Player Profile": "Jovane Eduardo Borges Cabral, a 25-year-old Cape Verdean player, stands at 174 cm tall and weighs 81 kg, bringing a powerful presence to the field."
+                },
+                "statistics": "{'Games Appearances': 'Borges Cabral has appeared in 3 games for his team this season.','Games Lineups': 'He has started in 2 games and has been subbed in once.','Games Minutes': 'Borges Cabral has played a total of 192 minutes this season.','Games Number': 'Unfortunately, he doesn't have a games number as he hasn't played enough games yet.','Games Position': 'Borges Cabral's primary position is Attacker.','Games Rating': 'His average rating this season is 6.633333.','Games Captain': 'He hasn't been captain for any of the games he's played.','Substitutes In': 'Borges Cabral has been subbed in once.','Substitutes Out': 'He has been subbed out twice.','Substitutes Bench': 'He has spent 13 minutes on the bench.','Shots Total': 'Borges Cabral has taken 6 shots this season.','Shots On': 'He has put 1 shot on target.','Goals Total': 'He has scored 1 goal.','Goals Conceded': 'Borges Cabral hasn't conceded any goals.','Goals Assists': 'Unfortunately, he hasn't provided any assists yet.','Goals Saves': 'He hasn't made any saves as he's a forward.','Passes Total': 'Borges Cabral has made 35 passes in total.','Passes Key': 'He has made 1 key pass.','Passes Accuracy': 'His passing accuracy is 10.','Tackles Total': 'He has made 2 tackles.','Tackles Blocks': 'Borges Cabral has blocked 1 tackle.','Tackles Interceptions': 'He has made 1 interception.','Duels Total': 'He has been involved in 24 duels.','Duels Won': 'Borges Cabral has won 8 duels.','Dribbles Attempts': 'He has attempted 4 dribbles.','Dribbles Success': 'Borges Cabral has been successful with 2 dribbles.','Dribbles Past': 'Unfortunately, he hasn't been able to dribble past any opponents.','Fouls Drawn': 'He has drawn 3 fouls.','Fouls Committed': 'Borges Cabral has committed 5 fouls.','Cards Yellow': 'He hasn't received any yellow cards.','Cards Yellowred': 'Unfortunately, he hasn't received any yellow-red cards.','Cards Red': 'Borges Cabral hasn't received any red cards.','Penalty Won': 'He hasn't won any penalties.','Penalty Commited': 'He hasn't committed any penalties.','Penalty Scored': 'Borges Cabral hasn't scored any penalties.','Penalty Missed': 'Unfortunately, he hasn't had the opportunity to take a penalty.','Penalty Saved': 'He hasn't had any penalties saved by the goalkeeper.'}",
+                "transfers": {
+                    "Transfer History": "Borges Cabral has been transferred four times in his career, with three of those transfers being loans.",
+                    "First Transfer": "His first transfer was from Sporting CP to Salernitana in 2023, where he spent a season on loan.",
+                    "Second Transfer": "He then returned to Sporting CP before being loaned out again, this time to Lazio in 2022.",
+                    "Third Transfer": "After a season with Lazio, he was transferred back to Sporting CP in 2024.",
+                    "Teams Played For": "Borges Cabral has played for four different teams in his career: Sporting CP, Salernitana, Lazio, and Sporting CP again.",
+                    "Transfer Frequency": "He has been transferred in every year since 2022, with the exception of 2024.",
+                    "Longest Stint": "Borges Cabral's longest stint with a single team was with Sporting CP, where he played for two seasons.",
+                    "Teams in Italy": "He has played for two teams in Italy: Salernitana and Lazio.",
+                    "Most Recent Transfer": "Borges Cabral's most recent transfer was from Lazio to Sporting CP in 2024."
+                },
+                "news": null
+            },
+            "1624": {
+                "information": {
+                    "Goalkeeper": "Jos\u00e9 Manuel Reina P\u00e1ez, a seasoned goalkeeper, stands at 188 cm tall and weighs 92 kg, bringing a commanding presence to the pitch."
+                },
+                "statistics": {
+                    "Games appearances": "Reina P\u00e1ez has appeared in 15 games this season.",
+                    "Games lineups": "Reina P\u00e1ez has started in 15 games this season.",
+                    "Games minutes": "Reina P\u00e1ez has played a total of 1350 minutes this season.",
+                    "Games number": "Reina P\u00e1ez's squad number is none.",
+                    "Games position": "Reina P\u00e1ez plays as a Goalkeeper.",
+                    "Games rating": "Reina P\u00e1ez has a rating of 6.460000 this season.",
+                    "Games captain": "Reina P\u00e1ez is not a captain.",
+                    "Substitutes in": "Reina P\u00e1ez has not been substituted in this season.",
+                    "Substitutes out": "Reina P\u00e1ez has not been substituted out this season.",
+                    "Substitutes bench": "Reina P\u00e1ez has been on the bench for 23 games.",
+                    "Shots total": "Reina P\u00e1ez has not taken any shots this season.",
+                    "Shots on": "Reina P\u00e1ez has not taken any shots on target this season.",
+                    "Goals total": "Reina P\u00e1ez has scored 0 goals this season.",
+                    "Goals conceded": "Reina P\u00e1ez has conceded 29 goals this season.",
+                    "Goals assists": "Reina P\u00e1ez has assisted 1 goal this season.",
+                    "Goals saves": "Reina P\u00e1ez has made 31 saves this season.",
+                    "Passes total": "Reina P\u00e1ez has made 454 passes this season.",
+                    "Passes key": "Reina P\u00e1ez has made 1 key pass this season.",
+                    "Passes accuracy": "Reina P\u00e1ez has an accuracy of 23% this season.",
+                    "Tackles total": "Reina P\u00e1ez has not made any tackles this season.",
+                    "Tackles blocks": "Reina P\u00e1ez has not made any tackle blocks this season.",
+                    "Tackles interceptions": "Reina P\u00e1ez has not made any tackle interceptions this season.",
+                    "Duels total": "Reina P\u00e1ez has been involved in 8 duels this season.",
+                    "Duels won": "Reina P\u00e1ez has won 6 duels this season.",
+                    "Dribbles attempts": "Reina P\u00e1ez has not attempted any dribbles this season.",
+                    "Dribbles success": "Reina P\u00e1ez has not had any successful dribbles this season.",
+                    "Dribbles past": "Reina P\u00e1ez has not dribbled past any opponents this season.",
+                    "Fouls drawn": "Reina P\u00e1ez has drawn 1 foul this season.",
+                    "Fouls committed": "Reina P\u00e1ez has committed 1 foul this season.",
+                    "Cards yellow": "Reina P\u00e1ez has received 3 yellow cards this season.",
+                    "Cards yellowred": "Reina P\u00e1ez has not received any yellow-red cards this season.",
+                    "Cards red": "Reina P\u00e1ez has not received any red cards this season.",
+                    "Penalty won": "Reina P\u00e1ez has not won any penalties this season.",
+                    "Penalty committed": "Reina P\u00e1ez has not committed any penalties this season.",
+                    "Penalty scored": "Reina P\u00e1ez has not scored any penalties this season.",
+                    "Penalty missed": "Reina P\u00e1ez has not missed any penalties this season.",
+                    "Penalty saved": "Reina P\u00e1ez has not saved any penalties this season.",
+                    "Player name": "Reina P\u00e1ez's name is Reina P\u00e1ez."
+                },
+                "transfers": "{'player_transfers': 'Reina P\u00e1ez has had a diverse career, playing for several clubs across Europe.','transfer_history': ['His transfer history includes a move from Villarreal to Lazio in 2022','a transfer from Lazio to AC Milan in 2020','a loan move from AC Milan to Aston Villa in 2020','a transfer from AC Milan to Napoli in 2018','a transfer from Napoli to Bayern Munich in 2015','a transfer from Bayern Munich to Liverpool in 2014','a loan move from Liverpool to Napoli in 2013','a transfer from Liverpool to Villarreal in 2005','and a transfer from Villarreal to Barcelona in 2002.']}",
+                "news": null
+            },
+            "30937": {
+                "information": {
+                    "Player Information": "Mattia Zaccagni, a 28-year-old Italian midfielder, brings a wealth of experience to the pitch, having been born on June 16, 1995, in Cesena, Italy, and standing at 177 cm tall and weighing 63 kg."
+                },
+                "statistics": "{'games_appearances': 29,'games_lineups': 21,'games_minutes': 1879,'games_number': None,'games_position': 'Midfielder','games_rating': 8.4,'games_captain': False,'substitutes_in': 8,'substitutes_out': 10,'substitutes_bench': 8,'shots_total': 4,'shots_on': 3,'goals_total': 4,'goals_conceded': 0,'goals_assists': None,'goals_saves': None,'passes_total': 60,'passes_key': 5,'passes_accuracy': 25,'tackles_total': 3,'tackles_blocks': None,'tackles_interceptions': 4,'duels_total': 37,'duels_won': 21,'dribbles_attempts': 11,'dribbles_success': 7,'dribbles_past': None,'fouls_drawn': 7,'fouls_committed': 1,'cards_yellow': 6,'cards_yellowred': 0,'cards_red': 0,'penalty_won': None,'penalty_committed': None,'penalty_scored': 1,'penalty_missed': 0,'penalty_saved': None,'player_name': 'Zaccagni'}",
+                "transfers": "{'player_transfers': 'Zaccagni has had a number of transfers throughout his career, starting with a loan move from Cittadella to Verona in 2016. He then made a permanent move to Verona in 2017, before being loaned out to Lazio in 2021. He eventually made a permanent move to Lazio in 2022 for a fee of \u20ac 7.1M.'}",
+                "news": null
+            },
+            "45798": {
+                "information": {
+                    "Player Profile": "Dimitrije Kamenovi\u0107, a towering figure at 188 cm, is a 23-year-old Serbian player who was born in Pirot, Serbia on July 16, 2000."
+                },
+                "statistics": {
+                    "Player Statistics": [
+                        "Kamenovi\u0107 has played 1 game and has been in the starting lineup 0 times.",
+                        "Kamenovi\u0107 has played a total of 44 minutes.",
+                        "Kamenovi\u0107's number is None.",
+                        "Kamenovi\u0107 plays as a Defender.",
+                        "Kamenovi\u0107 has a rating of 6.200000.",
+                        "Kamenovi\u0107 has not been captain.",
+                        "Kamenovi\u0107 has come on as a substitute 1 time and has not been subbed off.",
+                        "Kamenovi\u0107 has spent 14 minutes on the bench.",
+                        "Kamenovi\u0107 has taken 1 shot and has not scored.",
+                        "Kamenovi\u0107 has not conceded any goals.",
+                        "Kamenovi\u0107 has not assisted any goals.",
+                        "Kamenovi\u0107 has not made any saves.",
+                        "Kamenovi\u0107 has made 20 passes with a 15% accuracy rate.",
+                        "Kamenovi\u0107 has not had any key passes.",
+                        "Kamenovi\u0107 has made 1 tackle, 2 interceptions, and has blocked none.",
+                        "Kamenovi\u0107 has won 4 duels out of 7.",
+                        "Kamenovi\u0107 has not attempted any dribbles.",
+                        "Kamenovi\u0107 has drawn 1 foul and committed 1 foul.",
+                        "Kamenovi\u0107 has not received any yellow, yellow-red, or red cards.",
+                        "Kamenovi\u0107 has not won any penalties, committed any penalties, or scored any penalties."
+                    ],
+                    "Player Information": [
+                        "Kamenovi\u0107's name is Kamenovi\u0107."
+                    ]
+                },
+                "transfers": {
+                    "Player Transfers": [
+                        "Kamenovi\u0107 was transferred from Cukaricki to Lazio on July 1, 2021, for a fee of \u20ac 2.5M.",
+                        "Kamenovi\u0107 was transferred from Cukaricki to Sparta Praha on July 1, 2023, on a loan deal.",
+                        "Kamenovi\u0107 was transferred from Sparta Praha to Lazio on January 2, 2023, on a permanent deal.",
+                        "Kamenovi\u0107 has had a total of 4 transfers in his career, with 2 of them being loans.",
+                        "The highest transfer fee paid for Kamenovi\u0107 was \u20ac 2.5M, when he was transferred from Cukaricki to Lazio."
+                    ]
+                },
+                "news": null
+            },
+            "2412": {
+                "information": {
+                    "Player Information": "Felipe Anderson Pereira Gomes, a seasoned player from Brazil, brings a wealth of experience to the pitch at 30 years old, born on April 15, 1993, in Bras\u00edlia, with a height of 175 cm and a weight of 70 kg."
+                },
+                "statistics": "{'games_appearences': 'Anderson Pereira Gomes has appeared in 38 games this season.','games_lineups': 'He has started in 33 lineups for his team.','games_minutes': 'Anderson has played a total of 2899 minutes this season.','games_number': 'He wears the number None jersey.','games_position': 'Anderson Pereira Gomes plays as a Midfielder.','games_rating': 'His average rating this season is 7.078947.','games_captain': 'Anderson is not a captain of his team.','substitutes_in': 'He has been subbed in 5 times.','substitutes_out': 'Anderson has been subbed out 17 times.','substitutes_bench': 'He has spent 5 games on the bench.','shots_total': 'Anderson has taken 26 shots this season.','shots_on': 'He has put 16 of those shots on target.','goals_total': 'Anderson has scored 6 goals.','goals_conceded': 'He has not conceded any goals.','goals_assists': 'Anderson has provided 8 assists.','goals_saves': 'He has not made any saves.','passes_total': 'Anderson has made 1314 passes.','passes_key': 'He has made 50 key passes.','passes_accuracy': 'Anderson has an accuracy of 28.','tackles_total': 'He has made 71 tackles.','tackles_blocks': 'Anderson has blocked 6 tackles.','tackles_interceptions': 'He has made 20 interceptions.','duels_total': 'Anderson has contested 400 duels.','duels_won': 'He has won 177 of those duels.','dribbles_attempts': 'Anderson has attempted 108 dribbles.','dribbles_success': 'He has been successful 58 times.','dribbles_past': 'Anderson has not been dispossessed.','fouls_drawn': 'He has drawn 37 fouls.','fouls_committed': 'Anderson has committed 43 fouls.','cards_yellow': 'He has received 2 yellow cards.','cards_yellowred': 'Anderson has not received a yellow-red card.','cards_red': 'He has not received a red card.','penalty_won': 'Anderson has not won a penalty.','penalty_commited': 'He has not committed a penalty.','penalty_scored': 'Anderson has not scored a penalty.','penalty_missed': 'He has not missed a penalty.','penalty_saved': 'Anderson has not had a penalty saved.','player_name': 'Anderson Pereira Gomes'}",
+                "transfers": "{'player_transfers': 'Anderson Pereira Gomes has had a number of transfers throughout his career.','transfer_history': 'His transfer history includes a \u20ac 3M move from Lazio to West Ham in 2021, a loan transfer from FC Porto to West Ham in 2020, a \u20ac 40.5M transfer from West Ham to Lazio in 2018, and a \u20ac 8M transfer from Lazio to Santos in 2013.'}",
+                "news": null
+            },
+            "1266": {
+                "information": {
+                    "Player Profile": "Toma Ba\u0161i\u0107, a 27-year-old Croatian player, takes the field, with his birthplace Zagreb and birthdate November 25, 1996, etched in his identity. Standing at 189 cm tall and weighing 80 kg, he is a formidable presence on the pitch."
+                },
+                "statistics": "{'games_appearences': 'Ba\u0161i\u0107 has appeared in 29 games this season.','games_lineups': 'Ba\u0161i\u0107 has started in 9 games this season.','games_minutes': 'Ba\u0161i\u0107 has played a total of 968 minutes this season.','games_number': 'Ba\u0161i\u0107 wears the number None jersey.','games_position': 'Ba\u0161i\u0107 plays as a Midfielder.','games_rating': 'Ba\u0161i\u0107 has a season rating of 6.527586.','games_captain': 'Ba\u0161i\u0107 is not a captain.','substitutes_in': 'Ba\u0161i\u0107 has been subbed in 20 times.','substitutes_out': 'Ba\u0161i\u0107 has been subbed out 7 times.','substitutes_bench': 'Ba\u0161i\u0107 has spent 27 games on the bench.','shots_total': 'Ba\u0161i\u0107 has taken 16 shots this season.','shots_on': 'Ba\u0161i\u0107 has put 11 shots on target this season.','goals_total': 'Ba\u0161i\u0107 has scored 0 goals this season.','goals_conceded': 'Ba\u0161i\u0107 has not conceded any goals this season.','goals_assists': 'Ba\u0161i\u0107 has assisted 2 goals this season.','goals_saves': 'Ba\u0161i\u0107 has not made any saves this season.','passes_total': 'Ba\u0161i\u0107 has made 435 passes this season.','passes_key': 'Ba\u0161i\u0107 has made 6 key passes this season.','passes_accuracy': 'Ba\u0161i\u0107 has an accuracy of 13 in passing.','tackles_total': 'Ba\u0161i\u0107 has made 12 tackles this season.','tackles_blocks': 'Ba\u0161i\u0107 has blocked 4 tackles this season.','tackles_interceptions': 'Ba\u0161i\u0107 has made 4 interceptions this season.','duels_total': 'Ba\u0161i\u0107 has been involved in 81 duels this season.','duels_won': 'Ba\u0161i\u0107 has won 33 duels this season.','dribbles_attempts': 'Ba\u0161i\u0107 has attempted 14 dribbles this season.','dribbles_success': 'Ba\u0161i\u0107 has been successful in 7 dribbles this season.','dribbles_past': 'Ba\u0161i\u0107 has not been able to dribble past any opponents this season.','fouls_drawn': 'Ba\u0161i\u0107 has drawn 6 fouls this season.','fouls_committed': 'Ba\u0161i\u0107 has committed 13 fouls this season.','cards_yellow': 'Ba\u0161i\u0107 has received 3 yellow cards this season.','cards_yellowred': 'Ba\u0161i\u0107 has not received any yellow-red cards this season.','cards_red': 'Ba\u0161i\u0107 has not received any red cards this season.','penalty_won': 'Ba\u0161i\u0107 has not won any penalties this season.','penalty_commited': 'Ba\u0161i\u0107 has not committed any penalties this season.','penalty_scored': 'Ba\u0161i\u0107 has not scored any penalties this season.','penalty_missed': 'Ba\u0161i\u0107 has not missed any penalties this season.','penalty_saved': 'Ba\u0161i\u0107 has not had any penalties saved against him this season.','player_name': 'Ba\u0161i\u0107'}",
+                "transfers": {
+                    "player_transfers": "Ba\u0161i\u0107 has had 2 transfers in his career, the first was on August 8, 2018, when he transferred from HNK Hajduk Split to Bordeaux on a free transfer, and the second was on August 25, 2021, when he transferred from Bordeaux to Lazio for a fee of \u20ac 6.9M.",
+                    "transfer_history": "Ba\u0161i\u0107's transfer history includes a free transfer from HNK Hajduk Split to Bordeaux, and a \u20ac 6.9M transfer from Bordeaux to Lazio."
+                },
+                "news": null
+            }
+        },
+        "coach": "{'coach_id': 'M. Sarri's coach ID is 2412.','coach_name': 'Maurizio Sarri is the coach of Lazio.','coach_firstname': 'Maurizio is the first name of the coach.','coach_lastname': 'Sarri is the last name of the coach.','coach_age': 'Maurizio Sarri is 64 years old.','coach_birth_date': 'Maurizio Sarri was born on January 10, 1959.','coach_birth_place': 'Napoli is the birthplace of Maurizio Sarri.','coach_birth_country': 'Italy is the birth country of Maurizio Sarri.','coach_nationality': 'Maurizio Sarri holds Italian nationality.','coach_career': 'Maurizio Sarri has coached teams such as Lazio, Juventus, Chelsea, Napoli, Empoli, Sorrento, and Alessandria.','coach_current_team': 'Maurizio Sarri is currently coaching Lazio.','coach_start_date': 'Maurizio Sarri started coaching Lazio on June 1, 2021.','coach_end_date': 'Maurizio Sarri's tenure as coach of Lazio is ongoing, with no end date specified.','coach_previous_teams': 'Before coaching Lazio, Maurizio Sarri coached Juventus, Chelsea, Napoli, Empoli, Sorrento, and Alessandria.','coach_previous_teams_start_dates': 'Maurizio Sarri started coaching Juventus on June 1, 2019, Chelsea on July 1, 2018, Napoli on June 1, 2015, Empoli on July 1, 2012, Sorrento on July 1, 2011, and Alessandria on July 1, 2010.','coach_previous_teams_end_dates': 'Maurizio Sarri's tenure as coach of Juventus ended on August 1, 2020, Chelsea on June 1, 2019, Napoli on May 1, 2018, Empoli on June 1, 2015, Sorrento on December 1, 2011, and Alessandria on June 1, 2011.'}"
+    },
+    "489": {
+        "name": "AC Milan",
+        "information": "  AC Milan, proudly donning the code MIL, is an iconic Italian team founded in 1899, with a storied history that spans over a century.",
+        "statistics": {
+            "Total Fixtures": "AC Milan has played 19 home games and 19 away games, totaling 38 fixtures.",
+            "Wins, Draws, and Losses": "They have won 12 games at home, 14 games away, and 26 games total. They have drawn 4 games at home, 4 games away, and 8 games total. They have lost 3 games at home, 1 game away, and 4 games total.",
+            "Goal Statistics": "They have scored 28 goals at home, 41 goals away, and 69 goals total. They have conceded 12 goals at home, 19 goals away, and 31 goals total.",
+            "Best Streak": "Their best streak is 7 wins.",
+            "Biggest Wins and Losses": "Their biggest win at home is 4-1, and their biggest win away is 0-3. Their biggest loss at home is 1-3, and their biggest loss away is 4-3.",
+            "Goal Scenarios": "They have scored 4 goals in a game 5 times, and conceded 3 goals in a game 4 times.",
+            "Clean Sheets": "They have kept 11 clean sheets at home and 7 clean sheets away.",
+            "Failed to Score": "They have failed to score in 3 games at home and 1 game away.",
+            "Formation": "They have played 5 games with a 4-2-3-1 formation and 2 games with a 4-3-3 formation.",
+            "Yellow Cards": "They have received 3 yellow cards in the first 15 minutes of games, 9 yellow cards between 16-30 minutes, and 13 yellow cards between 31-45 minutes. They have received 16 yellow cards between 61-75 minutes, 17 yellow cards between 76-90 minutes, and 9 yellow cards between 91-105 minutes. They have received 1 red card in the 61-75 minute range."
+        },
+        "news": null,
+        "injuries": {},
+        "players": {
+            "19209": {
+                "information": {
+                    "Player Information": "Oluwafikayomi Oluwadamilola Tomori, known to his teammates and fans as Fikayo, is a 26-year-old English defender who was born in Calgary, Canada, on December 19, 1997. Standing at 185 cm tall and weighing 75 kg, Fikayo is an imposing figure on the pitch, known for his commanding presence and unrelenting work ethic."
+                },
+                "statistics": {
+                    "Games appearances": "Tomori has appeared in 31 games this season.",
+                    "Games lineups": "Tomori has started in 30 games and has been subbed in once.",
+                    "Games minutes": "Tomori has played a total of 2719 minutes this season.",
+                    "Games number": "Tomori's squad number is not provided.",
+                    "Games position": "Tomori plays as a defender.",
+                    "Games rating": "Tomori's average rating is 7.164516.",
+                    "Games captain": "Tomori has not been captain in any games.",
+                    "Substitutes in": "Tomori has been subbed in once.",
+                    "Substitutes out": "Tomori has been subbed out twice.",
+                    "Substitutes bench": "Tomori has spent 2 games on the bench.",
+                    "Shots total": "Tomori has taken 12 shots.",
+                    "Shots on": "Tomori has put 4 shots on target.",
+                    "Goals total": "Tomori has not scored any goals.",
+                    "Goals conceded": "Tomori has not conceded any goals.",
+                    "Goals assists": "Tomori has not provided any assists.",
+                    "Goals saves": "Tomori has not made any saves.",
+                    "Passes total": "Tomori has made 1726 passes.",
+                    "Passes key": "Tomori has made 4 key passes.",
+                    "Passes accuracy": "Tomori has an accuracy of 48% in passing.",
+                    "Tackles total": "Tomori has made 73 tackles.",
+                    "Tackles blocks": "Tomori has blocked 23 tackles.",
+                    "Tackles interceptions": "Tomori has made 45 interceptions.",
+                    "Duels total": "Tomori has been involved in 221 duels.",
+                    "Duels won": "Tomori has won 143 duels.",
+                    "Dribbles attempts": "Tomori has attempted 12 dribbles.",
+                    "Dribbles success": "Tomori has been successful in 8 dribbles.",
+                    "Dribbles past": "Tomori has not provided any dribbles past an opponent.",
+                    "Fouls drawn": "Tomori has drawn 11 fouls.",
+                    "Fouls committed": "Tomori has committed 19 fouls.",
+                    "Cards yellow": "Tomori has received 4 yellow cards.",
+                    "Cards yellowred": "Tomori has not received any yellow-red cards.",
+                    "Cards red": "Tomori has not received any red cards.",
+                    "Penalty won": "Tomori has not won any penalties.",
+                    "Penalty committed": "Tomori has not committed any penalties.",
+                    "Penalty scored": "Tomori has not scored any penalties.",
+                    "Penalty missed": "Tomori has not missed any penalties.",
+                    "Penalty saved": "Tomori has not saved any penalties.",
+                    "Player name": "Tomori's name is Tomori."
+                },
+                "transfers": "{'transfer_history': 'Tomori has had a total of 8 transfers in his career so far.','most_recent_transfer': 'His most recent transfer was from Chelsea to AC Milan on July 1, 2021, for a fee of \u20ac28M.','loan_spells': 'Tomori has also played for Derby, Hull City, and Brighton on loan from Chelsea.','first_transfer': 'He has had two loan spells at Derby, one in 2018-2019 and another in 2019-2020.','ac_milan': 'Tomori has played for AC Milan twice, first on loan from Chelsea in 2021, and then permanently after his transfer on July 1, 2021.','brighton': 'He has played for Brighton on loan from Chelsea in 2017.','hull_city': 'Tomori has had a loan spell at Hull City in 2017, followed by a permanent transfer to Hull City on July 1, 2017.','chelsea_u23': 'He has also had a loan spell at Chelsea U23 in 2018.'}",
+                "news": null
+            },
+            "1417": {
+                "information": {
+                    "Player Information": "Alexis Jesse Saelemaekers, a 24-year-old Belgian footballer, stands at 180 cm tall and weighs 72 kg, with a birthdate of June 27, 1999, and hometown of Berchem-Sainte-Agathe, Belgium."
+                },
+                "statistics": {
+                    "Games appearances": "Saelemaekers has appeared in 36 games this season.",
+                    "Games lineups": "He has started in 22 games and has been subbed in 14 times.",
+                    "Games minutes": "Saelemaekers has played a total of 1868 minutes this season.",
+                    "Games number": "He has worn the number 27 jersey.",
+                    "Games position": "Saelemaekers' primary position is Midfielder.",
+                    "Games rating": "His average rating is 6.727777.",
+                    "Games captain": "He has not been the captain of the team.",
+                    "Substitutes in": "Saelemaekers has been subbed in 14 times.",
+                    "Substitutes out": "He has been subbed out 16 times.",
+                    "Substitutes bench": "He has spent 16 games on the bench.",
+                    "Shots total": "Saelemaekers has taken 28 shots.",
+                    "Shots on": "He has put 12 shots on target.",
+                    "Goals total": "He has scored 1 goal.",
+                    "Goals conceded": "Saelemaekers has not conceded any goals.",
+                    "Goals assists": "He has assisted 3 goals.",
+                    "Goals saves": "He has not made any saves.",
+                    "Passes total": "Saelemaekers has made 794 passes.",
+                    "Passes key": "He has made 38 key passes.",
+                    "Passes accuracy": "His passing accuracy is 18.",
+                    "Tackles total": "He has made 43 tackles.",
+                    "Tackles blocks": "Saelemaekers has not made any tackle blocks.",
+                    "Tackles interceptions": "He has made 15 tackle interceptions.",
+                    "Duels total": "Saelemaekers has been involved in 289 duels.",
+                    "Duels won": "He has won 141 duels.",
+                    "Dribbles attempts": "He has attempted 92 dribbles.",
+                    "Dribbles success": "Saelemaekers has been successful in 52 dribbles.",
+                    "Dribbles past": "He has not been able to dribble past any opponents.",
+                    "Fouls drawn": "Saelemaekers has drawn 37 fouls.",
+                    "Fouls committed": "He has committed 29 fouls.",
+                    "Cards yellow": "He has received 2 yellow cards.",
+                    "Cards yellowred": "Saelemaekers has not received any yellow-red cards.",
+                    "Cards red": "He has not received any red cards.",
+                    "Penalty won": "Saelemaekers has not won any penalties.",
+                    "Penalty committed": "He has not committed any penalties.",
+                    "Penalty scored": "He has not scored any penalties.",
+                    "Penalty missed": "Saelemaekers has not missed any penalties.",
+                    "Penalty saved": "He has not had any penalties saved.",
+                    "Player name": "Saelemaekers' name is Saelemaekers."
+                },
+                "transfers": "{'transfer_history': ['Saelemaekers was transferred from AC Milan to Bologna on a loan deal, effective from 2023-08-30.','The player was previously transferred from Anderlecht to AC Milan in 2020, with a transfer fee of \u20ac 3.5M.','Saelemaekers has also had a loan spell with AC Milan from Anderlecht in 2020, starting from 2020-01-31.','The player's most recent transfer was from Bologna to AC Milan, happening on 2024-07-01.']}",
+                "news": null
+            },
+            "162188": {
+                "information": {
+                    "Player Profile": "Pierre Kazeye Rommel Kalulu Kyatengwa, a 23-year-old French player, takes the field, born on June 5, 2000, in Lyon, France, standing at 179 cm tall and weighing 69 kg."
+                },
+                "statistics": "{'games_appearences': 'Kalulu Kyatengwa has appeared in 28 games this season.','games_lineups': 'Kalulu Kyatengwa has started in 21 games this season.','games_minutes': 'Kalulu Kyatengwa has played a total of 1938 minutes this season.','games_number': 'Kalulu Kyatengwa wears the number None jersey.','games_position': 'Kalulu Kyatengwa plays as a Defender.','games_rating': 'Kalulu Kyatengwa has a season rating of 7.122222.','games_captain': 'Kalulu Kyatengwa is not a captain.','substitutes_in': 'Kalulu Kyatengwa has been subbed in 7 times.','substitutes_out': 'Kalulu Kyatengwa has been subbed out 3 times.','substitutes_bench': 'Kalulu Kyatengwa has spent 17 games on the bench.','shots_total': 'Kalulu Kyatengwa has taken 4 shots this season.','shots_on': 'Kalulu Kyatengwa has put 2 shots on target this season.','goals_total': 'Kalulu Kyatengwa has scored 1 goal this season.','goals_conceded': 'Kalulu Kyatengwa has not conceded any goals this season.','goals_assists': 'Kalulu Kyatengwa has provided 2 assists this season.','goals_saves': 'Kalulu Kyatengwa has not made any saves this season.','passes_total': 'Kalulu Kyatengwa has made 1088 passes this season.','passes_key': 'Kalulu Kyatengwa has made 7 key passes this season.','passes_accuracy': 'Kalulu Kyatengwa has an accuracy of 34% in passing.','tackles_total': 'Kalulu Kyatengwa has made 61 tackles this season.','tackles_blocks': 'Kalulu Kyatengwa has blocked 15 tackles this season.','tackles_interceptions': 'Kalulu Kyatengwa has made 26 interceptions this season.','duels_total': 'Kalulu Kyatengwa has contested 166 duels this season.','duels_won': 'Kalulu Kyatengwa has won 95 duels this season.','dribbles_attempts': 'Kalulu Kyatengwa has attempted 11 dribbles this season.','dribbles_success': 'Kalulu Kyatengwa has successfully dribbled 6 times this season.','dribbles_past': 'Kalulu Kyatengwa has not dribbled past any opponents this season.','fouls_drawn': 'Kalulu Kyatengwa has drawn 6 fouls this season.','fouls_committed': 'Kalulu Kyatengwa has committed 16 fouls this season.','cards_yellow': 'Kalulu Kyatengwa has received 4 yellow cards this season.','cards_yellowred': 'Kalulu Kyatengwa has not received any yellow-red cards this season.','cards_red': 'Kalulu Kyatengwa has not received any red cards this season.','penalty_won': 'Kalulu Kyatengwa has not won any penalties this season.','penalty_commited': 'Kalulu Kyatengwa has not committed any penalties this season.','penalty_scored': 'Kalulu Kyatengwa has not scored any penalties this season.','penalty_missed': 'Kalulu Kyatengwa has not missed any penalties this season.','penalty_saved': 'Kalulu Kyatengwa has not saved any penalties this season.','player_name': 'Kalulu Kyatengwa'}",
+                "transfers": {
+                    "player_name": "Kalulu Kyatengwa",
+                    "transfer_history": "Kalulu Kyatengwa has had 1 transfer in his career, moving from Olympique Lyonnais U19 to AC Milan in 2020 for a fee of \u20ac 480K."
+                },
+                "news": null
+            },
+            "56473": {
+                "information": {
+                    "Player Profile": "Matteo Gabbia, a 24-year-old defender from Busto Arsizio, Italy, brings his imposing physique, standing at 185 cm tall and weighing 78 kg, to the pitch for Lazio."
+                },
+                "statistics": "{'games_appearances': 8,'games_lineups': 6,'games_minutes': 537,'games_number': None,'games_position': 'Defender','games_rating': 6.637500,'games_captain': False,'substitutes_in': 2,'substitutes_out': 3,'substitutes_bench': 31,'shots_total': 1,'shots_on': None,'goals_total': 0,'goals_conceded': 0,'goals_assists': None,'goals_saves': None,'passes_total': 436,'passes_key': 1,'passes_accuracy': 47,'tackles_total': 4,'tackles_blocks': 2,'tackles_interceptions': 8,'duels_total': 38,'duels_won': 19,'dribbles_attempts': None,'dribbles_success': None,'dribbles_past': None,'fouls_drawn': 2,'fouls_committed': 7,'cards_yellow': 3,'cards_yellowred': 0,'cards_red': 0,'penalty_won': None,'penalty_commited': None,'penalty_scored': 0,'penalty_missed': 0,'penalty_saved': None,'player_name': 'Gabbia'}",
+                "transfers": "{'Transfer History': 'Gabbia has been transferred 4 times in his career, with 3 of those transfers being loans.','First Transfer': 'His first transfer was from AC Milan to Villarreal in 2023.','Loan History': 'He was loaned out to Lucchese in 2018 and then transferred back to AC Milan in 2019.','Recent Transfer': 'Gabbia's most recent transfer was from Villarreal to AC Milan in 2024.','Teams Played For': 'He has played for 4 different teams in his career: AC Milan, Villarreal, Lucchese, and Milan.','Longest Stint': 'Gabbia's longest stint with a single team has been with AC Milan, where he has played for 3 seasons.','Transfer Countries': 'He has been transferred across 3 different countries: Italy, Spain, and France.','Loan Deals': 'Gabbia's transfer history suggests that he is a player who is often sought after by teams looking for a loan deal.'}",
+                "news": null
+            },
+            "1831": {
+                "information": {
+                    "Player Information": "Ante Rebi\u0107, a 30-year-old Croatian striker, stands tall at 185 cm and weighs in at 78 kg, with a birthdate of September 21, 1993, in Split, Croatia."
+                },
+                "statistics": {
+                    "Games appearances": "Rebi\u0107 has appeared in 24 games this season.",
+                    "Games lineups": "Rebi\u0107 has started in 6 games and has been subbed in 18 times.",
+                    "Games minutes": "Rebi\u0107 has played a total of 875 minutes this season.",
+                    "Games number": "Rebi\u0107's squad number is none.",
+                    "Games position": "Rebi\u0107 plays as an attacker.",
+                    "Games rating": "Rebi\u0107's average rating is 6.770833.",
+                    "Games captain": "Rebi\u0107 has not been captain in any games.",
+                    "Substitutes in": "Rebi\u0107 has been subbed in 18 times.",
+                    "Substitutes out": "Rebi\u0107 has been subbed out 3 times.",
+                    "Substitutes bench": "Rebi\u0107 has been on the bench 20 times.",
+                    "Shots total": "Rebi\u0107 has taken 16 shots.",
+                    "Shots on": "Rebi\u0107 has put 7 shots on target.",
+                    "Goals total": "Rebi\u0107 has scored 2 goals.",
+                    "Goals conceded": "Rebi\u0107 has not conceded any goals.",
+                    "Goals assists": "Rebi\u0107 has assisted 2 goals.",
+                    "Goals saves": "Rebi\u0107 has not made any saves.",
+                    "Passes total": "Rebi\u0107 has made 265 passes.",
+                    "Passes key": "Rebi\u0107 has made 29 key passes.",
+                    "Passes accuracy": "Rebi\u0107 has an accuracy of 70% in passing.",
+                    "Tackles total": "Rebi\u0107 has made 14 tackles.",
+                    "Tackles blocks": "Rebi\u0107 has not made any tackle blocks.",
+                    "Tackles interceptions": "Rebi\u0107 has made 3 tackle interceptions.",
+                    "Duels total": "Rebi\u0107 has been involved in 142 duels.",
+                    "Duels won": "Rebi\u0107 has won 52 duels.",
+                    "Dribbles attempts": "Rebi\u0107 has attempted 38 dribbles.",
+                    "Dribbles success": "Rebi\u0107 has been successful in 16 dribbles.",
+                    "Dribbles past": "Rebi\u0107 has not been able to dribble past any opponents.",
+                    "Fouls drawn": "Rebi\u0107 has drawn 9 fouls.",
+                    "Fouls committed": "Rebi\u0107 has committed 18 fouls.",
+                    "Cards yellow": "Rebi\u0107 has received 2 yellow cards.",
+                    "Cards yellowred": "Rebi\u0107 has not received any yellow-red cards.",
+                    "Cards red": "Rebi\u0107 has not received any red cards.",
+                    "Penalty won": "Rebi\u0107 has not won any penalties.",
+                    "Penalty committed": "Rebi\u0107 has not committed any penalties.",
+                    "Penalty scored": "Rebi\u0107 has not scored any penalties.",
+                    "Penalty missed": "Rebi\u0107 has not missed any penalties.",
+                    "Penalty saved": "Rebi\u0107 has not had any penalties saved.",
+                    "Player name": "The player's name is Rebi\u0107."
+                },
+                "transfers": {
+                    "Rebi\u0107's Transfers": [
+                        "Rebi\u0107 has been transferred between AC Milan and Eintracht Frankfurt multiple times, with the most recent transfer being a loan from AC Milan to Eintracht Frankfurt in 2020.",
+                        "In 2019, Rebi\u0107 was loaned from AC Milan to Eintracht Frankfurt for the second time in his career.",
+                        "Rebi\u0107 was transferred from Eintracht Frankfurt to Fiorentina in 2018 for a fee of \u20ac 2M.",
+                        "Rebi\u0107 has been loaned between Eintracht Frankfurt and Fiorentina multiple times, with the most recent loan being in 2017.",
+                        "Rebi\u0107 was transferred from Fiorentina to Eintracht Frankfurt in 2016 for an undisclosed fee.",
+                        "Rebi\u0107 was loaned from Verona to Fiorentina in 2016.",
+                        "Rebi\u0107 was transferred from RB Leipzig to Fiorentina in 2015 for an undisclosed fee.",
+                        "Rebi\u0107 was loaned from Fiorentina to RB Leipzig in 2014.",
+                        "Rebi\u0107 was transferred from RNK Split to Fiorentina in 2013 for a fee of \u20ac 4.5M.",
+                        "Rebi\u0107's most recent transfer was from Besiktas to AC Milan in 2023, but the transfer fee is not available."
+                    ]
+                },
+                "news": null
+            },
+            "31146": {
+                "information": {
+                    "Player Profile": "Sandro Tonali, a towering midfielder standing at 181 cm tall and weighing 79 kg, is only 23 years old, but his talent on the pitch belies his youth."
+                },
+                "statistics": "{'games_appearances': int,'games_lineups': int,'games_minutes': int,'games_number': str,'games_position': str,'games_rating': float,'games_captain': bool,'substitutes_in': int,'substitutes_out': int,'substitutes_bench': int,'shots_total': int,'shots_on': int,'goals_total': int,'goals_conceded': int,'goals_assists': int,'goals_saves': int,'passes_total': int,'passes_key': int,'passes_accuracy': float,'tackles_total': int,'tackles_blocks': int,'tackles_interceptions': int,'duels_total': int,'duels_won': int,'dribbles_attempts': int,'dribbles_success': int,'dribbles_past': int,'fouls_drawn': int,'fouls_committed': int,'cards_yellow': int,'cards_yellowred': int,'cards_red': int,'penalty_won': int,'penalty_committed': int,'penalty_scored': int,'penalty_missed': int,'penalty_saved': int,'player_name': str}",
+                "transfers": "}",
+                "news": null
+            },
+            "162045": {
+                "information": {
+                    "Player Profile": "Marko Lazeti\u0107, a young and promising talent from Serbia, takes the field with determination in his eyes and a fierce passion for the game. At just 19 years old, he stands tall at 190 cm and weighs a solid 80 kg, ready to make his mark on the pitch."
+                },
+                "statistics": {
+                    "Games Appearances": "Lazeti\u0107 has appeared in 0 games so far this season.",
+                    "Games Lineups": "Lazeti\u0107 has started in 0 games and has been subbed in 0 times.",
+                    "Games Minutes": "Lazeti\u0107 has played a total of 0 minutes this season.",
+                    "Games Number": "Lazeti\u0107's squad number is none.",
+                    "Games Position": "Lazeti\u0107 plays as an attacker.",
+                    "Games Rating": "Lazeti\u0107's rating is none.",
+                    "Games Captain": "Lazeti\u0107 has not been captain in any games.",
+                    "Substitutes In": "Lazeti\u0107 has been subbed in 0 times.",
+                    "Substitutes Out": "Lazeti\u0107 has been subbed out 0 times.",
+                    "Substitutes Bench": "Lazeti\u0107 has been on the bench 4 times.",
+                    "Shots Total": "Lazeti\u0107 has taken 0 shots this season.",
+                    "Shots On": "Lazeti\u0107 has put 0 shots on target.",
+                    "Goals Total": "Lazeti\u0107 has scored 0 goals this season.",
+                    "Goals Conceded": "Lazeti\u0107 has not conceded any goals.",
+                    "Goals Assists": "Lazeti\u0107 has not provided any assists.",
+                    "Goals Saves": "Lazeti\u0107 has not made any saves.",
+                    "Passes Total": "Lazeti\u0107 has made 0 passes this season.",
+                    "Passes Key": "Lazeti\u0107 has not played any key passes.",
+                    "Passes Accuracy": "Lazeti\u0107's pass accuracy is none.",
+                    "Tackles Total": "Lazeti\u0107 has made 0 tackles this season.",
+                    "Tackles Blocks": "Lazeti\u0107 has not blocked any tackles.",
+                    "Tackles Interceptions": "Lazeti\u0107 has not made any interceptions.",
+                    "Duels Total": "Lazeti\u0107 has been involved in 0 duels.",
+                    "Duels Won": "Lazeti\u0107 has won 0 duels.",
+                    "Dribbles Attempts": "Lazeti\u0107 has attempted 0 dribbles.",
+                    "Dribbles Success": "Lazeti\u0107 has not had any successful dribbles.",
+                    "Dribbles Past": "Lazeti\u0107 has not beaten any players with dribbles.",
+                    "Fouls Drawn": "Lazeti\u0107 has not drawn any fouls.",
+                    "Fouls Committed": "Lazeti\u0107 has committed 0 fouls.",
+                    "Cards Yellow": "Lazeti\u0107 has received 0 yellow cards.",
+                    "Cards Yellowred": "Lazeti\u0107 has not received any yellow-red cards.",
+                    "Cards Red": "Lazeti\u0107 has not received any red cards.",
+                    "Penalty Won": "Lazeti\u0107 has not won any penalties.",
+                    "Penalty Commited": "Lazeti\u0107 has not committed any penalties.",
+                    "Penalty Scored": "Lazeti\u0107 has not scored any penalties.",
+                    "Penalty Missed": "Lazeti\u0107 has not missed any penalties.",
+                    "Penalty Saved": "Lazeti\u0107 has not had any penalties saved.",
+                    "Player Name": "Lazeti\u0107's name is Lazeti\u0107."
+                },
+                "transfers": "{'player_name': 'Lazeti\u0107','transfers': [{'date': '2024-07-01','teams_in_name': 'AC Milan','teams_out_name': 'Fortuna Sittard','transfer_type': 'N/A'}",
+                "news": null
+            },
+            "47300": {
+                "information": {
+                    "Player Profile": "Th\u00e9o Hern\u00e1ndez, a towering figure on the pitch, stands at 184 cm tall and weighs in at 81 kg. Born in Marseille, France on October 6, 1997, the 26-year-old player boasts a diverse heritage, representing the French nationality."
+                },
+                "statistics": "{'games_appearances': 32,'games_lineups': 30,'games_minutes': 2712,'games_number': None,'games_position': 'Defender','games_rating': 7.218750,'games_captain': False,'substitutes_in': 2,'substitutes_out': 2,'substitutes_bench': 2,'shots_total': 33,'shots_on': 14,'goals_total': 5,'goals_conceded': 0,'goals_assists': 6,'goals_saves': None,'passes_total': 1370,'passes_key': 51,'passes_accuracy': 35,'tackles_total': 53,'tackles_blocks': 3,'tackles_interceptions': 23,'duels_total': 318,'duels_won': 201,'dribbles_attempts': 85,'dribbles_success': 49,'dribbles_past': None,'fouls_drawn': 74,'fouls_committed': 34,'cards_yellow': 6,'cards_yellowred': 1,'cards_red': 1,'penalty_won': None,'penalty_commited': None,'penalty_scored': 1,'penalty_missed': 1,'penalty_saved': None,'player_name': 'Hern\u00e1ndez'}",
+                "transfers": "{'transfer_history': 'Hern\u00e1ndez has had a busy transfer history, with multiple moves between top clubs in Spain and Italy.','transfer_2019': 'In 2019, Hern\u00e1ndez transferred from Real Madrid to AC Milan for a fee of \u20ac20M.','transfer_2019_free': 'Just a few weeks prior, Hern\u00e1ndez had moved from Real Sociedad to Real Madrid on a free transfer.','transfer_2018_loan': 'In 2018, Hern\u00e1ndez was loaned out from Real Madrid to Real Sociedad.','transfer_2017': 'In 2017, Hern\u00e1ndez made a \u20ac30M move from Atletico Madrid to Real Madrid.','transfer_2016_loan': 'Two years earlier, Hern\u00e1ndez was loaned out from Atletico Madrid to Alaves.'}",
+                "news": null
+            },
+            "56396": {
+                "information": {
+                    "Player Profile": "Junior Walter Messias, a seasoned player from Brazil, takes the field with 174 cm of height and 70 kg of pure athleticism, born on May 13th, 1991, in Belo Horizonte, Brazil."
+                },
+                "statistics": "{'games_appearences': 'Messias has appeared in 26 games this season.','games_lineups': 'Messias has started in 14 games and come on as a substitute in 12.','games_minutes': 'Messias has played a total of 1425 minutes this season.','games_number': 'Messias wears the number 10 jersey.','games_position': 'Messias plays as an attacker.','games_rating': 'Messias has a season rating of 6.919230.','games_captain': 'Messias has not been captain of the team.','substitutes_in': 'Messias has come on as a substitute in 12 games.','substitutes_out': 'Messias has been subbed out in 12 games.','substitutes_bench': 'Messias has been on the bench 13 times.','shots_total': 'Messias has taken 32 shots this season.','shots_on': 'Messias has put 17 of his shots on target.','goals_total': 'Messias has scored 5 goals this season.','goals_conceded': 'Messias has not conceded any goals.','goals_assists': 'Messias has provided 2 assists for his teammates.','goals_saves': 'Messias has not made any saves.','passes_total': 'Messias has made 481 passes this season.','passes_key': 'Messias has made 21 key passes.','passes_accuracy': 'Messias has an accuracy of 13 in his passes.','tackles_total': 'Messias has made 34 tackles this season.','tackles_blocks': 'Messias has blocked 1 tackle.','tackles_interceptions': 'Messias has made 17 interceptions.','duels_total': 'Messias has contested 238 duels.','duels_won': 'Messias has won 116 duels.','dribbles_attempts': 'Messias has attempted 63 dribbles.','dribbles_success': 'Messias has been successful in 30 of his dribbles.','dribbles_past': 'Messias has not been successful in any dribbles past an opponent.','fouls_drawn': 'Messias has drawn 24 fouls.','fouls_committed': 'Messias has committed 21 fouls.','cards_yellow': 'Messias has received 2 yellow cards.','cards_yellowred': 'Messias has not received a yellow-red card.','cards_red': 'Messias has not received a red card.','penalty_won': 'Messias has not won a penalty.','penalty_commited': 'Messias has not committed a penalty.','penalty_scored': 'Messias has not scored a penalty.','penalty_missed': 'Messias has not missed a penalty.','penalty_saved': 'Messias has not had a penalty saved.','player_name': 'Messias'}",
+                "transfers": "{'Transfer History': 'Messias has been transferred between AC Milan, Genoa, Crotone, and Gozzano throughout his career.','First Transfer': 'His first transfer was from Crotone to AC Milan in 2019.','Loan Transfer': 'He was loaned out from AC Milan to Genoa in 2023.','Spells at AC Milan': 'Messias has had two spells at AC Milan, first in 2022 and then again in 2024.','Genoa Loan': 'He has also played for Genoa on loan from AC Milan in 2023.','Crotone Stints': 'Crotone has been a frequent destination for Messias, having played for the club in 2022 and 2024.','Loan Move': 'His transfer history includes a loan move from Crotone to AC Milan in 2021.','Transfer Value': 'Messias\\' transfer value has not been disclosed in any of his transfers.'}",
+                "news": null
+            },
+            "22221": {
+                "information": {
+                    "Player Profile": "Mike Peterson Maignan, a towering figure at 191 cm and weighing in at 89 kg, is a 28-year-old French player who was born on July 3, 1995, in Cayenne, French Guiana, and represents his national team with pride."
+                },
+                "statistics": {
+                    "Games Appearances": "Maignan has appeared in 32 games this season, starting in every match.",
+                    "Games Minutes": "Maignan has played a total of 2880 minutes this season, the most among all players on the team.",
+                    "Games Position": "Maignan plays as a goalkeeper, a vital position in the team's defense.",
+                    "Games Rating": "Maignan has an impressive average rating of 7.112500 this season, indicating his consistent high performance.",
+                    "Shots Total": "Maignan has not taken any shots this season, as he is a goalkeeper and his primary focus is on defending.",
+                    "Goals Conceded": "Maignan has conceded 21 goals this season, a relatively low number considering his team's defensive record.",
+                    "Goals Assists": "Maignan has provided 1 assist this season, demonstrating his ability to participate in his team's attack.",
+                    "Goals Saves": "Maignan has made an impressive 82 saves this season, showcasing his exceptional goalkeeping skills.",
+                    "Passes Total": "Maignan has completed 989 passes this season, with a pass accuracy of 23.",
+                    "Tackles Total": "Maignan has made 2 tackles this season, with 1 interception, highlighting his ability to read the game and anticipate his opponents' moves.",
+                    "Duels Total": "Maignan has contested 18 duels this season, winning 15 of them, indicating his strength in one-on-one situations.",
+                    "Fouls Drawn": "Maignan has drawn 6 fouls this season, demonstrating his ability to use his body to shield the ball and protect his team's possession.",
+                    "Cards Yellow": "Maignan has received 1 yellow card this season, a testament to his disciplined play.",
+                    "Penalty Won": "Maignan has not won any penalties this season, as his team's attacking strategy does not rely heavily on set pieces.",
+                    "Player Name": "Maignan's full name is Mike Maignan."
+                },
+                "transfers": {
+                    "player_name": "Maignan",
+                    "transfer_history": "Maignan has had one transfer in his career, moving from Lille to Paris Saint Germain in 2015 for a fee of \u20ac1 million."
+                },
+                "news": null
+            },
+            "31054": {
+                "information": {
+                    "Personal Information": "Unfortunately, we don't have any information on the player's personal details, as the provided JSON doesn't include their first name, last name, age, birth date, birth place, birth country, nationality, height, or weight.",
+                    "Player Statistics": "The team has played 19 home games and 19 away games, with a total of 38 fixtures. The team has won 10 games at home, 8 games away, and 18 games in total. Lazio has drawn 6 games at home, 4 games away, and 10 games in total. The team has lost 3 games at home, 7 games away, and 10 games in total.",
+                    "Goal Statistics": "Lazio has scored 42 goals at home, 35 goals away, and 77 goals in total. The team has conceded 25 goals at home, 33 goals away, and 58 goals in total.",
+                    "Goal Difference": "Lazio has a goal difference of 17 (42-25) at home and 12 (35-23) away.",
+                    "Goals in Different Time Intervals": "The team has scored 12 goals in the first 15 minutes of games, 7 goals in the 16-30 minute range, 14 goals in the 31-45 minute range, 13 goals in the 46-60 minute range, 15 goals in the 61-75 minute range, and 6 goals in the 76-90 minute range. Lazio has conceded 14 goals in the first 15 minutes of games, 8 goals in the 16-30 minute range, 13 goals in the 31-45 minute range, 10 goals in the 46-60 minute range, 10 goals in the 61-75 minute range, and 7 goals in the 76-90 minute range.",
+                    "Streaks": "The team's biggest winning streak is 2 games, the biggest drawing streak is 2 games, and the biggest losing streak is also 2 games.",
+                    "Biggest Wins and Losses": "Lazio's biggest home win was 6-1, the biggest away win was 1-4, the biggest home loss was 0-2, and the biggest away loss was 4-0.",
+                    "Goal Scenarios": "The team has scored 6 goals in a game twice, and conceded 4 goals in a game twice."
+                },
+                "statistics": {
+                    "Games appearances": "R. Kruni\u0107 has appeared in 28 games this season.",
+                    "Games lineups": "R. Kruni\u0107 has started in 15 games and come on as a substitute in 13 games.",
+                    "Games minutes": "R. Kruni\u0107 has played a total of 1412 minutes this season.",
+                    "Games number": "R. Kruni\u0107 wears the number None jersey.",
+                    "Games position": "R. Kruni\u0107 plays as a Midfielder.",
+                    "Games rating": "R. Kruni\u0107 has a rating of 6.781481.",
+                    "Games captain": "R. Kruni\u0107 is not a captain.",
+                    "Substitutes in": "R. Kruni\u0107 has come on as a substitute in 13 games.",
+                    "Substitutes out": "R. Kruni\u0107 has been subbed out in 10 games.",
+                    "Substitutes bench": "R. Kruni\u0107 has been on the bench for 18 games.",
+                    "Shots total": "R. Kruni\u0107 has taken 7 shots this season.",
+                    "Shots on": "R. Kruni\u0107 has put 2 shots on target.",
+                    "Goals total": "R. Kruni\u0107 has scored 0 goals this season.",
+                    "Goals conceded": "R. Kruni\u0107 has not conceded any goals.",
+                    "Goals assists": "R. Kruni\u0107 has assisted 2 goals.",
+                    "Goals saves": "R. Kruni\u0107 has not made any saves.",
+                    "Passes total": "R. Kruni\u0107 has made 545 passes.",
+                    "Passes key": "R. Kruni\u0107 has made 17 key passes.",
+                    "Passes accuracy": "R. Kruni\u0107 has an accuracy of 17.",
+                    "Tackles total": "R. Kruni\u0107 has made 33 tackles.",
+                    "Tackles blocks": "R. Kruni\u0107 has blocked 2 tackles.",
+                    "Tackles interceptions": "R. Kruni\u0107 has made 16 interceptions.",
+                    "Duels total": "R. Kruni\u0107 has been involved in 171 duels.",
+                    "Duels won": "R. Kruni\u0107 has won 98 duels.",
+                    "Dribbles attempts": "R. Kruni\u0107 has attempted 15 dribbles.",
+                    "Dribbles success": "R. Kruni\u0107 has been successful in 12 dribbles.",
+                    "Dribbles past": "R. Kruni\u0107 has not been able to dribble past any opponents.",
+                    "Fouls drawn": "R. Kruni\u0107 has drawn 29 fouls.",
+                    "Fouls committed": "R. Kruni\u0107 has committed 21 fouls.",
+                    "Cards yellow": "R. Kruni\u0107 has received 2 yellow cards.",
+                    "Cards yellowred": "R. Kruni\u0107 has not received any yellow-red cards.",
+                    "Cards red": "R. Kruni\u0107 has not received any red cards.",
+                    "Penalty won": "R. Kruni\u0107 has not won any penalties.",
+                    "Penalty committed": "R. Kruni\u0107 has not committed any penalties.",
+                    "Penalty scored": "R. Kruni\u0107 has not scored any penalties.",
+                    "Penalty missed": "R. Kruni\u0107 has not missed any penalties.",
+                    "Penalty saved": "R. Kruni\u0107 has not had any penalties saved.",
+                    "Player name": "R. Kruni\u0107's name is R. Kruni\u0107."
+                },
+                "transfers": {
+                    "player_name": "R. Kruni\u0107",
+                    "transfer_history": "R. Kruni\u0107 has had 2 transfers in his career, the first was a free transfer from Borac Cacak to Empoli in 2015, and the second was a \u20ac8M transfer from Empoli to AC Milan in 2019."
+                },
+                "news": null
+            },
+            "21081": {
+                "information": {
+                    "Player Introduction": "And now, taking the field for Lazio, is 37-year-old goalkeeper Anton Ciprian T\u0103t\u0103ru\u0219anu, born on February 9th, 1986, in the city of Bucure\u0219ti, Romania, standing tall at 198 cm and weighing in at 90 kg, a proud representative of his nationality, Romania."
+                },
+                "statistics": "{'games': ['T\u0103t\u0103ru\u0219anu has appeared in 6 games, starting in all of them.', 'He has played a total of 540 minutes.'],'player_stats': ['He has not scored any goals, but has conceded 10.', 'He has made 15 saves, with a passing accuracy of 24%.'],'tackles': ['He has not made any tackles, blocks, or interceptions.'],'dribbles': ['He has not attempted any dribbles, and has not drawn any fouls.'],'fouls': ['He has not committed any fouls, and has not received any yellow, yellow-red, or red cards.'],'penalties': ['He has not won any penalties, and has not scored any goals from penalties.', 'He has saved 1 penalty, and has not missed any.'],'player_info': ['His name is T\u0103t\u0103ru\u0219anu, and he plays as a Goalkeeper.']}",
+                "transfers": "{\"T\u0103t\u0103ru\u0219anu\": [\"2023-08-10\",\"Abha\",\"AC Milan\",\"Free\"],\"transfers\": [{\"date\": \"2023-08-10\",\"teams_in_name\": \"Abha\",\"teams_out_name\": \"AC Milan\",\"transfer_type\": \"Free\"}",
+                "news": null
+            },
+            "1627": {
+                "information": {
+                    "Player Profile": "Davide Calabria, a 27-year-old Italian player from Brescia, takes the field, with a height of 177 cm and a weight of 70 kg."
+                },
+                "statistics": {
+                    "Games appearances": "Calabria has appeared in 26 games this season.",
+                    "Games lineups": "Calabria has started in 24 games and come on as a substitute in 2.",
+                    "Games minutes": "Calabria has played a total of 2124 minutes this season.",
+                    "Games number": "Calabria's squad number is none.",
+                    "Games position": "Calabria plays as a defender.",
+                    "Games rating": "Calabria's average rating this season is 6.976923.",
+                    "Games captain": "Calabria has not been captain in any games.",
+                    "Substitutes in": "Calabria has come on as a substitute in 2 games.",
+                    "Substitutes out": "Calabria has been substituted out in 7 games.",
+                    "Substitutes bench": "Calabria has been on the bench for 3 games.",
+                    "Shots total": "Calabria has taken 22 shots this season.",
+                    "Shots on": "Calabria has put 8 shots on target.",
+                    "Goals total": "Calabria has scored 2 goals.",
+                    "Goals conceded": "Calabria has not conceded any goals.",
+                    "Goals assists": "Calabria has provided 3 assists.",
+                    "Goals saves": "Calabria has not made any saves.",
+                    "Passes total": "Calabria has made 1036 passes.",
+                    "Passes key": "Calabria has made 19 key passes.",
+                    "Passes accuracy": "Calabria has an accuracy of 30% in passing.",
+                    "Tackles total": "Calabria has made 62 tackles.",
+                    "Tackles blocks": "Calabria has blocked 5 tackles.",
+                    "Tackles interceptions": "Calabria has made 23 interceptions.",
+                    "Duels total": "Calabria has been involved in 201 duels.",
+                    "Duels won": "Calabria has won 110 duels.",
+                    "Dribbles attempts": "Calabria has attempted 20 dribbles.",
+                    "Dribbles success": "Calabria has been successful in 10 dribbles.",
+                    "Dribbles past": "Calabria has not been able to dribble past any opponents.",
+                    "Fouls drawn": "Calabria has drawn 28 fouls.",
+                    "Fouls committed": "Calabria has committed 15 fouls.",
+                    "Cards yellow": "Calabria has received 2 yellow cards.",
+                    "Cards yellowred": "Calabria has not received any yellow-red cards.",
+                    "Cards red": "Calabria has not received any red cards.",
+                    "Penalty won": "Calabria has not won any penalties.",
+                    "Penalty committed": "Calabria has not committed any penalties.",
+                    "Penalty scored": "Calabria has not scored any penalties.",
+                    "Penalty missed": "Calabria has not missed any penalties.",
+                    "Penalty saved": "Calabria has not saved any penalties.",
+                    "Player name": "Calabria's name is Calabria."
+                },
+                "transfers": {
+                    "player_name": "Calabria",
+                    "transfers": "No transfers"
+                },
+                "news": null
+            },
+            "22236": {
+                "information": {
+                    "Player Profile": "Rafael Alexandre da Concei\u00e7\u00e3o Le\u00e3o, a towering figure at 188 cm tall and weighing in at 81 kg, is a 24-year-old Portuguese player who was born on June 10, 1999, in Almada, Portugal."
+                },
+                "statistics": "{'games_appearances': 34,'games_lineups': 31,'games_minutes': 2620,'games_number': None,'games_position': 'Attacker','games_rating': 7.158823,'games_captain': False,'substitutes_in': 3,'substitutes_out': 18,'substitutes_bench': 4,'shots_total': 73,'shots_on': 38,'goals_total': 11,'goals_conceded': 0,'goals_assists': 8,'goals_saves': None,'passes_total': 703,'passes_key': 45,'passes_accuracy': 15,'tackles_total': 17,'tackles_blocks': 1,'tackles_interceptions': 12,'duels_total': 372,'duels_won': 188,'dribbles_attempts': 163,'dribbles_success': 98,'dribbles_past': None,'fouls_drawn': 45,'fouls_committed': 25,'cards_yellow': 4,'cards_yellowred': 0,'cards_red': 0,'penalty_won': None,'penalty_commited': None,'penalty_scored': 0,'penalty_missed': 0,'penalty_saved': None,'player_name': 'da Concei\u00e7\u00e3o Le\u00e3o'}",
+                "transfers": {
+                    "player_name": "da Concei\u00e7\u00e3o Le\u00e3o",
+                    "transfer_history": "Le\u00e3o has had two major transfers in his career, the first being from Sporting CP to Lille in 2018, and the second being from Lille to AC Milan in 2019 for a fee of \u20ac30 million."
+                },
+                "news": null
+            },
+            "1632": {
+                "information": {
+                    "Player Profile": "And now, taking the field for Lazio, is their star defender, Alessio Romagnoli, who at 28 years old, stands tall at 185 cm and weighs in at 75 kg, a force to be reckoned with on the pitch, born and bred in Roma, Italy, and proudly representing his country, Italy, on the international stage."
+                },
+                "statistics": "{'games_appearences': 'Romagnoli has appeared in 19 games this season.','games_lineups': 'He has started in 16 lineups for his team.','games_minutes': 'Romagnoli has played a total of 1408 minutes this season.','games_number': 'He wears the number None jersey.','games_position': 'Romagnoli plays as a Defender.','games_rating': 'His average rating this season is 7.061111.','games_captain': 'He has not been named captain in any of his games.','substitutes_in': 'Romagnoli has been subbed in 3 times.','substitutes_out': 'He has been subbed out 1 time.','substitutes_bench': 'Romagnoli has spent 13 games on the bench.','shots_total': 'He has taken 11 shots this season.','shots_on': '5 of his shots have been on target.','goals_total': 'Romagnoli has scored 1 goal.','goals_conceded': 'He has not conceded any goals.','goals_assists': 'Romagnoli has not provided any assists.','goals_saves': 'He has not made any saves.','passes_total': 'Romagnoli has made 995 passes.','passes_key': 'He has made 3 key passes.','passes_accuracy': 'His passing accuracy is 49.','tackles_total': 'Romagnoli has made 24 tackles.','tackles_blocks': 'He has blocked 12 tackles.','tackles_interceptions': 'Romagnoli has made 19 interceptions.','duels_total': 'He has been involved in 125 duels.','duels_won': 'Romagnoli has won 85 duels.','dribbles_attempts': 'He has attempted 2 dribbles.','dribbles_success': 'Romagnoli has been successful in 2 dribbles.','dribbles_past': 'He has not been able to dribble past any opponents.','fouls_drawn': 'Romagnoli has drawn 13 fouls.','fouls_committed': 'He has committed 17 fouls.','cards_yellow': 'Romagnoli has received 4 yellow cards.','cards_yellowred': 'He has not received any yellow-red cards.','cards_red': 'Romagnoli has received 1 red card.','penalty_won': 'He has not won any penalties.','penalty_commited': 'Romagnoli has not committed any penalties.','penalty_scored': 'He has not scored any penalties.','penalty_missed': 'Romagnoli has not missed any penalties.','penalty_saved': 'He has not had any penalties saved.','player_name': 'Romagnoli'}",
+                "transfers": "{'most recent transfer': Romagnoli's most recent transfer was on July 12, 2022, when he joined Lazio from AC Milan on a free transfer.,'previous transfer': Before that, he played for AC Milan from 2015 to 2022, joining them from AS Roma for a transfer fee of \u20ac25M.,'loan spell': Romagnoli had a loan spell at Sampdoria in 2014, before joining AS Roma permanently in 2015.,'first transfer': His first transfer was from Sampdoria to AS Roma in 2014, on a loan deal.}",
+                "news": null
+            },
+            "1635": {
+                "information": {
+                    "Player Physical Stats": "Ti\u00e9mou\u00e9 Bakayoko, a towering figure on the pitch, stands at 185 cm tall and weighs in at 77 kg, a physical presence to be reckoned with."
+                },
+                "statistics": "{'games_appearences': 'Bakayoko has appeared in 14 games this season.','games_lineups': 'He has started in 5 games and has been subbed in 9 times.','games_minutes': 'Bakayoko has played a total of 495 minutes this season.','games_number': 'He wears the number 8 jersey.','games_position': 'Bakayoko plays as a Midfielder.','games_rating': 'His average rating this season is 6.585714.','games_captain': 'Bakayoko has not been captain of the team.','substitutes_in': 'He has been subbed in 9 times.','substitutes_out': 'Bakayoko has been subbed out 4 times.','substitutes_bench': 'He has spent 24 minutes on the bench.','shots_total': 'Bakayoko has taken 2 shots this season.','shots_on': 'He has not had any shots on target.','goals_total': 'Bakayoko has not scored any goals this season.','goals_conceded': 'He has not conceded any goals.','goals_assists': 'Bakayoko has not assisted any goals.','goals_saves': 'He has not made any saves.','passes_total': 'Bakayoko has made 303 passes this season.','passes_key': 'He has made 3 key passes.','passes_accuracy': 'Bakayoko has an accuracy of 19.','tackles_total': 'He has made 19 tackles this season.','tackles_blocks': 'Bakayoko has blocked 1 tackle.','tackles_interceptions': 'He has made 9 interceptions.','duels_total': 'Bakayoko has been involved in 85 duels.','duels_won': 'He has won 49 duels.','dribbles_attempts': 'Bakayoko has attempted 7 dribbles.','dribbles_success': 'He has been successful in 4 dribbles.','dribbles_past': 'Bakayoko has not been able to dribble past any opponents.','fouls_drawn': 'He has drawn 10 fouls.','fouls_committed': 'Bakayoko has committed 12 fouls.','cards_yellow': 'He has received 3 yellow cards.','cards_yellowred': 'Bakayoko has not received any yellow-red cards.','cards_red': 'He has not received any red cards.','penalty_won': 'Bakayoko has not won any penalties.','penalty_commited': 'He has not committed any penalties.','penalty_scored': 'Bakayoko has not scored any penalties.','penalty_missed': 'He has not missed any penalties.','penalty_saved': 'Bakayoko has not had any penalties saved.','player_name': 'Bakayoko'}",
+                "transfers": {
+                    "transfer_history": [
+                        "Bakayoko has been transferred to Lorient on a free transfer from Chelsea.",
+                        "Bakayoko has been loaned to AC Milan from Chelsea.",
+                        "Bakayoko has been transferred to Chelsea from Napoli on a permanent deal.",
+                        "Bakayoko has been loaned to Napoli from Chelsea.",
+                        "Bakayoko has been loaned to Monaco from Chelsea.",
+                        "Bakayoko has been transferred to Chelsea from AC Milan on a permanent deal.",
+                        "Bakayoko has been loaned to AC Milan from Chelsea.",
+                        "Bakayoko has been transferred to Monaco from Rennes on a permanent deal."
+                    ]
+                },
+                "news": null
+            },
+            "744": {
+                "information": {
+                    "Player Profile": "Brahim Abdelkader D\u00edaz, a 24-year-old Spanish player from M\u00e1laga, boasts an impressive physique, standing at 171 cm tall and weighing in at 59 kg."
+                },
+                "statistics": {
+                    "Games appearances": "Abdelkader D\u00edaz has appeared in 31 games this season.",
+                    "Games lineups": "D\u00edaz has started in 25 games and has been subbed in 6 times.",
+                    "Games minutes": "D\u00edaz has played a total of 1872 minutes this season.",
+                    "Games number": "D\u00edaz's squad number is none.",
+                    "Games position": "D\u00edaz plays as a midfielder.",
+                    "Games rating": "D\u00edaz's average rating this season is 6.632258.",
+                    "Games captain": "D\u00edaz has not been captain in any game.",
+                    "Substitutes in": "D\u00edaz has been subbed in 6 times.",
+                    "Substitutes out": "D\u00edaz has been subbed out 23 times.",
+                    "Substitutes bench": "D\u00edaz has been on the bench 10 times.",
+                    "Shots total": "D\u00edaz has taken 19 shots this season.",
+                    "Shots on": "D\u00edaz has put 6 shots on target.",
+                    "Goals total": "D\u00edaz has scored 3 goals this season.",
+                    "Goals conceded": "D\u00edaz has not conceded any goals.",
+                    "Goals assists": "D\u00edaz has assisted 3 goals.",
+                    "Goals saves": "D\u00edaz has not made any saves.",
+                    "Passes total": "D\u00edaz has made 699 passes this season.",
+                    "Passes key": "D\u00edaz has made 31 key passes.",
+                    "Passes accuracy": "D\u00edaz has an accuracy of 20% in passing.",
+                    "Tackles total": "D\u00edaz has made 23 tackles this season.",
+                    "Tackles blocks": "D\u00edaz has not made any tackle blocks.",
+                    "Tackles interceptions": "D\u00edaz has made 8 tackle interceptions.",
+                    "Duels total": "D\u00edaz has been involved in 262 duels.",
+                    "Duels won": "D\u00edaz has won 105 duels.",
+                    "Dribbles attempts": "D\u00edaz has attempted 88 dribbles.",
+                    "Dribbles success": "D\u00edaz has been successful in 45 dribbles.",
+                    "Dribbles past": "D\u00edaz has not been able to dribble past any opponents.",
+                    "Fouls drawn": "D\u00edaz has drawn 33 fouls this season.",
+                    "Fouls committed": "D\u00edaz has committed 22 fouls.",
+                    "Cards yellow": "D\u00edaz has received 4 yellow cards.",
+                    "Cards yellowred": "D\u00edaz has not received any yellow-red cards.",
+                    "Cards red": "D\u00edaz has not received any red cards.",
+                    "Penalty won": "D\u00edaz has not won any penalties.",
+                    "Penalty committed": "D\u00edaz has not committed any penalties.",
+                    "Penalty scored": "D\u00edaz has not scored any penalties.",
+                    "Penalty missed": "D\u00edaz has not missed any penalties.",
+                    "Penalty saved": "D\u00edaz has not had any penalties saved.",
+                    "Player name": "D\u00edaz's name is Abdelkader D\u00edaz."
+                },
+                "transfers": "{'transfer_history': ['Abdelkader D\u00edaz has been transferred from Real Madrid to AC Milan on a loan deal in 2020.','Abdelkader D\u00edaz has been transferred from Manchester City to Real Madrid in 2019 for a fee of \u20ac 15M.','Abdelkader D\u00edaz has been transferred from AC Milan to Real Madrid in 2023 for an undisclosed fee.']}",
+                "news": null
+            },
+            "105": {
+                "information": {
+                    "Player Profile": "Fod\u00e9 Ballo-Tour\u00e9, a 26-year-old Senegalese player, stands tall at 182 cm and weighs 70 kg, is a force to be reckoned with on the pitch, hailing from Conflans-Sainte-Honorine, France."
+                },
+                "statistics": "{'games_appearences': 'Ballo-Tour\u00e9 has appeared in 10 games this season.','games_lineups': 'He has started in 5 games and has been subbed in 5 times.','games_minutes': 'Ballo-Tour\u00e9 has played a total of 445 minutes this season.','games_number': 'He wears the number None jersey.','games_position': 'His primary position is Defender.','games_rating': 'Ballo-Tour\u00e9 has a season rating of 6.47 out of 10.','games_captain': 'He has not been named captain in any of the games he has played.','substitutes_in': 'He has been subbed in 5 times.','substitutes_out': 'Ballo-Tour\u00e9 has been subbed out 3 times.','substitutes_bench': 'He has spent 27 minutes on the bench.','shots_total': 'Ballo-Tour\u00e9 has taken 2 shots this season.','shots_on': 'He has put 1 shot on target.','goals_total': 'He has not scored any goals this season.','goals_conceded': 'Ballo-Tour\u00e9 has not conceded any goals.','goals_assists': 'He has not provided any assists.','goals_saves': 'He has not made any saves.','passes_total': 'Ballo-Tour\u00e9 has made 222 passes this season.','passes_key': 'He has made 4 key passes.','passes_accuracy': 'His passing accuracy is 19%.','tackles_total': 'He has made 18 tackles.','tackles_blocks': 'Ballo-Tour\u00e9 has blocked 2 tackles.','tackles_interceptions': 'He has made 3 interceptions.','duels_total': 'Ballo-Tour\u00e9 has been involved in 75 duels.','duels_won': 'He has won 38 duels.','dribbles_attempts': 'He has attempted 10 dribbles.','dribbles_success': 'Ballo-Tour\u00e9 has been successful in 5 dribbles.','dribbles_past': 'He has not successfully dribbled past an opponent.','fouls_drawn': 'Ballo-Tour\u00e9 has drawn 10 fouls.','fouls_committed': 'He has committed 12 fouls.','cards_yellow': 'He has received 2 yellow cards.','cards_yellowred': 'Ballo-Tour\u00e9 has not received a yellow-red card.','cards_red': 'He has not received a red card.','penalty_won': 'He has not won a penalty.','penalty_commited': 'Ballo-Tour\u00e9 has not committed a penalty.','penalty_scored': 'He has not scored a penalty.','penalty_missed': 'He has not missed a penalty.','penalty_saved': 'He has not had a penalty saved.','player_name': 'Ballo-Tour\u00e9'}",
+                "transfers": {
+                    "Player Transfers": [
+                        "Ballo-Tour\u00e9's most recent transfer was on July 1, 2024, when he joined AC Milan from Fulham on a free transfer.",
+                        "Before that, he was on loan at Fulham from AC Milan, where he played from September 1, 2023, until June 30, 2024.",
+                        "Ballo-Tour\u00e9's first transfer was on July 18, 2021, when he joined Monaco on a free transfer from Paris Saint Germain.",
+                        "He then moved to Lille on January 10, 2019, for a transfer fee of \u20ac11 million.",
+                        "Ballo-Tour\u00e9's first professional transfer was on July 1, 2017, when he joined Lille from Paris Saint Germain on a free transfer."
+                    ]
+                },
+                "news": null
+            },
+            "1642": {
+                "information": {
+                    "Player Profile": "Franck Yannick Kessi\u00e9, a 27-year-old Ivorian midfielder, brings a wealth of experience and skill to the pitch, standing at 183 cm tall and weighing 74 kg, he is a force to be reckoned with."
+                },
+                "statistics": {
+                    "Games appearances": "Kessi\u00e9 has appeared in 31 games this season.",
+                    "Games lineups": "Kessi\u00e9 has started in 25 games and has been subbed in 6 times.",
+                    "Games minutes": "Kessi\u00e9 has played a total of 2309 minutes this season.",
+                    "Games number": "Kessi\u00e9's squad number is none.",
+                    "Games position": "Kessi\u00e9 plays as a midfielder.",
+                    "Games rating": "Kessi\u00e9's average rating this season is 7.074193.",
+                    "Games captain": "Kessi\u00e9 has not been captain in any games.",
+                    "Substitutes in": "Kessi\u00e9 has been subbed in 6 times.",
+                    "Substitutes out": "Kessi\u00e9 has been subbed out 7 times.",
+                    "Substitutes bench": "Kessi\u00e9 has been on the bench 6 times.",
+                    "Shots total": "Kessi\u00e9 has taken 24 shots this season.",
+                    "Shots on": "Kessi\u00e9 has put 10 shots on target.",
+                    "Goals total": "Kessi\u00e9 has scored 6 goals.",
+                    "Goals conceded": "Kessi\u00e9 has not conceded any goals.",
+                    "Goals assists": "Kessi\u00e9 has not provided any assists.",
+                    "Goals saves": "Kessi\u00e9 has not made any saves.",
+                    "Passes total": "Kessi\u00e9 has made 1317 passes this season.",
+                    "Passes key": "Kessi\u00e9 has made 28 key passes.",
+                    "Passes accuracy": "Kessi\u00e9 has an accuracy of 37% in passing.",
+                    "Tackles total": "Kessi\u00e9 has made 41 tackles.",
+                    "Tackles blocks": "Kessi\u00e9 has blocked 10 tackles.",
+                    "Tackles interceptions": "Kessi\u00e9 has made 23 interceptions.",
+                    "Duels total": "Kessi\u00e9 has been involved in 245 duels.",
+                    "Duels won": "Kessi\u00e9 has won 135 duels.",
+                    "Dribbles attempts": "Kessi\u00e9 has attempted 45 dribbles.",
+                    "Dribbles success": "Kessi\u00e9 has been successful in 33 dribbles.",
+                    "Dribbles past": "Kessi\u00e9 has not provided any dribbles past.",
+                    "Fouls drawn": "Kessi\u00e9 has drawn 31 fouls.",
+                    "Fouls committed": "Kessi\u00e9 has committed 36 fouls.",
+                    "Cards yellow": "Kessi\u00e9 has received 2 yellow cards.",
+                    "Cards yellowred": "Kessi\u00e9 has not received any yellow-red cards.",
+                    "Cards red": "Kessi\u00e9 has not received any red cards.",
+                    "Penalty won": "Kessi\u00e9 has not won any penalties.",
+                    "Penalty committed": "Kessi\u00e9 has not committed any penalties.",
+                    "Penalty scored": "Kessi\u00e9 has scored 2 penalties.",
+                    "Penalty missed": "Kessi\u00e9 has missed 1 penalty.",
+                    "Penalty saved": "Kessi\u00e9 has not had any penalties saved.",
+                    "Player name": "Kessi\u00e9's name is Kessi\u00e9."
+                },
+                "transfers": "{'Total Transfers': 'Kessi\u00e9 has had a total of 5 transfers in his career so far.','First Transfer': 'His first transfer was from Cesena to Atalanta on a loan deal in 2015.','Transfer to AC Milan': 'A year later, he was signed by AC Milan on a permanent deal.','Transfer to Barcelona': 'In 2022, he made a move to Barcelona on a free transfer.','Loan Spell': 'He has also had a loan spell at Al-Ahli Jeddah in 2023.','Transfer History': 'Kessi\u00e9\\'s transfer history suggests that he has a tendency to switch clubs frequently.'}",
+                "news": null
+            },
+            "1641": {
+                "information": {
+                    "Player Profile": "Samuel Castillejo Azuaga, a 28-year-old Spanish midfielder, takes the field, his birthplace in M\u00e1laga, Spain, and his height of 182 cm and weight of 67 kg giving him a strong presence on the pitch."
+                },
+                "statistics": "{'games_appearences': 5,'games_lineups': 1,'games_minutes': 124,'games_number': None,'games_position': 'Midfielder','games_rating': 6.75,'games_captain': False,'substitutes_in': 4,'substitutes_out': 1,'substitutes_bench': 21,'shots_total': 1,'shots_on': 0,'goals_total': 0,'goals_conceded': 0,'goals_assists': 0,'goals_saves': 0,'passes_total': 55,'passes_key': 2,'passes_accuracy': 12,'tackles_total': 4,'tackles_blocks': 1,'tackles_interceptions': 2,'duels_total': 23,'duels_won': 8,'dribbles_attempts': 2,'dribbles_success': 0,'dribbles_past': 0,'fouls_drawn': 2,'fouls_committed': 2,'cards_yellow': 0,'cards_yellowred': 0,'cards_red': 0,'penalty_won': 0,'penalty_commited': 0,'penalty_scored': 0,'penalty_missed': 0,'penalty_saved': 0,'player_name': 'Castillejo Azuaga'}",
+                "transfers": "{'transfer_history': ['Castillejo Azuaga has had a loan transfer from Sassuolo to Valencia in 2023.','Castillejo Azuaga has transferred from Valencia to AC Milan for free in 2022.','Castillejo Azuaga has transferred from AC Milan to Villarreal for \u20ac25M in 2018.','Castillejo Azuaga has had a loan transfer from Villarreal to Malaga in 2015.']}",
+                "news": null
+            },
+            "2295": {
+                "information": {
+                    "Personal Information": "Unfortunately, we don't have any information on the player's personal details, as the provided JSON doesn't include their first name, last name, age, birth date, birth place, birth country, nationality, height, or weight.",
+                    "Player Statistics": "The team has played 19 home games and 19 away games, with a total of 38 fixtures. The team has won 10 games at home, 8 games away, and 18 games in total. Lazio has drawn 6 games at home, 4 games away, and 10 games in total. The team has lost 3 games at home, 7 games away, and 10 games in total.",
+                    "Goal Statistics": "Lazio has scored 42 goals at home, 35 goals away, and 77 goals in total. The team has conceded 25 goals at home, 33 goals away, and 58 goals in total.",
+                    "Goal Difference": "Lazio has a goal difference of 17 (42-25) at home and 12 (35-23) away.",
+                    "Goals in Different Time Intervals": "The team has scored 12 goals in the first 15 minutes of games, 7 goals in the 16-30 minute range, 14 goals in the 31-45 minute range, 13 goals in the 46-60 minute range, 15 goals in the 61-75 minute range, and 6 goals in the 76-90 minute range. Lazio has conceded 14 goals in the first 15 minutes of games, 8 goals in the 16-30 minute range, 13 goals in the 31-45 minute range, 10 goals in the 46-60 minute range, 10 goals in the 61-75 minute range, and 7 goals in the 76-90 minute range.",
+                    "Streaks": "The team's biggest winning streak is 2 games, the biggest drawing streak is 2 games, and the biggest losing streak is also 2 games.",
+                    "Biggest Wins and Losses": "Lazio's biggest home win was 6-1, the biggest away win was 1-4, the biggest home loss was 0-2, and the biggest away loss was 4-0.",
+                    "Goal Scenarios": "The team has scored 6 goals in a game twice, and conceded 4 goals in a game twice."
+                },
+                "statistics": "{'games_appearances': 29,'games_lineups': 22,'games_minutes': 1904,'games_number': None,'games_position': 'Attacker','games_rating': 7.093103,'games_captain': False,'substitutes_in': 7,'substitutes_out': 16,'substitutes_bench': 8,'shots_total': 45,'shots_on': 24,'goals_total': 11,'goals_conceded': 0,'goals_assists': 3,'goals_saves': None,'passes_total': 472,'passes_key': 25,'passes_accuracy': 11,'tackles_total': 15,'tackles_blocks': 4,'tackles_interceptions': 3,'duels_total': 243,'duels_won': 133,'dribbles_attempts': 8,'dribbles_success': 4,'dribbles_past': None,'fouls_drawn': 22,'fouls_committed': 31,'cards_yellow': 4,'cards_yellowred': 0,'cards_red': 0,'penalty_won': None,'penalty_commited': None,'penalty_scored': 2,'penalty_missed': 0,'penalty_saved': None,'player_name': 'O. Giroud'}",
+                "transfers": "{'transfer_history': 'Olivier Giroud has had a total of 5 transfers throughout his career.','most_recent_transfer': 'His most recent transfer was from Chelsea to AC Milan in 2021, for a fee of \u20ac1M.','previous_transfer': 'Previously, he was transferred from Arsenal to Chelsea in 2018 for \u20ac21M.','transfer_2012': 'In 2012, he moved from Montpellier to Arsenal for a fee of \u20ac12M.','transfer_2010': 'Before that, he was loaned out from Montpellier to Tours in 2010.','first_transfer': 'His first transfer was from Istres to Grenoble in 2007, also on loan.'}",
+                "news": null
+            },
+            "765": {
+                "information": {
+                    "Player Profile": "Antonio Mirante, a 40-year-old goalkeeper from Castellamare di Stabia, Italy, stands at an impressive 193 cm tall and weighs in at 79 kg, bringing a wealth of experience and skill to the pitch with him."
+                },
+                "statistics": "{'games_appearences': 'Mirante has played 0 games and has 0 appearances as a starter.','games_lineups': 'Mirante has not started any games.','games_minutes': 'Mirante has played a total of 0 minutes.','games_number': 'Mirante has not played any games.','games_position': 'Mirante plays as a Goalkeeper.','games_rating': 'Mirante has not received a rating.','games_captain': 'Mirante is not a captain.','substitutes_in': 'Mirante has not come in as a substitute.','substitutes_out': 'Mirante has not been subbed out.','substitutes_bench': 'Mirante has been on the bench for 29 games.','shots_total': 'Mirante has not taken any shots.','shots_on': 'Mirante has not taken any shots on target.','goals_total': 'Mirante has not scored any goals.','goals_conceded': 'Mirante has not conceded any goals.','goals_assists': 'Mirante has not provided any assists.','goals_saves': 'Mirante has not made any saves.','passes_total': 'Mirante has not made any passes.','passes_key': 'Mirante has not made any key passes.','passes_accuracy': 'Mirante\\'s passing accuracy is None.','tackles_total': 'Mirante has not made any tackles.','tackles_blocks': 'Mirante has not made any blocks.','tackles_interceptions': 'Mirante has not made any interceptions.','duels_total': 'Mirante has not won any duels.','duels_won': 'Mirante has not won any duels.','dribbles_attempts': 'Mirante has not attempted any dribbles.','dribbles_success': 'Mirante has not succeeded in any dribbles.','dribbles_past': 'Mirante has not dribbled past any opponents.','fouls_drawn': 'Mirante has not drawn any fouls.','fouls_committed': 'Mirante has not committed any fouls.','cards_yellow': 'Mirante has not received any yellow cards.','cards_yellowred': 'Mirante has not received any yellow-red cards.','cards_red': 'Mirante has not received any red cards.','penalty_won': 'Mirante has not won any penalties.','penalty_commited': 'Mirante has not committed any penalties.','penalty_scored': 'Mirante has not scored any penalties.','penalty_missed': 'Mirante has not missed any penalties.','penalty_saved': 'Mirante has not saved any penalties.','player_name': 'Mirante's player name is Mirante.'}",
+                "transfers": "{'total_transfers': \"Mirante has had a total of 6 transfers throughout his career.\",'first_transfer': \"His first transfer was from Robur Siena to Juventus on a loan deal in 2005.\",'2007_transfer': \"In 2007, he was transferred from Sampdoria to Juventus for a fee of \u20ac 2.7M.\",'2009_transfer': \"Mirante then moved to Parma in 2009 for a transfer fee of \u20ac 3.6M.\",'2015_transfer': \"He was transferred to Bologna in 2015 on a free transfer.\",'2018_transfer': \"Two years later, he joined AS Roma on a free transfer.\",'2021_transfer': \"Most recently, Mirante was transferred to AC Milan on October 13, 2021, on a free transfer.\"}",
+                "news": null
+            },
+            "51070": {
+                "information": {
+                    "Player Physical Stats": "Zlatan Ibrahimovi\u0107, a towering figure on the pitch, stands tall at 195 cm and weighs in at a muscular 95 kg, a testament to his physical prowess and dominance in the game."
+                },
+                "statistics": "{'games_appearances': 23,'games_lineups': 11,'games_minutes': 1007,'games_number': None,'games_position': 'Attacker','games_rating': 7.142857,'games_captain': False,'substitutes_in': 12,'substitutes_out': 4,'substitutes_bench': 14,'shots_total': 42,'shots_on': 20,'goals_total': 8,'goals_conceded': 0,'goals_assists': 3,'goals_saves': None,'passes_total': 414,'passes_key': 23,'passes_accuracy': 13,'tackles_total': None,'tackles_blocks': 1,'tackles_interceptions': 3,'duels_total': 113,'duels_won': 58,'dribbles_attempts': 9,'dribbles_success': 5,'dribbles_past': None,'fouls_drawn': 9,'fouls_committed': 16,'cards_yellow': 2,'cards_yellowred': 0,'cards_red': 0,'penalty_won': None,'penalty_commited': None,'penalty_scored': 0,'penalty_missed': 1,'penalty_saved': None,'player_name': 'Ibrahimovi\u0107'}",
+                "transfers": {
+                    "Career": "Ibrahimovi\u0107 has had a diverse career, playing for 8 different teams across 4 countries.",
+                    "Transfer History": "He has moved on a free transfer 4 times, including his moves to Manchester United, Paris Saint Germain, and AC Milan.",
+                    "Most Expensive Transfer": "His most expensive transfer was from Barcelona to Inter for \u20ac69.9M in 2009.",
+                    "Loan": "He has also gone on loan from AC Milan to Barcelona in 2010.",
+                    "First Transfer": "Ibrahimovi\u0107's first transfer was from Malmo FF to Ajax for \u20ac8.2M in 2001.",
+                    "Biggest Clubs": "He has played for some of the biggest clubs in the world, including Barcelona, Manchester United, and Paris Saint Germain.",
+                    "Transfer Pattern": "His transfer history shows a pattern of moving between top clubs in Europe, with a mix of free transfers and big-money moves.",
+                    "Transfer Value": "Ibrahimovi\u0107's transfer value has fluctuated throughout his career, with his highest value being \u20ac69.9M when he transferred from Barcelona to Inter.",
+                    "Leagues Played In": "He has played in 4 different leagues: Eredivisie, Serie A, La Liga, and Major League Soccer.",
+                    "Transfer Influences": "Ibrahimovi\u0107's transfers have been influenced by factors such as team performance, coaching changes, and personal preferences.",
+                    "Reputation": "His transfer history reflects his reputation as a talented and versatile player who can adapt to different systems and teams."
+                },
+                "news": null
+            }
+        },
+        "coach": {
+            "age": "Coach Stefano Pioli is 58 years old, born on October 20, 1965, in Parma, Italy.",
+            "firstname": "His full name is Stefano Pioli.",
+            "lastname": "His full name is Stefano Pioli.",
+            "career": "He has been the coach of several teams, including AC Milan, Fiorentina, Inter Milan, Lazio, Bologna, Palermo, Chievo, Sassuolo, Piacenza, Grosseto, Parma, and Modena. His coaching career spans over 15 years, starting from 2003. He has been the coach of both AC Milan and Inter Milan, two of the most successful teams in Italy.",
+            "height": "His height and weight are not available.",
+            "weight": "His height and weight are not available.",
+            "nationality": "He is Italian and has coached several teams in Italy."
+        }
+    },
+    "fixture": {
+        "information": "  In an exciting match that took place on September 12, 2021, at the iconic Stadio Giuseppe Meazza, AC Milan emerged victorious with a score of 2-0 against Lazio, with referee D. Chiffi presiding over the fixture.",
+        "487": {
+            "statistics": "{'Shots on Goal': 'Lazio has taken 5 shots on goal, with 4 of them being inside the box and 1 outside the box.','Shots off Goal': 'The team has taken 1 shot that was not on goal.','Total Shots': 'The total number of shots taken by Lazio is 8.','Blocked Shots': '2 of Lazio's shots have been blocked.','Fouls': 'Lazio has committed 18 fouls.','Corner Kicks': 'The team has taken 1 corner kick.','Offsides': 'Lazio has been caught offside 2 times.','Ball Possession': 'Lazio has possessed the ball 53% of the time.','Yellow Cards': 'The team has received 4 yellow cards.','Red Cards': 'Lazio has not received any red cards.','Goalkeeper Saves': 'The goalkeeper has made 1 save.','Total passes': 'The team has made 541 passes.','Passes accurate': '465 of Lazio's passes have been accurate, giving them an accuracy rate of 86%.'}"
+        },
+        "489": {
+            "statistics": "{'Shots on Goal': 'AC Milan has managed to get 3 shots on target out of a total of 21 shots.','Shots off Goal': 'The team has missed the target with 10 shots.','Total Shots': 'AC Milan has taken a total of 21 shots in the game.','Blocked Shots': '8 shots have been blocked by the opposing team.','Shots insidebox': '11 shots have been taken inside the box.','Shots outsidebox': '10 shots have been taken outside the box.','Fouls': 'The team has committed 9 fouls.','Corner Kicks': 'AC Milan has taken 5 corner kicks.','Offsides': 'The team has been caught offside 4 times.','Ball Possession': 'AC Milan has had possession of the ball for 47% of the game.','Yellow Cards': 'The team has received 1 yellow card.','Red Cards': 'No red cards have been given to AC Milan.','Goalkeeper Saves': 'The goalkeeper has made 5 saves.','Total passes': 'The team has made a total of 461 passes.','Passes accurate': '395 passes have been accurate.','Passes %': 'The team has an 86% pass accuracy rate.'}"
+        }
+    },
+    "venue": "  The Stadio Giuseppe Meazza, nestled in the bustling city of Milano, is set to host this crucial matchup. With a seating capacity of 80,018 passionate fans and a lush grass surface, this venue promises an electrifying atmosphere that will undoubtedly ignite the excitement of the eager spectators."
+}

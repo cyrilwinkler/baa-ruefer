@@ -1,0 +1,15 @@
+{
+    "team_information": 0.028434359665757303,
+    "team_statistics": 0.0,
+    "team_injuries": null,
+    "player_information": 0.0007822054326782725,
+    "player_statistics": 0.0,
+    "player_transfers": 0.0,
+    "coach": 0.0,
+    "fixture_information": 0.0695145285337151,
+    "fixture_statistics": 0.0,
+    "venue_information": 0.05514227981781941,
+    "news_rouge_1": 0.06170160616105359,
+    "news_rouge_2": 0.00965483810164843,
+    "news_rouge_l": 0.058079232285942875
+}

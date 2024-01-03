@@ -9,6 +9,7 @@ from models.logic2text.utils import sample_sequence
 from torch.autograd import Variable
 from models.logic2text.DataLoader import *
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("mps")
 
 class GPT():
     def __init__(self) -> None:
@@ -44,7 +45,7 @@ class GPT():
 
             print(desc.shape)
 
-            samples = sample_sequence(self.model, 30, fake_inputs, [], top_p=0.9)
+            samples = sample_sequence(self.model, 30, fake_inputs, [], top_k=5)
             samples = samples[:, desc.shape[1]:]
             samples = samples.cpu().data.numpy()
             print(f'samples len: {len(samples)}')
