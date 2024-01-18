@@ -157,12 +157,17 @@ class DataLoader(ABC):
             self.fixture_stats = api.get_fixture_statistics() #60 Requests (only Serie A)
             self.news_details = api.get_news_details() #310 Requests
         
+    
     @abstractmethod
-    def get_team_information(self):
+    def get_player_names(self):
         pass
 
     @abstractmethod
-    def get_team_statistics(self):
+    def get_player_information(self):
+        pass
+
+    @abstractmethod
+    def get_player_statistics(self):
         pass
 
     @abstractmethod
@@ -170,11 +175,31 @@ class DataLoader(ABC):
         pass
 
     @abstractmethod
+    def get_team_information(self):
+        pass
+
+    @abstractmethod
+    def get_venue_information(self):
+        pass
+
+    @abstractmethod
+    def get_team_statistics(self):
+        pass
+
+    @abstractmethod
+    def get_player_transfers(self):
+        pass
+
+    @abstractmethod
     def get_player_news(self):
         pass
 
     @abstractmethod
-    def get_team_fixtures(self):
+    def get_news_details(self):
+        pass
+
+    @abstractmethod
+    def get_team_news(self):
         pass
 
     @abstractmethod
@@ -182,9 +207,30 @@ class DataLoader(ABC):
         pass
 
     @abstractmethod
+    def get_home_team_id(self):
+        pass
+
+    @abstractmethod
+    def get_players_ids(self):
+        pass
+
+    @abstractmethod
+    def get_team_fixtures(self):
+        pass
+
+    @abstractmethod
+    def get_todays_fixture_id(self):
+        pass
+
+    @abstractmethod
+    def get_fixture_lineup(self):
+        pass
+
+    @abstractmethod
     def get_fixture_stats(self):
         pass
 
     @abstractmethod
-    def get_venue_information(self):
+    def get_coaches(self):
         pass
+

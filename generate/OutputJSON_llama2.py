@@ -1,27 +1,38 @@
 import sys
 sys.path.append('/Users/tschip/workspace/baa/baa-ruefer/')
-#sys.path.append('/home/jovyan/baa-ruefer/')
-#from openai import OpenAI
+
 import json
-import time
 import openai
 import tqdm
-from rouge import Rouge
 
 from LlamaGenerate import LlamaGenerate
-
+from data_loaders.APIRequests import APIRequests
+from generate.Metrics import Metrics
 
 class OutputJSON():
+    """
+    Class to generate the final output json with flavor and three different lengths.
+    :param team_ids: list of team ids
+    :param requests_api: api object to get data from api
+
+    :return: json with flavor and three different lengths
+    """
     def __init__(self, team_ids: list, requests_api=None):
         self.team_ids = team_ids
         self.requests_api = requests_api
-        #self.input_json = LlamaGenerate(team_ids=team_ids).main()
-        with open('gpt_output.json', 'r') as fp:
-            self.input_json = json.load(fp)
+        self.input_json = LlamaGenerate(team_ids=team_ids).main()
+        #with open('gpt_output.json', 'r') as fp:
+            #self.input_json = json.load(fp)
         
         self.input_json = self.clean_strings(self.input_json)
+        self.metrics = Metrics()
 
     def clean_strings(self, data):
+        """
+        Clean the strings in the input json to a valid json format
+        :param data: input json
+        :return: cleaned, (valid) json
+        """
         if isinstance(data, str):
             try:
                 # If the value is a string, perform the cleaning
@@ -43,20 +54,35 @@ class OutputJSON():
             # If the value is not a string, list, or dictionary, return it as is
             return data
 
-    def create_output_json(self, commentary_flavor: str):
+    def create_output_json(self, commentary_flavor: str, in_favor=None):
+        """
+        Create the output json with flavor and three different lengths.
+        :param commentary_flavor: flavor of the commentary
+        :param in_favor: team id of the team the commentary should be in favor of
+        :return: output json
+        """
         output_json = {}
         for team_id in list(self.input_json.keys())[:2]:
+            in_team_favor = True if str(in_favor) == str(team_id) else False
+            not_in_team_favor = True if (in_favor != team_id) and (in_favor != None) else False
+
+            in_favor_text = 'The text should be in favor of the player and team and' if in_team_favor else 'The text should not be in favor of the player and team and' if not_in_team_favor else 'The text should be'
+
             print(f'Generating output for team {team_id}')
             output_json[team_id] = {}
             output_json[team_id]['team_name'] = self.input_json[team_id]['name']
             
             print(f'Generating output for team {team_id} information')
-            team_information_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['information']}"
+            team_information_input = f"Create three outputs in different lengths. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['information']}"
             team_information_output = self.generate_gpt_flavor(team_information_input)
             try:
-                output_json[team_id]['information'] = json.loads(team_information_output)
+                model_outputs = self.clean_strings(json.loads(team_information_output))
+                for output in model_outputs.values():
+                    self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['information'])
+                output_json[team_id]['information'] = model_outputs
             except:
-                print(team_information_output)
+                print(f'no json format: {team_information_output}')
+                self.metrics.calculate_rouge_scores(None, None)
                 output_json[team_id]['information'] = self.clean_strings(self.format_to_json(team_information_output))
             print(f'Generated output for team {output_json[team_id]["information"]}')
             
@@ -64,22 +90,33 @@ class OutputJSON():
             output_json[team_id]['statistics'] = {}
             for statistic in tqdm.tqdm(self.input_json[team_id]['statistics']):
                 print(f'Generating output for team {team_id} statistics {statistic}')
-                team_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['statistics'][statistic]}"
+                team_statistics_input = f"Create three outputs in different lengths. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['statistics'][statistic]}"
                 team_statistics_output = self.generate_gpt_flavor(team_statistics_input)
                 try:
-                    output_json[team_id]['statistics'][statistic] = json.loads(team_statistics_output)
+                    model_outputs = self.clean_strings(json.loads(team_statistics_output))
+                    for output in model_outputs.values():
+                        self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['statistics'][statistic])
+                    output_json[team_id]['statistics'][statistic] = model_outputs
                 except:
+                    print(f'no json format: {team_statistics_output}')
+                    self.metrics.calculate_rouge_scores(None, None)
                     output_json[team_id]['statistics'][statistic] = self.clean_strings(self.format_to_json(team_statistics_output))
 
             if self.input_json[team_id]['news'] != None:
                 print(f'Generating output for team {team_id} news')
                 output_json[team_id]['news'] = {}
                 for news in tqdm.tqdm(self.input_json[team_id]['news']):
-                    team_news_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['news'][news]}"
+                    team_news_input = f"Create three outputs in different lengths. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['news'][news]}"
                     team_news_output = self.generate_gpt_flavor(team_news_input)
                     try:
-                        output_json[team_id]['news'][news] = json.loads(team_news_output)
+                        model_outputs = self.clean_strings(json.loads(team_news_output))
+                        for output in model_outputs.values():
+                            self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['news'][news])
+                        output_json[team_id]['news'][news] = model_outputs
                     except:
+                        print(f'no json format: {team_news_output}')
+                        self.metrics.calculate_rouge_scores(None, None)
+                        
                         output_json[team_id]['news'][news] = self.clean_strings(self.format_to_json(team_news_output))
 
             if self.input_json[team_id]['injuries'] != {}:
@@ -87,11 +124,17 @@ class OutputJSON():
                 print(f'Generating output for team {team_id} injuries')
                 for player_id in tqdm.tqdm(self.input_json[team_id]['injuries']):
                     print(f'Generating output for player {player_id}')
-                    team_injuries_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['injuries'][player_id]}"
+                    team_injuries_input = f"Create three outputs in different lengths. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['injuries'][player_id]}"
                     team_injuries_output = self.generate_gpt_flavor(team_injuries_input)
                     try:
-                        output_json[team_id]['injuries'][player_id] = json.loads(team_injuries_output)
+                        model_outputs = self.clean_strings(json.loads(team_injuries_output))
+                        for output in model_outputs.values():
+                            self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['injuries'][player_id])
+                        output_json[team_id]['injuries'][player_id] = model_outputs
                     except:
+                        print(f'no json format: {team_injuries_output}')
+                        self.metrics.calculate_rouge_scores(None, None)
+                        
                         output_json[team_id]['injuries'][player_id] = self.clean_strings(self.format_to_json(team_injuries_output))
 
             print(f'Generating output for team {team_id} players')
@@ -104,11 +147,16 @@ class OutputJSON():
                 output_json[team_id]['players'][player_id] = {}
                 
                 print(f'Generating output for player {player_id} information')
-                player_information_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['information']}"
+                player_information_input = f"Create three outputs in different lengths. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['information']}"
                 player_information_output = self.generate_gpt_flavor(player_information_input)
                 try:
-                    output_json[team_id]['players'][player_id]['information'] = json.loads(player_information_output)
+                    model_outputs = self.clean_strings(json.loads(player_information_output))
+                    for output in model_outputs.values():
+                        self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['players'][player_id]['information'])
+                    output_json[team_id]['players'][player_id]['information'] = model_outputs
                 except:
+                    print(f'no json format: {player_information_output}')
+                    self.metrics.calculate_rouge_scores(None, None)
                     output_json[team_id]['players'][player_id]['information'] = self.clean_strings(self.format_to_json(player_information_output))
 
                 print(f'Generating output for player {player_id} statistics')
@@ -119,11 +167,16 @@ class OutputJSON():
                         player_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['statistics'][statistic]}"
                         player_statistics_output = self.generate_gpt_flavor(player_statistics_input)
                         try:
-                            output_json[team_id]['players'][player_id]['statistics'][statistic] = json.loads(player_statistics_output)
+                            model_outputs = self.clean_strings(json.loads(player_statistics_output))
+                            for output in model_outputs.values():
+                                self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['players'][player_id]['statistics'][statistic])
+                            output_json[team_id]['players'][player_id]['statistics'][statistic] = model_outputs
                         except:
+                            print(f'no json format: {player_statistics_output}')
+                            self.metrics.calculate_rouge_scores(None, None)
                             output_json[team_id]['players'][player_id]['statistics'][statistic] = self.clean_strings(self.format_to_json(player_statistics_output))
                 else:
-                    player_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['statistics']}"
+                    player_statistics_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['statistics']}"
                     output_json[team_id]['players'][player_id]['statistics'] = self.generate_gpt_flavor(player_statistics_input)
 
                 print(f'Generating output for player {player_id} transfers')
@@ -131,14 +184,20 @@ class OutputJSON():
                 if type(self.input_json[team_id]['players'][player_id]['transfers']) != str:
                     for transfer in tqdm.tqdm(self.input_json[team_id]['players'][player_id]['transfers']):
                         print(f'Generating output for player {player_id} transfers {transfer}')
-                        player_transfers_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['transfers'][transfer]}"
+                        player_transfers_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['transfers'][transfer]}"
                         player_transfers_output = self.generate_gpt_flavor(player_transfers_input)
                         try:
-                            output_json[team_id]['players'][player_id]['transfers'][transfer] = json.loads(player_transfers_output)
+                            model_outputs = self.clean_strings(json.loads(player_transfers_output))
+                            for output in model_outputs.values():
+                                self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['players'][player_id]['transfers'][transfer])
+                            output_json[team_id]['players'][player_id]['transfers'][transfer] = model_outputs
                         except:
+                            print(f'no json format: {player_transfers_output}')
+                            self.metrics.calculate_rouge_scores(None, None)
+
                             output_json[team_id]['players'][player_id]['transfers'][transfer] = self.clean_strings(self.format_to_json(player_transfers_output))
                 else:
-                    player_transfers_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['transfers']}"
+                    player_transfers_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['transfers']}"
                     output_json[team_id]['players'][player_id]['transfers'] = self.generate_gpt_flavor(player_transfers_input)
 
                 if self.input_json[team_id]['players'][player_id]['news'] != None:
@@ -147,14 +206,20 @@ class OutputJSON():
                     if type(self.input_json[team_id]['players'][player_id]['news']) != str:
                         for news in tqdm.tqdm(self.input_json[team_id]['players'][player_id]['news']):
                             print(f'Generating output for player {player_id} news {news}')
-                            player_news_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['news'][news]}"
+                            player_news_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['players'][player_id]['news'][news]}"
                             output_json[team_id]['players'][player_id]['news'][news] = self.generate_gpt_flavor(player_news_input)
                     else:
-                        player_news_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json[team_id]['players'][player_id]['news']}"
+                        player_news_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json[team_id]['players'][player_id]['news']}"
                         player_news_output = self.generate_gpt_flavor(player_news_input)
                         try:
-                            output_json[team_id]['players'][player_id]['news'] = json.loads(player_news_output)
+                            model_outputs = self.clean_strings(json.loads(player_news_output))
+                            for output in model_outputs.values():
+                                self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['players'][player_id]['news'][news])
+                            output_json[team_id]['players'][player_id]['news'] = model_outputs
                         except:
+                            print(f'no json format: {player_news_output}')
+                            self.metrics.calculate_rouge_scores(None, None)
+
                             output_json[team_id]['players'][player_id]['news'] = self.clean_strings(self.format_to_json(player_news_output))
             
                 counter += 1
@@ -166,14 +231,20 @@ class OutputJSON():
             if type(self.input_json[team_id]['coach']) != str:
                 for coach_information in tqdm.tqdm(self.input_json[team_id]['coach']):
                     print(f'Generating output for team {team_id} coach {coach_information}')
-                    player_coaches_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['coach'][coach_information]}"
+                    player_coaches_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json[team_id]['coach'][coach_information]}"
                     player_coaches_output = self.generate_gpt_flavor(player_coaches_input)
                     try:
-                        output_json[team_id]['coach'][coach_information] = json.loads(player_coaches_output)
+                        model_outputs = self.clean_strings(json.loads(player_coaches_output))
+                        for output in model_outputs.values():
+                            self.metrics.calculate_rouge_scores(output, self.input_json[team_id]['coach'][coach_information])
+                        output_json[team_id]['coach'][coach_information] = model_outputs
                     except:
+                        print(f'no json format: {player_coaches_output}')
+                        self.metrics.calculate_rouge_scores(None, None)
+
                         output_json[team_id]['coach'][coach_information] = self.clean_strings(self.format_to_json(player_coaches_output))
             else:
-                player_coaches_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json[team_id]['coach']}"
+                player_coaches_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json[team_id]['coach']}"
                 output_json[team_id]['coach'] = self.generate_gpt_flavor(player_coaches_input)        
         
         print(f'Generating output for fixture')
@@ -182,34 +253,51 @@ class OutputJSON():
             output_json['fixture'][id] = {}
             print(f'Generating output for {id}')
             if id == 'information':
-                fixture_information_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json['fixture']['information']}"
+                fixture_information_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key. {self.input_json['fixture']['information']}"
                 fixture_information_output = self.generate_gpt_flavor(fixture_information_input)
                 try:
-                    output_json['fixture'][id] = json.loads(fixture_information_output)
+                    model_outputs = self.clean_strings(json.loads(fixture_information_output))
+                    for output in model_outputs.values():
+                        self.metrics.calculate_rouge_scores(output, self.input_json['fixture']['information'])
+                    output_json['fixture'][id] = model_outputs
                 except:
+                    print(f'no json format: {fixture_information_output}')
+                    self.metrics.calculate_rouge_scores(None, None)
+
                     output_json['fixture'][id] = self.clean_strings(self.format_to_json(fixture_information_output))
             else:
                 output_json['fixture'][id]['statistics'] = {}
                 if type(self.input_json['fixture'][id]['statistics']) != str:
                     for statistic in tqdm.tqdm(self.input_json['fixture'][id]['statistics']):
                         print(f'Generating output for {id} {statistic}')
-                        fixture_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['fixture'][id]['statistics'][statistic]}"
+                        fixture_statistics_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['fixture'][id]['statistics'][statistic]}"
                         fixture_statistics_output = self.generate_gpt_flavor(fixture_statistics_input)
                         try:
-                            output_json['fixture'][id]['statistics'][statistic] = json.loads(fixture_statistics_output)
+                            model_outputs = self.clean_strings(json.loads(fixture_statistics_output))
+                            for output in model_outputs.values():
+                                self.metrics.calculate_rouge_scores(output, self.input_json['fixture'][id]['statistics'][statistic])
+                            output_json['fixture'][id]['statistics'][statistic] = model_outputs
                         except:
+                            print(f'no json format: {fixture_statistics_output}')
+                            self.metrics.calculate_rouge_scores(None, None)
+
                             output_json['fixture'][id]['statistics'][statistic] = self.clean_strings(self.format_to_json(fixture_statistics_output))
                 else:
-                    fixture_statistics_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['fixture'][id]['statistics']}"
+                    fixture_statistics_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['fixture'][id]['statistics']}"
                     output_json['fixture'][id]['statistics'] = self.generate_gpt_flavor(fixture_statistics_input)
 
         print(f'Generating output for venue')
-        venue_information_input = f"Create three outputs in different length, with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['venue']}"
+        venue_information_input = f"Create three outputs in different length. {in_favor_text} with the flavor {commentary_flavor}. Provide the output as a json. The length title is the key.{self.input_json['venue']}"
         output_json['venue'] = self.generate_gpt_flavor(venue_information_input)
 
         return output_json
 
     def generate_gpt_flavor(self, input):
+        """
+        Generate the output with the Llama-2 model
+        :param input: input text
+        :return: output text
+        """
         ## point openai library to internal endpoint
         openai.api_key = "1234"
         openai.api_base = "http://10.180.132.23:8180/v1"
@@ -245,6 +333,11 @@ class OutputJSON():
         return response["choices"][0]["message"]["content"]
     
     def format_to_json(self, input):
+        """
+        Format the output to a valid json format using Llama-2.
+        :param input: input text
+        :return: output text
+        """
         ## point openai library to internal endpoint
         openai.api_key = "1234"
         openai.api_base = "http://10.180.132.23:8180/v1"
@@ -270,15 +363,6 @@ class OutputJSON():
 
         print(f'Response: {response["choices"][0]["message"]["content"]}')
         return response["choices"][0]["message"]["content"]
-    
-    def calculate_rouge_scores(hypothesis, reference):
-        rouge = Rouge()
-        scores = rouge.get_scores(hypothesis, reference)
-        return scores
-    
-    def get_overall_rouge_scores(self):
-        return (sum(self.rouge_scores_1) / len(self.rouge_scores_1)) if len(self.rouge_scores_1) > 0 else None, (sum(self.rouge_scores_2) / len(self.rouge_scores_2)) if len(self.rouge_scores_2) > 0 else None, (sum(self.rouge_scores_l) / len(self.rouge_scores_l)) if len(self.rouge_scores_l) > 0 else None
-    
 
 if __name__ == "__main__":
     team_ids = [487, 489]
@@ -293,5 +377,3 @@ if __name__ == "__main__":
 
     with open(f'llama_rouge_score.json', 'w', encoding='UTF-8') as f:
         json.dump({'rouge-1': output_json.get_overall_rouge_scores()[0], 'rouge-2': output_json.get_overall_rouge_scores()[1], 'rouge-l': output_json.get_overall_rouge_scores()[2]}, f, indent=4, ensure_ascii=False)
-
-            

@@ -1,9 +1,36 @@
-import json
 import requests
 import time
 from datetime import datetime
 
 class APIRequests:
+    """
+    A class for managing API requests related to football data and transfer market information.
+
+    Args:
+    api_key (str): The API key for accessing the RapidAPI services.
+    team_ids (list): A list of team IDs for which data will be requested.
+    season (int): The season for which data will be requested.
+    league_id (int): The ID of the football league for which data will be requested.
+    fixture_date (str): The date in the format '%d-%m-%Y' for filtering fixture-related requests.
+    max_requests (int, optional): The maximum number of API requests allowed. Default is 99.
+
+    Attributes:
+    headers (dict): The headers required for API requests to api-football-v1.
+    headers_TM (dict): The headers required for API requests to transfermarket.p.rapidapi.com.
+    team_ids (list): A list of team IDs for which data will be requested.
+    season (str): The season for which data will be requested (converted to string).
+    league_id (str): The ID of the football league for which data will be requested (converted to string).
+    fixture_date (str): The formatted fixture date for filtering fixture-related requests.
+    base_url_F (str): The base URL for api-football-v1 API requests.
+    base_url_TM (str): The base URL for transfermarket.p.rapidapi.com API requests.
+    league_id_TM (str): The default league ID for transfer market data (e.g., 'IT1' for Serie A).
+    domain_TM (str): The default domain for transfer market data (e.g., 'com').
+    requests_limit (int): The maximum number of API requests allowed.
+    requests (int): The current number of API requests made.
+
+    Note:
+    The `fixture_date` is expected in the format '%d-%m-%Y' and is internally reformatted for consistency.
+    """
     def __init__(self, api_key, team_ids: list, season: int, league_id: int, fixture_date:str, max_requests=99):
         self.headers = {
             'x-rapidapi-key': api_key,
@@ -95,51 +122,12 @@ class APIRequests:
             return self.fixtures
         
     def get_home_team_id(self):
+        """Returns the home team id."""
         team_id = list(self.get_fixtures().keys())[0]
         for i in self.get_fixtures()[team_id]: #[1:]
             fixture_lineup_date = datetime.utcfromtimestamp(int(i['fixture']['timestamp'])).strftime('%d-%m-%Y')
             if fixture_lineup_date == self.fixture_date:
                 return i['teams']['home']['id']
-        
-    def set_fixture_lineup(self):
-        """Set fixture lineup for both teams in the league for the given season."""
-        endpoint = 'fixtures/lineups'
-        fixture_lineup = {}
-        
-        team_id = list(self.get_fixtures().keys())[0]
-        for i in self.get_fixtures()[team_id]: #[1:]
-            fixture_lineup_date = datetime.utcfromtimestamp(int(i['fixture']['timestamp'])).strftime('%d-%m-%Y')
-            if fixture_lineup_date == self.fixture_date:
-                self.fixture_id = i['fixture']['id']
-                params = {'fixture': str(self.fixture_id)}
-                if self.requests <= self.requests_limit:
-                    print('Request team fixture lineup...')
-                    resp = self._fetch_data_F(endpoint=endpoint, params=params)
-                    print(f'fixture_lineup: {resp}')
-                    for idx in range(len(resp)):
-                        if resp[idx]['team']['id'] == self.team_ids[0]:
-                            fixture_lineup[self.team_ids[0]] = resp[idx]
-                        elif resp[idx]['team']['id'] == self.team_ids[1]:
-                            fixture_lineup[self.team_ids[1]] = resp[idx]
-                else:
-                    print('Reached requests limit.')
-
-        self.fixture_lineup = fixture_lineup
-
-    def get_fixture_lineup(self):
-        """Returns a dictionary with team_id as key and fixture lineup as value."""
-        try:
-            return self.fixture_lineup
-        except:
-            self.set_fixture_lineup()
-            return self.fixture_lineup
-        
-    def get_todays_fixture_id(self):
-        try:
-            return self.fixture_id
-        except:
-            self.get_fixture_lineup()
-            return self.fixture_id
     
     def set_players(self):
         """Set all players for both teams in the league for the given season."""
@@ -220,6 +208,47 @@ class APIRequests:
         except:
             self.set_transfers()
             return self.transfers
+        
+    def set_fixture_lineup(self):
+        """Set fixture lineup for both teams in the league for the given season."""
+        endpoint = 'fixtures/lineups'
+        fixture_lineup = {}
+        
+        team_id = list(self.get_fixtures().keys())[0]
+        for i in self.get_fixtures()[team_id]: #[1:]
+            fixture_lineup_date = datetime.utcfromtimestamp(int(i['fixture']['timestamp'])).strftime('%d-%m-%Y')
+            if fixture_lineup_date == self.fixture_date:
+                self.fixture_id = i['fixture']['id']
+                params = {'fixture': str(self.fixture_id)}
+                if self.requests <= self.requests_limit:
+                    print('Request team fixture lineup...')
+                    resp = self._fetch_data_F(endpoint=endpoint, params=params)
+                    print(f'fixture_lineup: {resp}')
+                    for idx in range(len(resp)):
+                        if resp[idx]['team']['id'] == self.team_ids[0]:
+                            fixture_lineup[self.team_ids[0]] = resp[idx]
+                        elif resp[idx]['team']['id'] == self.team_ids[1]:
+                            fixture_lineup[self.team_ids[1]] = resp[idx]
+                else:
+                    print('Reached requests limit.')
+
+        self.fixture_lineup = fixture_lineup
+
+    def get_fixture_lineup(self):
+        """Returns a dictionary with team_id as key and fixture lineup as value."""
+        try:
+            return self.fixture_lineup
+        except:
+            self.set_fixture_lineup()
+            return self.fixture_lineup
+        
+    def get_todays_fixture_id(self):
+        """Returns the fixture id."""
+        try:
+            return self.fixture_id
+        except:
+            self.get_fixture_lineup()
+            return self.fixture_id
     
     def set_fixture_statistics(self):
         """Set fixture statistics for both teams in the league for the given season."""
